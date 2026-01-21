@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 40">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC2626"/>
+      <stop offset="100%" style="stop-color:#B91C1C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: Stylized 5 in circle -->
+  <circle cx="20" cy="20" r="18" fill="url(#brandGrad)"/>
+  <text x="20" y="27" text-anchor="middle" fill="white" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="22">5</text>
+
+  <!-- Text: TOP 5 -->
+  <text x="48" y="18" fill="#171717" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="14" letter-spacing="0.5">TOP 5</text>
+
+  <!-- Text: PROTEIN -->
+  <text x="48" y="32" fill="#DC2626" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12" letter-spacing="1">PROTEIN</text>
+</svg>

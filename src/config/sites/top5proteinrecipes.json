@@ -1,0 +1,273 @@
+{
+  "id": "top5proteinrecipes",
+  "domain": "top5proteinrecipes.com",
+  "branding": {
+    "name": "Top 5 Protein Recipes",
+    "tagline": "Fuel Your Gains with Delicious High-Protein Meals",
+    "logo": "/sites/top5proteinrecipes/logo.svg",
+    "favicon": "/sites/top5proteinrecipes/favicon.ico",
+    "heroImage": "/sites/top5proteinrecipes/hero.jpg"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#DC2626",
+      "primaryDark": "#B91C1C",
+      "primaryLight": "#EF4444",
+      "secondary": "#1E3A8A",
+      "accent": "#F59E0B",
+      "background": "#FAFAFA",
+      "surface": "#FFFFFF",
+      "text": "#171717",
+      "textMuted": "#737373"
+    },
+    "fonts": {
+      "heading": "'Inter', sans-serif",
+      "body": "'Inter', sans-serif"
+    }
+  },
+  "meta": {
+    "title": "Top 5 Protein Recipes | High-Protein Meals for Muscle Building",
+    "description": "Discover the best high-protein recipes for muscle building and weight loss. Easy-to-make meals packed with protein to fuel your fitness goals.",
+    "keywords": ["protein recipes", "high protein meals", "muscle building", "fitness recipes", "healthy protein", "gym food"],
+    "ogImage": "/sites/top5proteinrecipes/og-image.jpg",
+    "twitterHandle": "@top5proteinrecipes"
+  },
+  "social": {
+    "instagram": "https://instagram.com/top5proteinrecipes",
+    "pinterest": "https://pinterest.com/top5proteinrecipes",
+    "youtube": "https://youtube.com/@top5proteinrecipes"
+  },
+  "recipes": [
+    {
+      "id": "protein-1",
+      "slug": "grilled-chicken-quinoa-bowl",
+      "title": "Grilled Chicken Quinoa Power Bowl",
+      "description": "A protein-packed bowl featuring perfectly grilled chicken breast over fluffy quinoa with roasted vegetables. This complete meal delivers 45g of protein to fuel your workouts.",
+      "image": "/sites/top5proteinrecipes/recipes/chicken-quinoa-bowl.jpg",
+      "prepTime": 15,
+      "cookTime": 25,
+      "totalTime": 40,
+      "servings": 2,
+      "difficulty": "Easy",
+      "category": "Main Course",
+      "tags": ["chicken", "quinoa", "bowl", "meal prep", "high protein"],
+      "ingredients": [
+        { "item": "chicken breast", "amount": "2", "unit": "pieces", "notes": "about 6oz each" },
+        { "item": "quinoa", "amount": "1", "unit": "cup", "notes": "uncooked" },
+        { "item": "broccoli florets", "amount": "2", "unit": "cups" },
+        { "item": "cherry tomatoes", "amount": "1", "unit": "cup", "notes": "halved" },
+        { "item": "olive oil", "amount": "2", "unit": "tbsp" },
+        { "item": "lemon juice", "amount": "2", "unit": "tbsp" },
+        { "item": "garlic", "amount": "3", "unit": "cloves", "notes": "minced" },
+        { "item": "salt", "amount": "1", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.5", "unit": "tsp" },
+        { "item": "paprika", "amount": "1", "unit": "tsp" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Cook quinoa according to package directions. Fluff with a fork and set aside.", "duration": "15 min" },
+        { "step": 2, "instruction": "Season chicken breasts with salt, pepper, paprika, and half the minced garlic.", "tip": "Let chicken rest at room temperature for 10 minutes before cooking for more even results." },
+        { "step": 3, "instruction": "Heat 1 tbsp olive oil in a grill pan over medium-high heat. Grill chicken for 6-7 minutes per side until internal temperature reaches 165°F.", "duration": "14 min" },
+        { "step": 4, "instruction": "While chicken rests, toss broccoli and tomatoes with remaining olive oil and garlic. Roast at 400°F for 10 minutes.", "duration": "10 min" },
+        { "step": 5, "instruction": "Slice chicken and arrange over quinoa. Add roasted vegetables and drizzle with lemon juice." }
+      ],
+      "nutrition": {
+        "calories": 485,
+        "protein": 45,
+        "carbs": 38,
+        "fat": 16,
+        "fiber": 6
+      },
+      "tips": [
+        "Meal prep tip: Make a double batch of quinoa at the start of the week",
+        "Swap broccoli for asparagus or green beans for variety",
+        "Add avocado for healthy fats and extra creaminess"
+      ],
+      "datePublished": "2024-01-15",
+      "dateModified": "2024-03-01"
+    },
+    {
+      "id": "protein-2",
+      "slug": "greek-yogurt-protein-parfait",
+      "title": "Greek Yogurt Protein Parfait",
+      "description": "Start your day with this creamy Greek yogurt parfait loaded with protein-rich granola, fresh berries, and a drizzle of honey. 35g of protein in every delicious bowl.",
+      "image": "/sites/top5proteinrecipes/recipes/yogurt-parfait.jpg",
+      "prepTime": 5,
+      "cookTime": 0,
+      "totalTime": 5,
+      "servings": 1,
+      "difficulty": "Easy",
+      "category": "Breakfast",
+      "tags": ["breakfast", "yogurt", "quick", "no-cook", "high protein"],
+      "ingredients": [
+        { "item": "Greek yogurt", "amount": "1.5", "unit": "cups", "notes": "plain, 2% or full-fat" },
+        { "item": "protein granola", "amount": "0.5", "unit": "cup" },
+        { "item": "mixed berries", "amount": "0.75", "unit": "cup", "notes": "blueberries, strawberries, raspberries" },
+        { "item": "honey", "amount": "1", "unit": "tbsp" },
+        { "item": "chia seeds", "amount": "1", "unit": "tbsp" },
+        { "item": "protein powder", "amount": "1", "unit": "scoop", "notes": "vanilla or unflavored, optional" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "If using protein powder, mix it thoroughly into the Greek yogurt until smooth." },
+        { "step": 2, "instruction": "In a glass or bowl, layer half the yogurt, then half the granola, then half the berries." },
+        { "step": 3, "instruction": "Repeat layers with remaining ingredients." },
+        { "step": 4, "instruction": "Drizzle honey on top and sprinkle with chia seeds. Serve immediately or refrigerate for up to 2 hours." }
+      ],
+      "nutrition": {
+        "calories": 420,
+        "protein": 35,
+        "carbs": 48,
+        "fat": 12,
+        "fiber": 6,
+        "sugar": 28
+      },
+      "tips": [
+        "Make it overnight: layer everything except granola the night before, add granola in the morning for crunch",
+        "Use frozen berries if fresh aren't available - they'll thaw as you eat",
+        "Swap honey for maple syrup or sugar-free syrup to adjust sweetness"
+      ],
+      "datePublished": "2024-02-01"
+    },
+    {
+      "id": "protein-3",
+      "slug": "salmon-avocado-protein-salad",
+      "title": "Salmon Avocado Power Salad",
+      "description": "Fresh Atlantic salmon paired with creamy avocado over a bed of mixed greens. This nutrient-dense salad delivers 42g of protein and heart-healthy omega-3s.",
+      "image": "/sites/top5proteinrecipes/recipes/salmon-salad.jpg",
+      "prepTime": 10,
+      "cookTime": 12,
+      "totalTime": 22,
+      "servings": 2,
+      "difficulty": "Easy",
+      "category": "Salad",
+      "tags": ["salmon", "salad", "omega-3", "avocado", "healthy fats"],
+      "ingredients": [
+        { "item": "salmon fillet", "amount": "12", "unit": "oz" },
+        { "item": "mixed greens", "amount": "6", "unit": "cups" },
+        { "item": "avocado", "amount": "1", "unit": "large", "notes": "sliced" },
+        { "item": "cucumber", "amount": "1", "unit": "medium", "notes": "sliced" },
+        { "item": "red onion", "amount": "0.25", "unit": "cup", "notes": "thinly sliced" },
+        { "item": "cherry tomatoes", "amount": "1", "unit": "cup", "notes": "halved" },
+        { "item": "olive oil", "amount": "3", "unit": "tbsp" },
+        { "item": "lemon juice", "amount": "2", "unit": "tbsp" },
+        { "item": "Dijon mustard", "amount": "1", "unit": "tsp" },
+        { "item": "salt and pepper", "amount": "", "unit": "", "notes": "to taste" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Preheat oven to 400°F. Season salmon with salt, pepper, and 1 tbsp olive oil." },
+        { "step": 2, "instruction": "Bake salmon for 12 minutes until it flakes easily with a fork.", "duration": "12 min", "tip": "For crispy skin, finish under the broiler for 2 minutes." },
+        { "step": 3, "instruction": "While salmon bakes, arrange mixed greens, cucumber, red onion, and tomatoes in bowls." },
+        { "step": 4, "instruction": "Whisk together remaining olive oil, lemon juice, and Dijon mustard for the dressing." },
+        { "step": 5, "instruction": "Flake salmon over salads, add sliced avocado, and drizzle with dressing." }
+      ],
+      "nutrition": {
+        "calories": 520,
+        "protein": 42,
+        "carbs": 15,
+        "fat": 34,
+        "fiber": 8
+      },
+      "tips": [
+        "Buy wild-caught salmon for higher omega-3 content",
+        "The dressing keeps for a week in the fridge",
+        "Add hard-boiled eggs for even more protein"
+      ],
+      "datePublished": "2024-02-15"
+    },
+    {
+      "id": "protein-4",
+      "slug": "beef-stir-fry-protein-bowl",
+      "title": "Beef and Vegetable Stir-Fry Bowl",
+      "description": "Tender strips of sirloin steak stir-fried with colorful vegetables in a savory sauce. This quick and easy bowl packs 48g of protein for serious muscle fuel.",
+      "image": "/sites/top5proteinrecipes/recipes/beef-stirfry.jpg",
+      "prepTime": 15,
+      "cookTime": 10,
+      "totalTime": 25,
+      "servings": 2,
+      "difficulty": "Medium",
+      "category": "Main Course",
+      "tags": ["beef", "stir-fry", "quick dinner", "asian-inspired", "high protein"],
+      "ingredients": [
+        { "item": "sirloin steak", "amount": "1", "unit": "lb", "notes": "sliced thin against the grain" },
+        { "item": "brown rice", "amount": "2", "unit": "cups", "notes": "cooked" },
+        { "item": "bell peppers", "amount": "2", "unit": "medium", "notes": "sliced, mixed colors" },
+        { "item": "broccoli florets", "amount": "2", "unit": "cups" },
+        { "item": "snap peas", "amount": "1", "unit": "cup" },
+        { "item": "soy sauce", "amount": "3", "unit": "tbsp", "notes": "low sodium" },
+        { "item": "sesame oil", "amount": "2", "unit": "tbsp" },
+        { "item": "ginger", "amount": "1", "unit": "tbsp", "notes": "minced" },
+        { "item": "garlic", "amount": "4", "unit": "cloves", "notes": "minced" },
+        { "item": "cornstarch", "amount": "1", "unit": "tbsp" },
+        { "item": "sesame seeds", "amount": "1", "unit": "tbsp", "notes": "for garnish" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Toss sliced beef with 1 tbsp soy sauce and cornstarch. Let marinate for 10 minutes." },
+        { "step": 2, "instruction": "Heat 1 tbsp sesame oil in a wok or large skillet over high heat until smoking." },
+        { "step": 3, "instruction": "Add beef in a single layer. Sear for 1-2 minutes without stirring, then flip and cook another minute. Remove and set aside.", "tip": "Don't overcrowd the pan - cook in batches if needed." },
+        { "step": 4, "instruction": "Add remaining sesame oil. Stir-fry vegetables with ginger and garlic for 3-4 minutes until crisp-tender." },
+        { "step": 5, "instruction": "Return beef to pan, add remaining soy sauce, and toss everything together for 1 minute." },
+        { "step": 6, "instruction": "Serve over brown rice and garnish with sesame seeds." }
+      ],
+      "nutrition": {
+        "calories": 580,
+        "protein": 48,
+        "carbs": 42,
+        "fat": 24,
+        "fiber": 6
+      },
+      "tips": [
+        "Freeze beef for 15 minutes before slicing for easier thin cuts",
+        "Substitute tamari for soy sauce for a gluten-free version",
+        "Add sriracha or red pepper flakes for heat"
+      ],
+      "datePublished": "2024-03-01"
+    },
+    {
+      "id": "protein-5",
+      "slug": "cottage-cheese-protein-pancakes",
+      "title": "Cottage Cheese Protein Pancakes",
+      "description": "Fluffy protein-packed pancakes made with cottage cheese and oats. Each serving delivers 32g of protein - the perfect post-workout breakfast or anytime treat.",
+      "image": "/sites/top5proteinrecipes/recipes/protein-pancakes.jpg",
+      "prepTime": 5,
+      "cookTime": 15,
+      "totalTime": 20,
+      "servings": 2,
+      "difficulty": "Easy",
+      "category": "Breakfast",
+      "tags": ["pancakes", "breakfast", "cottage cheese", "post-workout", "meal prep"],
+      "ingredients": [
+        { "item": "cottage cheese", "amount": "1", "unit": "cup", "notes": "low-fat or full-fat" },
+        { "item": "eggs", "amount": "3", "unit": "large" },
+        { "item": "rolled oats", "amount": "0.5", "unit": "cup" },
+        { "item": "protein powder", "amount": "1", "unit": "scoop", "notes": "vanilla" },
+        { "item": "baking powder", "amount": "0.5", "unit": "tsp" },
+        { "item": "vanilla extract", "amount": "1", "unit": "tsp" },
+        { "item": "cinnamon", "amount": "0.5", "unit": "tsp" },
+        { "item": "butter or cooking spray", "amount": "", "unit": "", "notes": "for the pan" },
+        { "item": "maple syrup", "amount": "2", "unit": "tbsp", "notes": "for serving" },
+        { "item": "fresh berries", "amount": "0.5", "unit": "cup", "notes": "for serving" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Add cottage cheese, eggs, oats, protein powder, baking powder, vanilla, and cinnamon to a blender.", "tip": "Let the batter rest for 2 minutes for fluffier pancakes." },
+        { "step": 2, "instruction": "Blend until completely smooth, about 30 seconds." },
+        { "step": 3, "instruction": "Heat a non-stick pan or griddle over medium heat. Lightly grease with butter or cooking spray." },
+        { "step": 4, "instruction": "Pour about 1/4 cup batter per pancake. Cook until bubbles form on the surface and edges look set, about 2-3 minutes." },
+        { "step": 5, "instruction": "Flip carefully and cook another 1-2 minutes until golden brown." },
+        { "step": 6, "instruction": "Serve stacked with fresh berries and a drizzle of maple syrup." }
+      ],
+      "nutrition": {
+        "calories": 380,
+        "protein": 32,
+        "carbs": 35,
+        "fat": 12,
+        "fiber": 3,
+        "sugar": 8
+      },
+      "tips": [
+        "Freeze extra pancakes for quick weekday breakfasts",
+        "Top with nut butter for extra protein and healthy fats",
+        "Use sugar-free syrup to reduce carbs"
+      ],
+      "datePublished": "2024-03-15"
+    }
+  ]
+}

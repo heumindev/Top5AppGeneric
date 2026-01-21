@@ -1,0 +1,279 @@
+{
+  "id": "top5ketorecipes",
+  "domain": "top5ketorecipes.com",
+  "branding": {
+    "name": "Top 5 Keto Recipes",
+    "tagline": "Delicious Low-Carb Recipes for Your Keto Journey",
+    "logo": "/sites/top5ketorecipes/logo.svg",
+    "favicon": "/sites/top5ketorecipes/favicon.ico"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#059669",
+      "primaryDark": "#047857",
+      "primaryLight": "#10B981",
+      "secondary": "#7C3AED",
+      "accent": "#F472B6",
+      "background": "#F9FAFB",
+      "surface": "#FFFFFF",
+      "text": "#111827",
+      "textMuted": "#6B7280"
+    },
+    "fonts": {
+      "heading": "'Poppins', sans-serif",
+      "body": "'Inter', sans-serif"
+    }
+  },
+  "meta": {
+    "title": "Top 5 Keto Recipes | Easy Low-Carb Meals for Weight Loss",
+    "description": "Discover delicious keto recipes that keep you in ketosis. Low-carb, high-fat meals that are easy to make and taste amazing.",
+    "keywords": ["keto recipes", "low carb meals", "ketogenic diet", "keto dinner", "low carb diet", "keto friendly"],
+    "ogImage": "/sites/top5ketorecipes/og-image.jpg",
+    "twitterHandle": "@top5ketorecipes"
+  },
+  "social": {
+    "instagram": "https://instagram.com/top5ketorecipes",
+    "pinterest": "https://pinterest.com/top5ketorecipes",
+    "facebook": "https://facebook.com/top5ketorecipes"
+  },
+  "recipes": [
+    {
+      "id": "keto-1",
+      "slug": "bacon-wrapped-avocado-eggs",
+      "title": "Bacon-Wrapped Avocado Eggs",
+      "description": "Creamy avocado halves filled with eggs and wrapped in crispy bacon. This keto breakfast has only 2g net carbs and keeps you full for hours.",
+      "image": "/sites/top5ketorecipes/recipes/bacon-avocado-eggs.jpg",
+      "prepTime": 10,
+      "cookTime": 20,
+      "totalTime": 30,
+      "servings": 2,
+      "difficulty": "Easy",
+      "category": "Breakfast",
+      "tags": ["breakfast", "eggs", "avocado", "bacon", "low-carb"],
+      "ingredients": [
+        { "item": "avocados", "amount": "2", "unit": "large", "notes": "ripe but firm" },
+        { "item": "eggs", "amount": "4", "unit": "medium" },
+        { "item": "bacon strips", "amount": "8", "unit": "slices" },
+        { "item": "cheddar cheese", "amount": "0.5", "unit": "cup", "notes": "shredded" },
+        { "item": "chives", "amount": "2", "unit": "tbsp", "notes": "chopped" },
+        { "item": "salt", "amount": "0.25", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.25", "unit": "tsp" },
+        { "item": "hot sauce", "amount": "", "unit": "", "notes": "optional, for serving" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Preheat oven to 400°F. Line a baking sheet with parchment paper." },
+        { "step": 2, "instruction": "Cut avocados in half and remove pits. Scoop out a bit more flesh to create a larger well for the egg." },
+        { "step": 3, "instruction": "Wrap 2 bacon strips around each avocado half, securing with toothpicks if needed." },
+        { "step": 4, "instruction": "Place avocados in a muffin tin to keep them stable. Crack one egg into each avocado well.", "tip": "Crack eggs into a small bowl first to make pouring easier." },
+        { "step": 5, "instruction": "Season with salt and pepper. Bake for 18-20 minutes until bacon is crispy and eggs are set." },
+        { "step": 6, "instruction": "Top with shredded cheese in the last 2 minutes of baking. Garnish with chives and serve." }
+      ],
+      "nutrition": {
+        "calories": 520,
+        "protein": 24,
+        "carbs": 4,
+        "fat": 46,
+        "fiber": 7
+      },
+      "tips": [
+        "Net carbs: 2g per serving (4g carbs - 7g fiber / 2 servings)",
+        "Use a muffin tin to prevent avocados from tipping",
+        "Add jalapeños for a spicy kick"
+      ],
+      "datePublished": "2024-01-20"
+    },
+    {
+      "id": "keto-2",
+      "slug": "creamy-tuscan-salmon",
+      "title": "Creamy Tuscan Salmon",
+      "description": "Pan-seared salmon in a rich garlic parmesan cream sauce with sun-dried tomatoes and spinach. Restaurant-quality keto dinner in under 30 minutes.",
+      "image": "/sites/top5ketorecipes/recipes/tuscan-salmon.jpg",
+      "prepTime": 10,
+      "cookTime": 20,
+      "totalTime": 30,
+      "servings": 4,
+      "difficulty": "Medium",
+      "category": "Main Course",
+      "tags": ["salmon", "dinner", "Italian", "cream sauce", "one-pan"],
+      "ingredients": [
+        { "item": "salmon fillets", "amount": "4", "unit": "pieces", "notes": "6oz each" },
+        { "item": "heavy cream", "amount": "1", "unit": "cup" },
+        { "item": "parmesan cheese", "amount": "0.5", "unit": "cup", "notes": "grated" },
+        { "item": "sun-dried tomatoes", "amount": "0.5", "unit": "cup", "notes": "chopped" },
+        { "item": "fresh spinach", "amount": "3", "unit": "cups" },
+        { "item": "garlic", "amount": "4", "unit": "cloves", "notes": "minced" },
+        { "item": "olive oil", "amount": "2", "unit": "tbsp" },
+        { "item": "Italian seasoning", "amount": "1", "unit": "tsp" },
+        { "item": "salt", "amount": "0.5", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.25", "unit": "tsp" },
+        { "item": "fresh basil", "amount": "2", "unit": "tbsp", "notes": "for garnish" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Season salmon fillets with salt, pepper, and Italian seasoning." },
+        { "step": 2, "instruction": "Heat olive oil in a large skillet over medium-high heat. Sear salmon skin-side up for 4 minutes until golden.", "tip": "Don't move the salmon while searing for best crust." },
+        { "step": 3, "instruction": "Flip salmon and cook another 3-4 minutes. Remove and set aside." },
+        { "step": 4, "instruction": "In the same pan, sauté garlic for 30 seconds until fragrant. Add sun-dried tomatoes." },
+        { "step": 5, "instruction": "Pour in heavy cream and bring to a simmer. Stir in parmesan until melted and sauce thickens.", "duration": "3-4 min" },
+        { "step": 6, "instruction": "Add spinach and stir until wilted. Return salmon to the pan and spoon sauce over top." },
+        { "step": 7, "instruction": "Garnish with fresh basil and serve immediately." }
+      ],
+      "nutrition": {
+        "calories": 480,
+        "protein": 38,
+        "carbs": 6,
+        "fat": 34,
+        "fiber": 1
+      },
+      "tips": [
+        "Net carbs: 5g per serving",
+        "Use coconut cream for dairy-free version",
+        "Serve over cauliflower rice or zucchini noodles"
+      ],
+      "datePublished": "2024-02-05"
+    },
+    {
+      "id": "keto-3",
+      "slug": "cauliflower-mac-and-cheese",
+      "title": "Keto Cauliflower Mac and Cheese",
+      "description": "All the comfort of mac and cheese without the carbs. Tender cauliflower florets smothered in a three-cheese sauce that's pure keto perfection.",
+      "image": "/sites/top5ketorecipes/recipes/cauli-mac-cheese.jpg",
+      "prepTime": 15,
+      "cookTime": 25,
+      "totalTime": 40,
+      "servings": 6,
+      "difficulty": "Easy",
+      "category": "Side Dish",
+      "tags": ["cauliflower", "cheese", "comfort food", "side dish", "vegetarian"],
+      "ingredients": [
+        { "item": "cauliflower", "amount": "1", "unit": "large head", "notes": "cut into florets" },
+        { "item": "heavy cream", "amount": "1", "unit": "cup" },
+        { "item": "cream cheese", "amount": "4", "unit": "oz" },
+        { "item": "sharp cheddar", "amount": "2", "unit": "cups", "notes": "shredded" },
+        { "item": "parmesan", "amount": "0.5", "unit": "cup", "notes": "grated" },
+        { "item": "butter", "amount": "2", "unit": "tbsp" },
+        { "item": "garlic powder", "amount": "0.5", "unit": "tsp" },
+        { "item": "mustard powder", "amount": "0.5", "unit": "tsp" },
+        { "item": "salt", "amount": "0.5", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.25", "unit": "tsp" },
+        { "item": "bacon bits", "amount": "0.25", "unit": "cup", "notes": "optional topping" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Preheat oven to 375°F. Steam cauliflower florets until tender but not mushy, about 8-10 minutes.", "tip": "Don't overcook - you want some bite left." },
+        { "step": 2, "instruction": "While cauliflower steams, melt butter in a saucepan over medium heat. Add cream cheese and stir until melted." },
+        { "step": 3, "instruction": "Pour in heavy cream and bring to a gentle simmer. Add garlic powder and mustard powder." },
+        { "step": 4, "instruction": "Remove from heat and stir in 1.5 cups cheddar and all the parmesan until smooth and creamy." },
+        { "step": 5, "instruction": "Drain cauliflower well and place in a baking dish. Pour cheese sauce over top and stir to coat." },
+        { "step": 6, "instruction": "Top with remaining cheddar. Bake for 15-20 minutes until bubbly and golden." },
+        { "step": 7, "instruction": "Add bacon bits if desired and serve hot." }
+      ],
+      "nutrition": {
+        "calories": 340,
+        "protein": 14,
+        "carbs": 8,
+        "fat": 28,
+        "fiber": 3
+      },
+      "tips": [
+        "Net carbs: 5g per serving",
+        "Make it ahead and reheat - it tastes even better the next day",
+        "Add cooked chicken or ground beef for a complete meal"
+      ],
+      "datePublished": "2024-02-20"
+    },
+    {
+      "id": "keto-4",
+      "slug": "zucchini-lasagna",
+      "title": "Keto Zucchini Lasagna",
+      "description": "Layers of tender zucchini replace pasta in this meaty, cheesy lasagna. All the Italian flavors you love with only 7g net carbs per generous serving.",
+      "image": "/sites/top5ketorecipes/recipes/zucchini-lasagna.jpg",
+      "prepTime": 25,
+      "cookTime": 45,
+      "totalTime": 70,
+      "servings": 8,
+      "difficulty": "Medium",
+      "category": "Main Course",
+      "tags": ["lasagna", "zucchini", "Italian", "ground beef", "casserole"],
+      "ingredients": [
+        { "item": "zucchini", "amount": "4", "unit": "large", "notes": "sliced lengthwise 1/4 inch thick" },
+        { "item": "ground beef", "amount": "1.5", "unit": "lb" },
+        { "item": "ricotta cheese", "amount": "2", "unit": "cups" },
+        { "item": "mozzarella", "amount": "3", "unit": "cups", "notes": "shredded" },
+        { "item": "parmesan", "amount": "0.5", "unit": "cup", "notes": "grated" },
+        { "item": "egg", "amount": "1", "unit": "large" },
+        { "item": "marinara sauce", "amount": "2", "unit": "cups", "notes": "no sugar added" },
+        { "item": "Italian seasoning", "amount": "2", "unit": "tsp" },
+        { "item": "garlic", "amount": "4", "unit": "cloves", "notes": "minced" },
+        { "item": "salt", "amount": "1", "unit": "tsp" },
+        { "item": "fresh basil", "amount": "0.25", "unit": "cup", "notes": "for garnish" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Preheat oven to 375°F. Lay zucchini slices on paper towels, sprinkle with salt, and let sit 15 minutes to release moisture.", "tip": "This step is crucial to prevent watery lasagna." },
+        { "step": 2, "instruction": "Brown ground beef with garlic over medium-high heat. Drain excess fat. Stir in marinara and 1 tsp Italian seasoning." },
+        { "step": 3, "instruction": "Mix ricotta, egg, half the mozzarella, remaining Italian seasoning, and a pinch of salt in a bowl." },
+        { "step": 4, "instruction": "Pat zucchini slices dry. Spread a thin layer of meat sauce in a 9x13 baking dish." },
+        { "step": 5, "instruction": "Layer: zucchini slices, ricotta mixture, meat sauce. Repeat layers twice, ending with meat sauce." },
+        { "step": 6, "instruction": "Top with remaining mozzarella and parmesan. Cover with foil and bake 30 minutes." },
+        { "step": 7, "instruction": "Remove foil and bake another 15 minutes until cheese is golden and bubbly. Let rest 10 minutes before serving. Garnish with fresh basil." }
+      ],
+      "nutrition": {
+        "calories": 420,
+        "protein": 32,
+        "carbs": 10,
+        "fat": 28,
+        "fiber": 3
+      },
+      "tips": [
+        "Net carbs: 7g per serving",
+        "Use a mandoline for perfectly even zucchini slices",
+        "Freezes well - make two and save one for later"
+      ],
+      "datePublished": "2024-03-05"
+    },
+    {
+      "id": "keto-5",
+      "slug": "chocolate-avocado-mousse",
+      "title": "Keto Chocolate Avocado Mousse",
+      "description": "Rich, creamy chocolate mousse made with avocado - you'd never guess it's sugar-free and only 4g net carbs. The perfect guilt-free keto dessert.",
+      "image": "/sites/top5ketorecipes/recipes/chocolate-mousse.jpg",
+      "prepTime": 10,
+      "cookTime": 0,
+      "totalTime": 10,
+      "servings": 4,
+      "difficulty": "Easy",
+      "category": "Dessert",
+      "tags": ["dessert", "chocolate", "avocado", "no-bake", "sugar-free"],
+      "ingredients": [
+        { "item": "avocados", "amount": "2", "unit": "large", "notes": "ripe" },
+        { "item": "cocoa powder", "amount": "0.25", "unit": "cup", "notes": "unsweetened" },
+        { "item": "erythritol", "amount": "0.33", "unit": "cup", "notes": "or preferred keto sweetener" },
+        { "item": "heavy cream", "amount": "0.25", "unit": "cup" },
+        { "item": "vanilla extract", "amount": "1", "unit": "tsp" },
+        { "item": "salt", "amount": "1", "unit": "pinch" },
+        { "item": "espresso powder", "amount": "0.5", "unit": "tsp", "notes": "optional, enhances chocolate" },
+        { "item": "whipped cream", "amount": "", "unit": "", "notes": "for topping" },
+        { "item": "dark chocolate shavings", "amount": "", "unit": "", "notes": "for garnish, sugar-free" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Cut avocados in half, remove pits, and scoop flesh into a food processor or blender." },
+        { "step": 2, "instruction": "Add cocoa powder, sweetener, heavy cream, vanilla, salt, and espresso powder if using." },
+        { "step": 3, "instruction": "Blend until completely smooth and creamy, scraping down sides as needed.", "tip": "Blend longer than you think - 2-3 minutes for silkiest texture." },
+        { "step": 4, "instruction": "Taste and adjust sweetness if desired." },
+        { "step": 5, "instruction": "Divide into serving dishes and refrigerate for at least 30 minutes to firm up." },
+        { "step": 6, "instruction": "Top with whipped cream and chocolate shavings before serving." }
+      ],
+      "nutrition": {
+        "calories": 220,
+        "protein": 3,
+        "carbs": 12,
+        "fat": 20,
+        "fiber": 8
+      },
+      "tips": [
+        "Net carbs: 4g per serving",
+        "Make sure avocados are very ripe for smoothest texture",
+        "Can be made up to 2 days ahead - flavors actually improve"
+      ],
+      "datePublished": "2024-03-20"
+    }
+  ]
+}

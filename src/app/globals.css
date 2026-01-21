@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+@layer base {
+  :root {
+    /* Default theme colors (overridden by site-specific CSS variables) */
+    --color-primary: #DC2626;
+    --color-primary-dark: #B91C1C;
+    --color-primary-light: #EF4444;
+    --color-secondary: #1E3A8A;
+    --color-accent: #F59E0B;
+    --color-background: #FAFAFA;
+    --color-surface: #FFFFFF;
+    --color-text: #171717;
+    --color-text-muted: #737373;
+    --font-heading: 'Inter', sans-serif;
+    --font-body: 'Inter', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-text antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    @apply font-bold tracking-tight;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+
+  a {
+    @apply transition-colors duration-200;
+  }
+
+  /* Focus styles for accessibility */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-primary;
+  }
+}
+
+/* Component styles */
+@layer components {
+  .container-site {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-primary-dark active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply btn bg-secondary text-white hover:opacity-90 active:scale-95;
+  }
+
+  .btn-outline {
+    @apply btn border-2 border-primary text-primary hover:bg-primary hover:text-white;
+  }
+
+  .card {
+    @apply bg-surface rounded-2xl shadow-lg overflow-hidden transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply card hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .input {
+    @apply w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-primary focus:ring-2 transition-all duration-200;
+    --tw-ring-color: color-mix(in srgb, var(--color-primary) 20%, transparent);
+  }
+
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .badge-primary {
+    @apply badge text-primary;
+    background-color: color-mix(in srgb, var(--color-primary) 10%, transparent);
+  }
+
+  .section {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+
+  /* Recipe-specific styles */
+  .recipe-time {
+    @apply flex items-center gap-1 text-text-muted text-sm;
+  }
+
+  .recipe-difficulty {
+    @apply badge;
+  }
+
+  .recipe-difficulty-easy {
+    @apply recipe-difficulty bg-green-100 text-green-800;
+  }
+
+  .recipe-difficulty-medium {
+    @apply recipe-difficulty bg-yellow-100 text-yellow-800;
+  }
+
+  .recipe-difficulty-hard {
+    @apply recipe-difficulty bg-red-100 text-red-800;
+  }
+
+  /* Nutrition label */
+  .nutrition-grid {
+    @apply grid grid-cols-2 md:grid-cols-4 gap-4;
+  }
+
+  .nutrition-item {
+    @apply text-center p-3 bg-gray-50 rounded-lg;
+  }
+
+  .nutrition-value {
+    @apply text-2xl font-bold text-primary;
+  }
+
+  .nutrition-label {
+    @apply text-sm text-text-muted;
+  }
+}
+
+/* Utility styles */
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  body {
+    @apply text-black bg-white;
+  }
+
+  a {
+    @apply text-black underline;
+  }
+}
