@@ -2,8 +2,16 @@
 
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
+import { trackEvent } from '@/components/GoogleTagManager'
 
 export function Header() {
+  const handleCtaClick = (location: string) => {
+    trackEvent('cta_click', {
+      button_name: 'try_heumin',
+      cta_location: location,
+      destination: 'heumin.com',
+    })
+  }
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
 
@@ -85,6 +93,7 @@ export function Header() {
               href="https://heumin.com"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => handleCtaClick('header_desktop')}
               className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all duration-300 ${
                 isScrolled
                   ? 'bg-primary text-white hover:bg-primary-dark'
@@ -146,7 +155,10 @@ export function Header() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full px-4 py-3 rounded-lg font-semibold bg-primary text-white hover:bg-primary-dark transition-colors"
-                onClick={() => setIsMobileMenuOpen(false)}
+                onClick={() => {
+                  handleCtaClick('header_mobile')
+                  setIsMobileMenuOpen(false)
+                }}
               >
                 Try Heumin
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

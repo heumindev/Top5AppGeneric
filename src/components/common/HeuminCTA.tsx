@@ -2,12 +2,21 @@
 
 import Link from 'next/link'
 import Image from 'next/image'
+import { trackEvent } from '@/components/GoogleTagManager'
 
 interface HeuminCTAProps {
   variant?: 'full' | 'compact'
 }
 
 export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
+  const handleCtaClick = (buttonName: string, location: string) => {
+    trackEvent('cta_click', {
+      button_name: buttonName,
+      cta_location: location,
+      destination: 'heumin.com',
+    })
+  }
+
   if (variant === 'compact') {
     return (
       <section className="relative py-16 overflow-hidden">
@@ -34,6 +43,7 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
               href="https://heumin.com"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => handleCtaClick('try_heumin_free', 'compact_cta')}
               className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-all"
             >
               Try Heumin free
@@ -108,6 +118,7 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
               href="https://heumin.com"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => handleCtaClick('start_planning_free', 'full_cta')}
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-lg hover:bg-primary-dark transition-all shadow-lg shadow-primary/25"
             >
               Start planning free
@@ -119,6 +130,7 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
               href="https://heumin.com"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => handleCtaClick('learn_more', 'full_cta')}
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-lg border border-white/20 hover:bg-white/20 transition-all"
             >
               Learn more
