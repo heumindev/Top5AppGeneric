@@ -33,14 +33,20 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
     return { title: 'Recipe Not Found' }
   }
 
+  const canonicalUrl = `https://${config.domain}/recipes/${recipe.slug}`
+
   return {
     title: recipe.title,
     description: recipe.description,
     keywords: [...recipe.tags, config.branding.name, 'recipe'],
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: recipe.title,
       description: recipe.description,
       type: 'article',
+      url: canonicalUrl,
       publishedTime: recipe.datePublished,
       modifiedTime: recipe.dateModified || recipe.datePublished,
       images: [

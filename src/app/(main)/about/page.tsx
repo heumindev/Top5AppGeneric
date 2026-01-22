@@ -4,14 +4,19 @@ import { HeuminCTA } from '@/components/common'
 
 export async function generateMetadata(): Promise<Metadata> {
   const config = await getCurrentSiteConfig()
+  const canonicalUrl = `https://${config.domain}/about`
 
   return {
     title: `About | ${config.branding.name}`,
     description: `Learn more about ${config.branding.name}. ${config.branding.tagline}`,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: `About | ${config.branding.name}`,
       description: `Learn more about ${config.branding.name}. ${config.branding.tagline}`,
       type: 'website',
+      url: canonicalUrl,
     },
   }
 }

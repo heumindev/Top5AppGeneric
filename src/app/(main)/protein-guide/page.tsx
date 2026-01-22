@@ -5,6 +5,7 @@ import { HeuminCTA } from '@/components/common'
 
 export async function generateMetadata(): Promise<Metadata> {
   const config = await getCurrentSiteConfig()
+  const canonicalUrl = `https://${config.domain}/protein-guide`
 
   return {
     title: 'Complete Protein Guide: Benefits, Sources & Daily Requirements | Top 5 Protein Recipes',
@@ -19,10 +20,14 @@ export async function generateMetadata(): Promise<Metadata> {
       'protein breakfast ideas',
       'eggs protein content',
     ],
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: 'Complete Protein Guide: Benefits, Sources & Daily Requirements',
       description: 'Everything you need to know about protein for a healthy diet and muscle building.',
       type: 'article',
+      url: canonicalUrl,
     },
   }
 }
