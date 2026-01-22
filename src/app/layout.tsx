@@ -93,8 +93,8 @@ export async function generateMetadata(): Promise<Metadata> {
       },
     },
     icons: {
-      icon: config.branding.favicon,
-      apple: config.branding.favicon,
+      icon: '/favicon.svg',
+      apple: '/favicon.svg',
     },
   }
 }
