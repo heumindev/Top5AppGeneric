@@ -1,0 +1,413 @@
+{
+  "id": "top5mealpreprecipes",
+  "domain": "top5mealpreprecipes.com",
+  "branding": {
+    "name": "Top 5 Meal Prep Recipes",
+    "tagline": "Easy Meal Prep Ideas for a Stress-Free Week",
+    "logo": "/sites/top5mealpreprecipes/logo.svg",
+    "favicon": "/sites/top5mealpreprecipes/favicon.ico",
+    "logoText": "MEAL PREP"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#0D9488",
+      "primaryDark": "#0F766E",
+      "primaryLight": "#14B8A6",
+      "secondary": "#4F46E5",
+      "accent": "#F472B6",
+      "background": "#F0FDFA",
+      "surface": "#FFFFFF",
+      "text": "#134E4A",
+      "textMuted": "#5EEAD4"
+    },
+    "fonts": {
+      "heading": "'Poppins', sans-serif",
+      "body": "'Inter', sans-serif"
+    }
+  },
+  "meta": {
+    "title": "Top 5 Meal Prep Recipes | Weekly Meal Prep Made Easy",
+    "description": "Master meal prep with easy recipes that last all week. Save time, eat healthy, and simplify your life with our top meal prep ideas.",
+    "keywords": ["meal prep", "meal prep recipes", "weekly meal prep", "batch cooking", "food prep", "healthy meal prep"],
+    "ogImage": "/sites/top5mealpreprecipes/og-image.jpg",
+    "twitterHandle": "@top5mealpreprecipes"
+  },
+  "social": {
+    "instagram": "https://instagram.com/top5mealpreprecipes",
+    "pinterest": "https://pinterest.com/top5mealpreprecipes",
+    "facebook": "https://facebook.com/top5mealpreprecipes"
+  },
+  "content": {
+    "heroTitle": "Top 5 Meal Prep",
+    "heroHighlight": "Recipes for the Whole Week",
+    "heroDescription": "We've tested hundreds of recipes to bring you only the top 5. Each one makes 5 perfectly portioned meals that stay fresh all week.",
+    "itemListName": "Top 5 Meal Prep Recipes for Weekly Planning",
+    "directAnswerTitle": "What are the best meal prep recipes?",
+    "directAnswerText": "The best meal prep recipes are those that taste great reheated, store well for 4-5 days, and provide balanced nutrition. Our top 5 meal prep recipes each make 5 servings with clear storage instructions. They're designed to save you time and keep you eating healthy all week.",
+    "navigation": [
+      { "name": "Home", "href": "/" },
+      { "name": "Recipes", "href": "/recipes" },
+      { "name": "Meal Prep Guide", "href": "/guide" },
+      { "name": "About", "href": "/about" }
+    ],
+    "faq": [
+      {
+        "question": "How long does meal prep last in the fridge?",
+        "answer": "Most meal prep recipes last 4-5 days in the fridge when stored properly in airtight containers. Some dishes freeze well for up to 3 months. Our recipes include specific storage instructions for each dish."
+      },
+      {
+        "question": "What containers are best for meal prep?",
+        "answer": "Glass containers with locking lids are ideal - they're microwave-safe, don't stain, and last forever. BPA-free plastic containers work too. Look for ones with compartments to keep foods separate."
+      },
+      {
+        "question": "How do I start meal prepping?",
+        "answer": "Start simple: pick 2-3 recipes, shop on Saturday, and prep on Sunday. Cook proteins in bulk, prepare grains, and chop vegetables. Assembly is fast when components are ready."
+      },
+      {
+        "question": "What foods meal prep well?",
+        "answer": "Grains (rice, quinoa), roasted vegetables, grilled chicken, ground meat dishes, soups, and stews all meal prep excellently. Avoid foods that get soggy or wilt quickly."
+      },
+      {
+        "question": "Is meal prepping cheaper?",
+        "answer": "Yes! Meal prepping reduces food waste, prevents impulse takeout orders, and lets you buy in bulk. Most people save $50-100 per week by meal prepping instead of eating out."
+      }
+    ],
+    "guide": {
+      "title": "Complete Meal Prep Guide",
+      "metaTitle": "Complete Meal Prep Guide: Weekly Meal Planning Tips",
+      "metaDescription": "Master meal prep: learn storage tips, best containers, foods that prep well, and strategies for eating healthy all week with minimal effort.",
+      "heroTitle": "Everything you need to know about",
+      "heroHighlight": "meal prep",
+      "heroDescription": "Your complete guide to meal prepping: storage tips, best containers, foods that work well, and strategies for a successful meal prep routine.",
+      "sections": [
+        {
+          "id": "benefits",
+          "title": "Why meal prep?",
+          "content": "Meal prepping saves time, money, and stress while helping you eat healthier throughout the week.",
+          "items": [
+            { "title": "Save time", "description": "Cook once, eat all week - no daily cooking required." },
+            { "title": "Save money", "description": "Avoid takeout and reduce food waste by planning ahead." },
+            { "title": "Eat healthier", "description": "When healthy meals are ready, you're more likely to eat them." },
+            { "title": "Reduce stress", "description": "No more 'what's for dinner' panic - it's already made." },
+            { "title": "Portion control", "description": "Pre-portioned meals help you eat the right amount." },
+            { "title": "Consistency", "description": "Stay on track with nutrition goals without daily effort." }
+          ]
+        },
+        {
+          "id": "sources",
+          "title": "Foods that meal prep well",
+          "content": "Not all foods are created equal when it comes to meal prep. Here are the best options that stay fresh and taste great reheated:",
+          "table": [
+            { "food": "Grilled chicken", "amount": "4-5 days", "category": "Proteins" },
+            { "food": "Ground beef/turkey", "amount": "4 days", "category": "Proteins" },
+            { "food": "Hard-boiled eggs", "amount": "7 days", "category": "Proteins" },
+            { "food": "Rice & quinoa", "amount": "5-6 days", "category": "Grains" },
+            { "food": "Roasted vegetables", "amount": "4-5 days", "category": "Vegetables" },
+            { "food": "Soups & stews", "amount": "5 days / freezes well", "category": "One-pot" },
+            { "food": "Beans & lentils", "amount": "5 days", "category": "Legumes" },
+            { "food": "Cooked pasta", "amount": "3-4 days", "category": "Grains" },
+            { "food": "Salad dressings", "amount": "7+ days", "category": "Sauces" },
+            { "food": "Overnight oats", "amount": "5 days", "category": "Breakfast" }
+          ]
+        },
+        {
+          "id": "daily-intake",
+          "title": "Essential meal prep containers",
+          "content": "The right containers make meal prep easier and keep food fresher longer:",
+          "items": [
+            { "title": "Glass containers", "description": "Microwave-safe, don't stain, last forever - the gold standard" },
+            { "title": "Compartment containers", "description": "Keep foods separate to prevent sogginess" },
+            { "title": "Mason jars", "description": "Perfect for salads, overnight oats, and soups" },
+            { "title": "Freezer bags", "description": "Great for portioning proteins and soups for freezing" }
+          ]
+        },
+        {
+          "id": "tips",
+          "title": "Meal prep success tips",
+          "content": "Follow these strategies to make your meal prep routine efficient and sustainable.",
+          "items": [
+            { "title": "Pick a prep day", "description": "Most people prep on Sunday - choose a day that works for your schedule." },
+            { "title": "Start simple", "description": "Begin with 3-4 meals before scaling up. Don't overwhelm yourself." },
+            { "title": "Batch cook basics", "description": "Cook large batches of grains, proteins, and roasted vegetables to mix and match." }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How long does meal prep last in the fridge?",
+          "answer": "Most meal prep recipes last 4-5 days in the fridge when stored properly in airtight containers. Some dishes like soups freeze well for up to 3 months. Always label containers with the date."
+        },
+        {
+          "question": "What are the best meal prep containers?",
+          "answer": "Glass containers with locking lids are ideal - they're microwave-safe, don't stain, and last for years. BPA-free plastic containers work too. Look for containers with compartments to keep foods separate."
+        },
+        {
+          "question": "How do I start meal prepping?",
+          "answer": "Start simple: pick 2-3 recipes, shop on Saturday, prep on Sunday. Cook proteins in bulk, prepare grains, and chop vegetables. Assembly is fast when components are ready. Don't try to prep every meal at first."
+        },
+        {
+          "question": "What foods don't meal prep well?",
+          "answer": "Avoid foods that get soggy (salad with dressing, fried foods, fresh avocado), wilt quickly (delicate greens), or change texture when reheated (scrambled eggs can get rubbery). Add these fresh when eating."
+        },
+        {
+          "question": "How do I reheat meal prep?",
+          "answer": "Most meals reheat well in the microwave (2-3 minutes). For better results, add a splash of water before reheating and cover loosely. Some foods like grain bowls taste better at room temperature."
+        }
+      ]
+    }
+  },
+  "recipes": [
+    {
+      "id": "mealprep-1",
+      "slug": "chicken-burrito-bowls",
+      "title": "Chicken Burrito Bowls",
+      "description": "Cilantro lime chicken with seasoned rice, black beans, corn, and all the toppings. Makes 5 perfectly portioned meals for the week.",
+      "image": "/sites/top5mealpreprecipes/recipes/chicken-burrito-bowls.jpg",
+      "prepTime": 20,
+      "cookTime": 25,
+      "totalTime": 45,
+      "servings": 5,
+      "difficulty": "Easy",
+      "category": "Lunch",
+      "tags": ["chicken", "Mexican", "meal prep", "burrito bowl", "high-protein"],
+      "ingredients": [
+        { "item": "chicken breast", "amount": "1.5", "unit": "lb" },
+        { "item": "long grain rice", "amount": "2", "unit": "cups" },
+        { "item": "black beans", "amount": "1", "unit": "can", "notes": "15oz, drained and rinsed" },
+        { "item": "corn kernels", "amount": "1", "unit": "can", "notes": "15oz, drained" },
+        { "item": "lime", "amount": "3", "unit": "whole" },
+        { "item": "fresh cilantro", "amount": "0.5", "unit": "cup", "notes": "chopped" },
+        { "item": "olive oil", "amount": "2", "unit": "tbsp" },
+        { "item": "cumin", "amount": "1", "unit": "tbsp" },
+        { "item": "chili powder", "amount": "1", "unit": "tbsp" },
+        { "item": "garlic powder", "amount": "1", "unit": "tsp" },
+        { "item": "salt", "amount": "1.5", "unit": "tsp" },
+        { "item": "salsa", "amount": "1", "unit": "cup" },
+        { "item": "shredded cheese", "amount": "1", "unit": "cup" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Mix cumin, chili powder, garlic powder, and 1 tsp salt. Rub onto chicken breasts." },
+        { "step": 2, "instruction": "Cook rice according to package directions. Fluff with fork, add juice of 1 lime and half the cilantro.", "tip": "Chicken broth instead of water makes even better rice." },
+        { "step": 3, "instruction": "Heat olive oil in a grill pan over medium-high heat. Cook chicken 6-7 minutes per side until internal temp reaches 165°F." },
+        { "step": 4, "instruction": "Let chicken rest 5 minutes, then slice into strips." },
+        { "step": 5, "instruction": "Season black beans and corn with remaining salt and a squeeze of lime juice." },
+        { "step": 6, "instruction": "Divide rice among 5 meal prep containers. Top each with chicken, beans, and corn." },
+        { "step": 7, "instruction": "Add salsa and cheese to each container. Store remaining cilantro and lime wedges separately to add fresh before eating." }
+      ],
+      "nutrition": {
+        "calories": 480,
+        "protein": 38,
+        "carbs": 52,
+        "fat": 12,
+        "fiber": 8
+      },
+      "tips": [
+        "Stores in the fridge for up to 5 days",
+        "Keep salsa and cheese on the side to prevent sogginess",
+        "Add avocado fresh when serving"
+      ],
+      "datePublished": "2024-01-10"
+    },
+    {
+      "id": "mealprep-2",
+      "slug": "turkey-meatballs-with-vegetables",
+      "title": "Turkey Meatballs with Vegetables",
+      "description": "Juicy Italian turkey meatballs with roasted broccoli and sweet potatoes. A balanced, protein-packed meal that reheats beautifully.",
+      "image": "/sites/top5mealpreprecipes/recipes/turkey-meatballs.jpg",
+      "prepTime": 20,
+      "cookTime": 30,
+      "totalTime": 50,
+      "servings": 5,
+      "difficulty": "Medium",
+      "category": "Dinner",
+      "tags": ["turkey", "meatballs", "meal prep", "vegetables", "balanced"],
+      "ingredients": [
+        { "item": "ground turkey", "amount": "1.5", "unit": "lb" },
+        { "item": "breadcrumbs", "amount": "0.5", "unit": "cup" },
+        { "item": "egg", "amount": "1", "unit": "large" },
+        { "item": "parmesan", "amount": "0.25", "unit": "cup", "notes": "grated" },
+        { "item": "Italian seasoning", "amount": "1", "unit": "tbsp" },
+        { "item": "garlic", "amount": "3", "unit": "cloves", "notes": "minced" },
+        { "item": "sweet potatoes", "amount": "2", "unit": "large", "notes": "cubed" },
+        { "item": "broccoli florets", "amount": "4", "unit": "cups" },
+        { "item": "olive oil", "amount": "3", "unit": "tbsp" },
+        { "item": "salt", "amount": "1.5", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.5", "unit": "tsp" },
+        { "item": "marinara sauce", "amount": "1.5", "unit": "cups", "notes": "optional, for serving" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Preheat oven to 400°F. Line two sheet pans with parchment paper." },
+        { "step": 2, "instruction": "Toss sweet potato cubes with 1 tbsp olive oil, salt, and pepper. Spread on one sheet pan." },
+        { "step": 3, "instruction": "Mix turkey, breadcrumbs, egg, parmesan, Italian seasoning, garlic, 0.5 tsp salt, and pepper in a large bowl.", "tip": "Don't overmix - it makes meatballs tough." },
+        { "step": 4, "instruction": "Form into 20 meatballs (about 2 tbsp each). Place on second sheet pan." },
+        { "step": 5, "instruction": "Put both pans in oven. Roast sweet potatoes for 30 minutes, meatballs for 20 minutes." },
+        { "step": 6, "instruction": "Toss broccoli with remaining olive oil. Add to sweet potato pan for last 15 minutes." },
+        { "step": 7, "instruction": "Divide meatballs (4 per container) and vegetables among 5 containers. Store marinara separately." }
+      ],
+      "nutrition": {
+        "calories": 420,
+        "protein": 32,
+        "carbs": 34,
+        "fat": 18,
+        "fiber": 6
+      },
+      "tips": [
+        "Use an ice cream scoop for uniform meatballs",
+        "Freeze extra meatballs for up to 3 months",
+        "Swap broccoli for green beans or asparagus"
+      ],
+      "datePublished": "2024-01-25"
+    },
+    {
+      "id": "mealprep-3",
+      "slug": "greek-chicken-meal-prep",
+      "title": "Greek Chicken Meal Prep",
+      "description": "Mediterranean-inspired chicken with cucumber salad, hummus, and warm pita. Fresh flavors that taste great cold or reheated.",
+      "image": "/sites/top5mealpreprecipes/recipes/greek-chicken.jpg",
+      "prepTime": 25,
+      "cookTime": 20,
+      "totalTime": 45,
+      "servings": 5,
+      "difficulty": "Easy",
+      "category": "Lunch",
+      "tags": ["Greek", "Mediterranean", "chicken", "meal prep", "fresh"],
+      "ingredients": [
+        { "item": "chicken thighs", "amount": "1.5", "unit": "lb", "notes": "boneless, skinless" },
+        { "item": "Greek yogurt", "amount": "0.5", "unit": "cup" },
+        { "item": "lemon", "amount": "2", "unit": "whole" },
+        { "item": "garlic", "amount": "4", "unit": "cloves", "notes": "minced" },
+        { "item": "dried oregano", "amount": "1", "unit": "tbsp" },
+        { "item": "cucumber", "amount": "2", "unit": "medium", "notes": "diced" },
+        { "item": "cherry tomatoes", "amount": "1", "unit": "cup", "notes": "halved" },
+        { "item": "red onion", "amount": "0.5", "unit": "small", "notes": "thinly sliced" },
+        { "item": "feta cheese", "amount": "0.5", "unit": "cup", "notes": "crumbled" },
+        { "item": "hummus", "amount": "1.25", "unit": "cups" },
+        { "item": "pita bread", "amount": "5", "unit": "rounds" },
+        { "item": "olive oil", "amount": "3", "unit": "tbsp" },
+        { "item": "salt", "amount": "1", "unit": "tsp" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Marinate chicken: Mix yogurt, juice of 1 lemon, garlic, oregano, and 0.5 tsp salt. Coat chicken and refrigerate at least 30 minutes (or overnight)." },
+        { "step": 2, "instruction": "Preheat grill or grill pan to medium-high heat. Cook chicken 5-6 minutes per side until charred and cooked through." },
+        { "step": 3, "instruction": "Let chicken rest 5 minutes, then slice into strips." },
+        { "step": 4, "instruction": "Make cucumber salad: Combine cucumber, tomatoes, red onion, olive oil, remaining lemon juice, and salt.", "tip": "Pack salad separately to keep it crisp." },
+        { "step": 5, "instruction": "Divide chicken among 5 containers. Add cucumber salad to a separate compartment or container." },
+        { "step": 6, "instruction": "Add 1/4 cup hummus to each container and top salad with feta." },
+        { "step": 7, "instruction": "Store pita breads in separate bags. Warm before serving if desired." }
+      ],
+      "nutrition": {
+        "calories": 450,
+        "protein": 35,
+        "carbs": 38,
+        "fat": 18,
+        "fiber": 4
+      },
+      "tips": [
+        "Yogurt marinade keeps chicken incredibly moist",
+        "This meal is great cold for hot summer days",
+        "Add kalamata olives for extra Greek flavor"
+      ],
+      "datePublished": "2024-02-10"
+    },
+    {
+      "id": "mealprep-4",
+      "slug": "teriyaki-salmon-bowls",
+      "title": "Teriyaki Salmon Bowls",
+      "description": "Glazed teriyaki salmon over fluffy rice with edamame and pickled vegetables. Restaurant-quality Asian bowls made at home.",
+      "image": "/sites/top5mealpreprecipes/recipes/teriyaki-salmon.jpg",
+      "prepTime": 15,
+      "cookTime": 25,
+      "totalTime": 40,
+      "servings": 5,
+      "difficulty": "Medium",
+      "category": "Dinner",
+      "tags": ["salmon", "teriyaki", "Asian", "meal prep", "rice bowl"],
+      "ingredients": [
+        { "item": "salmon fillets", "amount": "5", "unit": "pieces", "notes": "5oz each" },
+        { "item": "soy sauce", "amount": "0.5", "unit": "cup" },
+        { "item": "mirin", "amount": "0.25", "unit": "cup" },
+        { "item": "honey", "amount": "3", "unit": "tbsp" },
+        { "item": "rice vinegar", "amount": "1", "unit": "tbsp" },
+        { "item": "ginger", "amount": "1", "unit": "tbsp", "notes": "minced" },
+        { "item": "garlic", "amount": "2", "unit": "cloves", "notes": "minced" },
+        { "item": "jasmine rice", "amount": "2.5", "unit": "cups" },
+        { "item": "edamame", "amount": "2", "unit": "cups", "notes": "shelled" },
+        { "item": "cucumber", "amount": "1", "unit": "large", "notes": "sliced" },
+        { "item": "sesame seeds", "amount": "2", "unit": "tbsp" },
+        { "item": "green onions", "amount": "4", "unit": "stalks", "notes": "sliced" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Make teriyaki sauce: Combine soy sauce, mirin, honey, rice vinegar, ginger, and garlic in a saucepan. Simmer 5 minutes until slightly thickened." },
+        { "step": 2, "instruction": "Cook rice according to package directions." },
+        { "step": 3, "instruction": "Cook edamame in boiling salted water for 3 minutes. Drain and cool." },
+        { "step": 4, "instruction": "Preheat oven to 400°F. Place salmon on a lined baking sheet. Brush with half the teriyaki sauce.", "tip": "Reserve half the sauce for serving." },
+        { "step": 5, "instruction": "Bake salmon for 12-15 minutes until it flakes easily. Brush with more sauce halfway through." },
+        { "step": 6, "instruction": "Quick pickle cucumbers: Toss with a splash of rice vinegar and a pinch of salt." },
+        { "step": 7, "instruction": "Divide rice among 5 containers. Top with salmon, edamame, and cucumber. Drizzle with remaining sauce. Garnish with sesame seeds and green onions." }
+      ],
+      "nutrition": {
+        "calories": 520,
+        "protein": 36,
+        "carbs": 58,
+        "fat": 14,
+        "fiber": 4
+      },
+      "tips": [
+        "Salmon reheats best at 50% power in the microwave",
+        "Store sauce separately to prevent rice from getting soggy",
+        "Sub brown rice or cauliflower rice for lower carbs"
+      ],
+      "datePublished": "2024-02-25"
+    },
+    {
+      "id": "mealprep-5",
+      "slug": "vegetable-fried-rice-bowls",
+      "title": "Vegetable Fried Rice Bowls",
+      "description": "Better than takeout fried rice loaded with vegetables and eggs. Budget-friendly meal prep that uses up whatever veggies you have.",
+      "image": "/sites/top5mealpreprecipes/recipes/vegetable-fried-rice.jpg",
+      "prepTime": 15,
+      "cookTime": 20,
+      "totalTime": 35,
+      "servings": 5,
+      "difficulty": "Easy",
+      "category": "Lunch",
+      "tags": ["fried rice", "vegetarian", "budget", "meal prep", "Asian"],
+      "ingredients": [
+        { "item": "day-old rice", "amount": "5", "unit": "cups", "notes": "cold from fridge" },
+        { "item": "eggs", "amount": "5", "unit": "large" },
+        { "item": "frozen peas and carrots", "amount": "2", "unit": "cups" },
+        { "item": "broccoli", "amount": "2", "unit": "cups", "notes": "small florets" },
+        { "item": "bell pepper", "amount": "1", "unit": "large", "notes": "diced" },
+        { "item": "soy sauce", "amount": "0.25", "unit": "cup" },
+        { "item": "sesame oil", "amount": "2", "unit": "tbsp" },
+        { "item": "vegetable oil", "amount": "3", "unit": "tbsp" },
+        { "item": "garlic", "amount": "4", "unit": "cloves", "notes": "minced" },
+        { "item": "ginger", "amount": "1", "unit": "tbsp", "notes": "minced" },
+        { "item": "green onions", "amount": "5", "unit": "stalks", "notes": "sliced" },
+        { "item": "white pepper", "amount": "0.5", "unit": "tsp" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Heat 1 tbsp vegetable oil in a large wok over high heat. Scramble eggs until just set. Remove and chop roughly." },
+        { "step": 2, "instruction": "Add remaining vegetable oil to wok. Add broccoli and bell pepper. Stir-fry 3 minutes.", "tip": "Work in batches if your wok isn't large enough." },
+        { "step": 3, "instruction": "Add frozen peas and carrots. Cook 2 minutes until heated through." },
+        { "step": 4, "instruction": "Add garlic and ginger. Stir-fry 30 seconds until fragrant." },
+        { "step": 5, "instruction": "Add cold rice, breaking up any clumps. Spread in wok and let sit 1 minute to get crispy, then stir." },
+        { "step": 6, "instruction": "Pour soy sauce and sesame oil around the edges of the wok. Toss everything together." },
+        { "step": 7, "instruction": "Add eggs back, season with white pepper, and toss with green onions. Divide among 5 containers." }
+      ],
+      "nutrition": {
+        "calories": 380,
+        "protein": 14,
+        "carbs": 52,
+        "fat": 14,
+        "fiber": 4
+      },
+      "tips": [
+        "Day-old rice is essential - fresh rice will be mushy",
+        "A hot wok and working quickly gives the best results",
+        "Add chicken, shrimp, or tofu for more protein"
+      ],
+      "datePublished": "2024-03-10"
+    }
+  ]
+}

@@ -4,42 +4,6 @@ import { getCurrentSiteConfig } from '@/lib/get-site-config'
 import { RecipeCardFeatured, RecipeCardCompact } from '@/components/recipes'
 import { HeuminCTA } from '@/components/common'
 
-// FAQ data for homepage
-const faqData = [
-  {
-    question: "How much protein do I need daily for muscle building?",
-    answer: "For muscle building, most research suggests consuming 1.6-2.2 grams of protein per kilogram of body weight daily. For a 70kg (154lb) person, that's approximately 112-154 grams of protein per day, spread across 4-5 meals."
-  },
-  {
-    question: "What are the best high-protein foods for building muscle?",
-    answer: "The best high-protein foods include chicken breast (31g per 100g), Greek yogurt (10g per 100g), eggs (13g per 100g), lean beef (26g per 100g), salmon (25g per 100g), cottage cheese (11g per 100g), and legumes like lentils (9g per 100g cooked)."
-  },
-  {
-    question: "When is the best time to eat protein for muscle growth?",
-    answer: "Research shows protein timing matters less than total daily intake. However, consuming 20-40g of protein within 2 hours after exercise can optimize muscle protein synthesis. Spreading protein intake evenly across meals (every 3-4 hours) is also beneficial."
-  },
-  {
-    question: "Can I get enough protein without meat?",
-    answer: "Yes, you can meet protein needs without meat. Plant-based protein sources include tofu (8g per 100g), tempeh (19g per 100g), legumes, quinoa (4g per 100g cooked), seitan (25g per 100g), and protein-rich dairy like Greek yogurt and cottage cheese."
-  },
-  {
-    question: "What makes a recipe high-protein?",
-    answer: "A recipe is considered high-protein when it provides 20+ grams of protein per serving. Our top 5 recipes average 35-50g of protein per serving, making them ideal for muscle building and recovery. We focus on lean protein sources combined with complementary ingredients."
-  },
-  {
-    question: "How do you select the top 5 protein recipes?",
-    answer: "We evaluate recipes based on four criteria: protein content per serving (minimum 30g), ease of preparation (under 45 minutes), ingredient accessibility, and taste tested by our team. Each recipe is made at least 3 times before earning a spot in our top 5."
-  },
-  {
-    question: "Are high-protein recipes good for weight loss?",
-    answer: "Yes, high-protein recipes support weight loss in multiple ways. Protein increases satiety (feeling full), has a higher thermic effect (burns more calories during digestion), and helps preserve muscle mass during calorie restriction. Our recipes are designed to be satisfying while supporting your goals."
-  },
-  {
-    question: "How can I meal prep high-protein recipes?",
-    answer: "Most of our recipes are meal-prep friendly. Cook proteins in bulk, portion into containers, and refrigerate for up to 4 days or freeze for up to 3 months. Prep ingredients on Sunday for easy weeknight cooking. Each recipe includes storage tips and reheating instructions."
-  }
-]
-
 export default async function HomePage() {
   const config = await getCurrentSiteConfig()
   const featuredRecipe = config.recipes[0]
@@ -49,8 +13,8 @@ export default async function HomePage() {
   const itemListJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',
-    name: 'Top 5 High-Protein Recipes for Muscle Building',
-    description: 'Our curated collection of the 5 best high-protein recipes, tested and perfected for taste, nutrition, and ease of preparation.',
+    name: config.content.itemListName,
+    description: `Our curated collection of the 5 best recipes from ${config.branding.name}, tested and perfected for taste, nutrition, and ease of preparation.`,
     numberOfItems: config.recipes.length,
     itemListElement: config.recipes.map((recipe, index) => ({
       '@type': 'ListItem',
@@ -65,7 +29,7 @@ export default async function HomePage() {
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: faqData.map((faq) => ({
+    mainEntity: config.content.faq.map((faq) => ({
       '@type': 'Question',
       name: faq.question,
       acceptedAnswer: {
@@ -118,12 +82,12 @@ export default async function HomePage() {
               </div>
 
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-                Top 5 High-Protein
-                <span className="text-primary"> Recipes for Muscle Building</span>
+                {config.content.heroTitle}
+                <span className="text-primary"> {config.content.heroHighlight}</span>
               </h1>
 
               <p className="text-xl text-gray-300 mb-8 max-w-lg">
-                We&apos;ve tested hundreds of recipes to bring you only the top 5. Each one delivers 30-50g of protein per serving, perfected for taste, nutrition, and ease of preparation.
+                {config.content.heroDescription}
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -174,16 +138,20 @@ export default async function HomePage() {
             <div className="text-center mb-8">
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">Quick answer</span>
               <h2 className="text-3xl md:text-4xl font-bold mt-2">
-                What are the best high-protein recipes?
+                {config.content.directAnswerTitle}
               </h2>
             </div>
 
             <div className="prose prose-lg max-w-none text-text-muted">
               <p>
-                <strong>The best high-protein recipes for muscle building</strong> combine lean protein sources with complementary nutrients. Our top 5 high-protein recipes average <strong>{avgProtein}g of protein per serving</strong>, with the highest being {config.recipes[0].title} at {config.recipes[0].nutrition.protein}g. Each recipe is designed to support muscle growth, post-workout recovery, and sustained energy throughout the day.
+                {config.content.directAnswerText
+                  .replace('{avgProtein}', String(avgProtein))
+                  .replace('{avgCalories}', String(avgCalories))
+                  .replace('{avgCarbs}', String(Math.round(config.recipes.reduce((acc, r) => acc + r.nutrition.carbs, 0) / config.recipes.length)))
+                  .replace('{avgTime}', String(avgTime))}
               </p>
               <p>
-                These recipes use accessible ingredients like chicken breast, Greek yogurt, eggs, and legumes. They&apos;re optimized for meal prep, taking an average of just <strong>{avgTime} minutes</strong> to prepare. Whether you&apos;re looking to build muscle, lose weight while preserving lean mass, or simply eat more protein-rich meals, these curated recipes deliver exceptional nutrition without sacrificing taste.
+                These recipes are optimized for ease of preparation, taking an average of just <strong>{avgTime} minutes</strong> to prepare. Our curated collection delivers exceptional results without sacrificing taste.
               </p>
             </div>
           </div>
@@ -464,7 +432,7 @@ export default async function HomePage() {
 
           <div className="max-w-3xl mx-auto">
             <div className="space-y-4">
-              {faqData.map((faq, index) => (
+              {config.content.faq.map((faq, index) => (
                 <details key={index} className="group bg-surface rounded-2xl border border-gray-100 overflow-hidden">
                   <summary className="flex items-center justify-between gap-4 p-6 cursor-pointer list-none font-semibold text-lg hover:bg-gray-50 transition-colors">
                     {faq.question}

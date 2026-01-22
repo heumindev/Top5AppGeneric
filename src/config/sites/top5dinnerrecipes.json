@@ -1,0 +1,408 @@
+{
+  "id": "top5dinnerrecipes",
+  "domain": "top5dinnerrecipes.com",
+  "branding": {
+    "name": "Top 5 Dinner Recipes",
+    "tagline": "Quick & Delicious Dinner Ideas for Busy Weeknights",
+    "logo": "/sites/top5dinnerrecipes/logo.svg",
+    "favicon": "/sites/top5dinnerrecipes/favicon.ico",
+    "logoText": "DINNER"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#F97316",
+      "primaryDark": "#EA580C",
+      "primaryLight": "#FB923C",
+      "secondary": "#475569",
+      "accent": "#FBBF24",
+      "background": "#FFFBF7",
+      "surface": "#FFFFFF",
+      "text": "#1E293B",
+      "textMuted": "#64748B"
+    },
+    "fonts": {
+      "heading": "'Inter', sans-serif",
+      "body": "'Inter', sans-serif"
+    }
+  },
+  "meta": {
+    "title": "Top 5 Dinner Recipes | Quick & Easy Weeknight Meals",
+    "description": "Discover delicious dinner recipes you can make in 30 minutes or less. Quick, easy weeknight meals the whole family will love.",
+    "keywords": ["dinner recipes", "quick dinner", "easy meals", "weeknight dinner", "30 minute meals", "family dinner"],
+    "ogImage": "/sites/top5dinnerrecipes/og-image.jpg",
+    "twitterHandle": "@top5dinnerrecipes"
+  },
+  "social": {
+    "instagram": "https://instagram.com/top5dinnerrecipes",
+    "pinterest": "https://pinterest.com/top5dinnerrecipes",
+    "facebook": "https://facebook.com/top5dinnerrecipes"
+  },
+  "content": {
+    "heroTitle": "Top 5 Quick",
+    "heroHighlight": "Dinner Recipes for Busy Weeknights",
+    "heroDescription": "We've tested hundreds of recipes to bring you only the top 5. Each one is ready in 45 minutes or less, perfected for taste, simplicity, and family appeal.",
+    "itemListName": "Top 5 Quick Dinner Recipes for Weeknights",
+    "directAnswerTitle": "What are the best quick dinner recipes?",
+    "directAnswerText": "The best quick dinner recipes are ready in under 45 minutes and use simple ingredients you probably already have. Our top 5 dinner recipes average just {avgTime} minutes to make. Each recipe is designed to be delicious, satisfying, and family-friendly.",
+    "navigation": [
+      { "name": "Home", "href": "/" },
+      { "name": "Recipes", "href": "/recipes" },
+      { "name": "Dinner Guide", "href": "/guide" },
+      { "name": "About", "href": "/about" }
+    ],
+    "faq": [
+      {
+        "question": "What can I make for dinner quickly?",
+        "answer": "Quick dinners include stir-fries (20 min), pasta dishes (25 min), sheet pan meals (30-40 min), and tacos (25 min). Our top 5 recipes all take 45 minutes or less and are designed for busy weeknights."
+      },
+      {
+        "question": "How can I make dinner faster?",
+        "answer": "Prep ingredients while other things cook, use one-pan or sheet pan methods, keep pantry staples stocked, and consider meal prepping on weekends. Pre-cut vegetables and pre-marinated proteins also save time."
+      },
+      {
+        "question": "What should I make for dinner tonight?",
+        "answer": "Check what you have on hand first. Our recipes use common ingredients like chicken, salmon, ground beef, and basic vegetables. Pick something that matches what's in your fridge and your time available."
+      },
+      {
+        "question": "What are easy meals to cook for beginners?",
+        "answer": "Great beginner meals include pasta with sauce, stir-fries, tacos, sheet pan dinners, and simple grilled proteins. Start with recipes that have fewer steps and common ingredients."
+      },
+      {
+        "question": "How do I plan weekly dinners?",
+        "answer": "Choose 5-7 recipes, make a shopping list, and prep what you can on Sunday. Consider theme nights (Taco Tuesday, Pasta Wednesday) to simplify decisions. Batch cook proteins to use in multiple meals."
+      }
+    ],
+    "guide": {
+      "title": "Complete Dinner Guide",
+      "metaTitle": "Complete Dinner Guide: Quick Weeknight Meal Tips",
+      "metaDescription": "Master quick and easy dinners: time-saving techniques, pantry staples, meal planning strategies, and tips for delicious weeknight meals.",
+      "heroTitle": "Everything you need to know about",
+      "heroHighlight": "quick dinners",
+      "heroDescription": "Your complete guide to weeknight cooking: time-saving techniques, essential pantry staples, and strategies for getting dinner on the table fast.",
+      "sections": [
+        {
+          "id": "benefits",
+          "title": "Why cook dinner at home?",
+          "content": "Home-cooked dinners offer benefits that go beyond just saving money - they improve health, bring families together, and give you control over what you eat.",
+          "items": [
+            { "title": "Save money", "description": "Home cooking costs a fraction of restaurant meals - save hundreds each month." },
+            { "title": "Healthier eating", "description": "Control ingredients, portions, and cooking methods for better nutrition." },
+            { "title": "Family time", "description": "Cooking and eating together creates meaningful family connections." },
+            { "title": "Less stress", "description": "A plan for dinner eliminates the daily 'what should we eat' stress." },
+            { "title": "Better portions", "description": "Restaurant portions are often 2-3x what you need - home cooking lets you control this." },
+            { "title": "Skill building", "description": "Cooking is a life skill that gets easier and more enjoyable with practice." }
+          ]
+        },
+        {
+          "id": "sources",
+          "title": "Essential pantry staples",
+          "content": "Keep these items stocked to make quick dinners any night of the week without a special shopping trip:",
+          "table": [
+            { "food": "Olive oil", "amount": "Always stocked", "category": "Oils" },
+            { "food": "Garlic", "amount": "Fresh or jarred", "category": "Aromatics" },
+            { "food": "Onions", "amount": "Yellow & red", "category": "Aromatics" },
+            { "food": "Canned tomatoes", "amount": "Diced & crushed", "category": "Canned goods" },
+            { "food": "Pasta", "amount": "Various shapes", "category": "Grains" },
+            { "food": "Rice", "amount": "White & brown", "category": "Grains" },
+            { "food": "Chicken broth", "amount": "Low sodium", "category": "Broth" },
+            { "food": "Soy sauce", "amount": "Regular or low-sodium", "category": "Sauces" },
+            { "food": "Dried herbs", "amount": "Italian blend, cumin", "category": "Spices" },
+            { "food": "Parmesan", "amount": "Block or pre-grated", "category": "Cheese" }
+          ]
+        },
+        {
+          "id": "daily-intake",
+          "title": "Time-saving cooking techniques",
+          "content": "These strategies help you get dinner on the table faster without sacrificing flavor:",
+          "items": [
+            { "title": "One-pan meals", "description": "Everything cooks together - fewer dishes and easy cleanup" },
+            { "title": "Sheet pan dinners", "description": "Roast protein and vegetables together for hands-off cooking" },
+            { "title": "Prep while cooking", "description": "Chop vegetables while water boils or meat browns" },
+            { "title": "Batch cooking", "description": "Cook double portions of protein to use in multiple meals" }
+          ]
+        },
+        {
+          "id": "tips",
+          "title": "Weekly meal planning tips",
+          "content": "A little planning makes weeknight dinners so much easier.",
+          "items": [
+            { "title": "Theme nights", "description": "Taco Tuesday, Pasta Wednesday - themes simplify decision-making." },
+            { "title": "Prep on Sunday", "description": "Wash lettuce, chop vegetables, marinate proteins for the week ahead." },
+            { "title": "Flexible planning", "description": "Plan meals but stay flexible - life happens, and meals can shift days." }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What's the fastest healthy dinner?",
+          "answer": "Stir-fries are among the fastest healthy dinners - they take about 15-20 minutes. Prep your vegetables while the protein cooks, and you'll have a complete meal quickly. Sheet pan meals are also fast with minimal hands-on time."
+        },
+        {
+          "question": "How do I make dinner less stressful?",
+          "answer": "Plan your meals for the week, do prep work ahead of time (weekend chopping), keep pantry staples stocked, and choose simple recipes for busy nights. Having a plan eliminates the 'what should we eat' decision fatigue."
+        },
+        {
+          "question": "What dinners can I make with chicken?",
+          "answer": "Chicken is incredibly versatile: stir-fry, pasta, tacos, sheet pan dinners, soups, salads, and more. Our recipes feature chicken cooked multiple ways to keep dinners interesting."
+        },
+        {
+          "question": "How can I make dinner healthier?",
+          "answer": "Add more vegetables, use lean proteins, control portion sizes, and limit added fats and sodium. Cooking at home already makes meals healthier since you control the ingredients."
+        },
+        {
+          "question": "What's the best dinner for beginners?",
+          "answer": "Start with simple one-pan meals, pasta dishes, or stir-fries. These are forgiving, use common ingredients, and build fundamental cooking skills. Our recipes include difficulty levels to help you choose."
+        }
+      ]
+    }
+  },
+  "recipes": [
+    {
+      "id": "dinner-1",
+      "slug": "one-pan-lemon-herb-chicken",
+      "title": "One-Pan Lemon Herb Chicken",
+      "description": "Juicy chicken thighs roasted with lemon, garlic, and fresh herbs alongside tender vegetables. Everything cooks on one pan for easy cleanup.",
+      "image": "/sites/top5dinnerrecipes/recipes/lemon-herb-chicken.jpg",
+      "prepTime": 10,
+      "cookTime": 35,
+      "totalTime": 45,
+      "servings": 4,
+      "difficulty": "Easy",
+      "category": "Main Course",
+      "tags": ["chicken", "one-pan", "lemon", "herbs", "weeknight"],
+      "ingredients": [
+        { "item": "chicken thighs", "amount": "4", "unit": "pieces", "notes": "bone-in, skin-on" },
+        { "item": "baby potatoes", "amount": "1", "unit": "lb", "notes": "halved" },
+        { "item": "green beans", "amount": "8", "unit": "oz", "notes": "trimmed" },
+        { "item": "lemon", "amount": "1", "unit": "large", "notes": "sliced" },
+        { "item": "garlic", "amount": "6", "unit": "cloves", "notes": "whole" },
+        { "item": "fresh rosemary", "amount": "2", "unit": "sprigs" },
+        { "item": "fresh thyme", "amount": "4", "unit": "sprigs" },
+        { "item": "olive oil", "amount": "3", "unit": "tbsp" },
+        { "item": "salt", "amount": "1", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.5", "unit": "tsp" },
+        { "item": "paprika", "amount": "0.5", "unit": "tsp" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Preheat oven to 425°F. Line a large sheet pan with parchment paper." },
+        { "step": 2, "instruction": "Toss potatoes with 1 tbsp olive oil, salt, and pepper. Spread on one side of the pan." },
+        { "step": 3, "instruction": "Season chicken thighs with salt, pepper, and paprika. Place skin-side up on the pan." },
+        { "step": 4, "instruction": "Arrange lemon slices and garlic cloves around the chicken. Scatter rosemary and thyme on top.", "tip": "Tucking herbs under the chicken skin adds extra flavor." },
+        { "step": 5, "instruction": "Drizzle remaining olive oil over everything. Roast for 25 minutes." },
+        { "step": 6, "instruction": "Add green beans to the pan, toss with pan juices. Roast another 10 minutes until chicken reaches 165°F." },
+        { "step": 7, "instruction": "Let rest 5 minutes before serving. Squeeze roasted lemon over the top." }
+      ],
+      "nutrition": {
+        "calories": 420,
+        "protein": 32,
+        "carbs": 24,
+        "fat": 22,
+        "fiber": 4
+      },
+      "tips": [
+        "Pat chicken dry for crispiest skin",
+        "Cut potatoes same size for even cooking",
+        "Save pan drippings for a quick gravy"
+      ],
+      "datePublished": "2024-01-15"
+    },
+    {
+      "id": "dinner-2",
+      "slug": "20-minute-shrimp-stir-fry",
+      "title": "20-Minute Shrimp Stir-Fry",
+      "description": "Plump shrimp and crisp vegetables tossed in a savory garlic ginger sauce. Faster than takeout and so much better.",
+      "image": "/sites/top5dinnerrecipes/recipes/shrimp-stir-fry.jpg",
+      "prepTime": 10,
+      "cookTime": 10,
+      "totalTime": 20,
+      "servings": 4,
+      "difficulty": "Easy",
+      "category": "Main Course",
+      "tags": ["shrimp", "stir-fry", "quick", "Asian", "weeknight"],
+      "ingredients": [
+        { "item": "large shrimp", "amount": "1", "unit": "lb", "notes": "peeled and deveined" },
+        { "item": "broccoli florets", "amount": "2", "unit": "cups" },
+        { "item": "bell peppers", "amount": "2", "unit": "medium", "notes": "sliced" },
+        { "item": "snap peas", "amount": "1", "unit": "cup" },
+        { "item": "garlic", "amount": "4", "unit": "cloves", "notes": "minced" },
+        { "item": "fresh ginger", "amount": "1", "unit": "tbsp", "notes": "minced" },
+        { "item": "soy sauce", "amount": "3", "unit": "tbsp" },
+        { "item": "sesame oil", "amount": "1", "unit": "tbsp" },
+        { "item": "vegetable oil", "amount": "2", "unit": "tbsp" },
+        { "item": "honey", "amount": "1", "unit": "tbsp" },
+        { "item": "cornstarch", "amount": "1", "unit": "tsp" },
+        { "item": "green onions", "amount": "3", "unit": "stalks", "notes": "sliced" },
+        { "item": "sesame seeds", "amount": "1", "unit": "tbsp" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Mix soy sauce, sesame oil, honey, and cornstarch in a small bowl. Set aside." },
+        { "step": 2, "instruction": "Heat vegetable oil in a large wok or skillet over high heat until smoking." },
+        { "step": 3, "instruction": "Add shrimp in a single layer. Cook 1-2 minutes per side until pink. Remove and set aside.", "tip": "Don't overcrowd the pan - cook in batches if needed." },
+        { "step": 4, "instruction": "Add broccoli and bell peppers. Stir-fry 3 minutes until slightly charred." },
+        { "step": 5, "instruction": "Add snap peas, garlic, and ginger. Cook 1 minute until fragrant." },
+        { "step": 6, "instruction": "Return shrimp to pan. Pour sauce over and toss until everything is coated and glossy." },
+        { "step": 7, "instruction": "Garnish with green onions and sesame seeds. Serve immediately over rice." }
+      ],
+      "nutrition": {
+        "calories": 280,
+        "protein": 26,
+        "carbs": 18,
+        "fat": 12,
+        "fiber": 3
+      },
+      "tips": [
+        "Have all ingredients prepped before you start cooking",
+        "A hot wok is the key to good stir-fry",
+        "Substitute chicken or tofu for the shrimp"
+      ],
+      "datePublished": "2024-02-01"
+    },
+    {
+      "id": "dinner-3",
+      "slug": "easy-beef-tacos",
+      "title": "Easy Beef Tacos",
+      "description": "Perfectly seasoned ground beef with all the classic toppings. A family favorite that's on the table in under 25 minutes.",
+      "image": "/sites/top5dinnerrecipes/recipes/beef-tacos.jpg",
+      "prepTime": 10,
+      "cookTime": 15,
+      "totalTime": 25,
+      "servings": 6,
+      "difficulty": "Easy",
+      "category": "Main Course",
+      "tags": ["tacos", "beef", "Mexican", "quick", "family-friendly"],
+      "ingredients": [
+        { "item": "ground beef", "amount": "1.5", "unit": "lb", "notes": "80/20" },
+        { "item": "taco seasoning", "amount": "2", "unit": "tbsp", "notes": "or homemade blend" },
+        { "item": "water", "amount": "0.5", "unit": "cup" },
+        { "item": "taco shells", "amount": "12", "unit": "shells", "notes": "hard or soft" },
+        { "item": "shredded lettuce", "amount": "2", "unit": "cups" },
+        { "item": "tomatoes", "amount": "2", "unit": "medium", "notes": "diced" },
+        { "item": "cheddar cheese", "amount": "1.5", "unit": "cups", "notes": "shredded" },
+        { "item": "sour cream", "amount": "0.5", "unit": "cup" },
+        { "item": "salsa", "amount": "1", "unit": "cup" },
+        { "item": "fresh cilantro", "amount": "0.25", "unit": "cup", "notes": "chopped" },
+        { "item": "lime", "amount": "2", "unit": "wedges" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Brown ground beef in a large skillet over medium-high heat, breaking it up as it cooks, about 6-8 minutes." },
+        { "step": 2, "instruction": "Drain excess fat. Add taco seasoning and water. Stir to combine." },
+        { "step": 3, "instruction": "Simmer for 5 minutes until the liquid has mostly absorbed and meat is well coated.", "tip": "Add a splash more water if it gets too dry." },
+        { "step": 4, "instruction": "Warm taco shells according to package directions." },
+        { "step": 5, "instruction": "Set up a taco bar with all toppings in separate bowls." },
+        { "step": 6, "instruction": "Spoon meat into shells and let everyone add their favorite toppings." },
+        { "step": 7, "instruction": "Squeeze fresh lime over tacos and serve with extra salsa on the side." }
+      ],
+      "nutrition": {
+        "calories": 380,
+        "protein": 24,
+        "carbs": 22,
+        "fat": 22,
+        "fiber": 3
+      },
+      "tips": [
+        "Make your own taco seasoning with chili powder, cumin, garlic powder, onion powder, paprika, and oregano",
+        "Toast soft tortillas directly over a gas flame for char marks",
+        "Leftover meat makes great nachos or taco salad"
+      ],
+      "datePublished": "2024-02-15"
+    },
+    {
+      "id": "dinner-4",
+      "slug": "garlic-butter-salmon",
+      "title": "Garlic Butter Salmon",
+      "description": "Flaky salmon fillets glazed with a rich garlic butter sauce. Elegant enough for date night, easy enough for any weeknight.",
+      "image": "/sites/top5dinnerrecipes/recipes/garlic-butter-salmon.jpg",
+      "prepTime": 5,
+      "cookTime": 15,
+      "totalTime": 20,
+      "servings": 4,
+      "difficulty": "Easy",
+      "category": "Main Course",
+      "tags": ["salmon", "garlic", "butter", "seafood", "quick"],
+      "ingredients": [
+        { "item": "salmon fillets", "amount": "4", "unit": "pieces", "notes": "6oz each, skin-on" },
+        { "item": "butter", "amount": "4", "unit": "tbsp" },
+        { "item": "garlic", "amount": "5", "unit": "cloves", "notes": "minced" },
+        { "item": "lemon juice", "amount": "2", "unit": "tbsp" },
+        { "item": "fresh parsley", "amount": "2", "unit": "tbsp", "notes": "chopped" },
+        { "item": "salt", "amount": "0.75", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.25", "unit": "tsp" },
+        { "item": "olive oil", "amount": "1", "unit": "tbsp" },
+        { "item": "lemon wedges", "amount": "4", "unit": "pieces", "notes": "for serving" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Pat salmon fillets dry and season both sides with salt and pepper." },
+        { "step": 2, "instruction": "Heat olive oil in a large skillet over medium-high heat." },
+        { "step": 3, "instruction": "Place salmon skin-side up and sear for 4 minutes until golden crust forms.", "tip": "Don't move the fish while searing." },
+        { "step": 4, "instruction": "Flip salmon. Reduce heat to medium. Cook another 3-4 minutes." },
+        { "step": 5, "instruction": "Push salmon to one side. Add butter and garlic to the pan. Cook 1 minute until garlic is fragrant." },
+        { "step": 6, "instruction": "Add lemon juice and parsley. Spoon the garlic butter over the salmon." },
+        { "step": 7, "instruction": "Remove from heat. Serve immediately with lemon wedges." }
+      ],
+      "nutrition": {
+        "calories": 380,
+        "protein": 34,
+        "carbs": 2,
+        "fat": 26,
+        "fiber": 0
+      },
+      "tips": [
+        "Salmon is done when it flakes easily with a fork",
+        "For crispy skin, start skin-side down",
+        "Pairs perfectly with roasted asparagus or rice pilaf"
+      ],
+      "datePublished": "2024-03-01"
+    },
+    {
+      "id": "dinner-5",
+      "slug": "quick-pasta-primavera",
+      "title": "Quick Pasta Primavera",
+      "description": "A rainbow of fresh vegetables tossed with pasta in a light garlic parmesan sauce. Vegetarian comfort food in 30 minutes.",
+      "image": "/sites/top5dinnerrecipes/recipes/pasta-primavera.jpg",
+      "prepTime": 10,
+      "cookTime": 20,
+      "totalTime": 30,
+      "servings": 6,
+      "difficulty": "Easy",
+      "category": "Main Course",
+      "tags": ["pasta", "vegetarian", "vegetables", "Italian", "quick"],
+      "ingredients": [
+        { "item": "penne pasta", "amount": "1", "unit": "lb" },
+        { "item": "zucchini", "amount": "1", "unit": "medium", "notes": "sliced" },
+        { "item": "yellow squash", "amount": "1", "unit": "medium", "notes": "sliced" },
+        { "item": "cherry tomatoes", "amount": "1", "unit": "cup", "notes": "halved" },
+        { "item": "bell pepper", "amount": "1", "unit": "large", "notes": "diced" },
+        { "item": "asparagus", "amount": "1", "unit": "bunch", "notes": "cut into 2-inch pieces" },
+        { "item": "garlic", "amount": "4", "unit": "cloves", "notes": "minced" },
+        { "item": "olive oil", "amount": "3", "unit": "tbsp" },
+        { "item": "parmesan cheese", "amount": "0.75", "unit": "cup", "notes": "grated" },
+        { "item": "fresh basil", "amount": "0.25", "unit": "cup", "notes": "torn" },
+        { "item": "salt", "amount": "1", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.5", "unit": "tsp" },
+        { "item": "red pepper flakes", "amount": "0.25", "unit": "tsp" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Bring a large pot of salted water to boil. Cook pasta according to package directions. Reserve 1 cup pasta water before draining." },
+        { "step": 2, "instruction": "While pasta cooks, heat olive oil in a large skillet over medium-high heat." },
+        { "step": 3, "instruction": "Add zucchini, squash, and bell pepper. Sauté 4-5 minutes until slightly charred." },
+        { "step": 4, "instruction": "Add asparagus and cook 2 minutes. Add garlic and cherry tomatoes. Cook 1 minute.", "tip": "Don't stir too much - let vegetables get some color." },
+        { "step": 5, "instruction": "Add drained pasta to the skillet with vegetables." },
+        { "step": 6, "instruction": "Add parmesan and half the reserved pasta water. Toss until creamy, adding more pasta water if needed." },
+        { "step": 7, "instruction": "Season with salt, pepper, and red pepper flakes. Top with fresh basil and serve." }
+      ],
+      "nutrition": {
+        "calories": 340,
+        "protein": 14,
+        "carbs": 52,
+        "fat": 10,
+        "fiber": 4
+      },
+      "tips": [
+        "Use whatever vegetables you have on hand",
+        "Add grilled chicken or shrimp for extra protein",
+        "The pasta water creates a silky sauce"
+      ],
+      "datePublished": "2024-03-15"
+    }
+  ]
+}

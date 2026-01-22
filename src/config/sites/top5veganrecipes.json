@@ -5,7 +5,8 @@
     "name": "Top 5 Vegan Recipes",
     "tagline": "Plant-Powered Meals for a Healthier You",
     "logo": "/sites/top5veganrecipes/logo.svg",
-    "favicon": "/sites/top5veganrecipes/favicon.ico"
+    "favicon": "/sites/top5veganrecipes/favicon.ico",
+    "logoText": "VEGAN"
   },
   "theme": {
     "colors": {
@@ -35,6 +36,125 @@
     "instagram": "https://instagram.com/top5veganrecipes",
     "pinterest": "https://pinterest.com/top5veganrecipes",
     "youtube": "https://youtube.com/@top5veganrecipes"
+  },
+  "content": {
+    "heroTitle": "Top 5 Vegan",
+    "heroHighlight": "Recipes for Plant-Based Living",
+    "heroDescription": "We've tested hundreds of plant-based recipes to bring you only the top 5. Each one is 100% vegan, incredibly delicious, and easy to make.",
+    "itemListName": "Top 5 Vegan Recipes for Plant-Based Eating",
+    "directAnswerTitle": "What are the best vegan recipes?",
+    "directAnswerText": "The best vegan recipes deliver incredible flavor using only plant-based ingredients. Our top 5 vegan recipes are packed with vegetables, legumes, and whole grains. Each recipe is designed to be satisfying, nutritious, and easy to prepare.",
+    "navigation": [
+      { "name": "Home", "href": "/" },
+      { "name": "Recipes", "href": "/recipes" },
+      { "name": "Vegan Guide", "href": "/guide" },
+      { "name": "About", "href": "/about" }
+    ],
+    "faq": [
+      {
+        "question": "Is a vegan diet healthy?",
+        "answer": "Yes, a well-planned vegan diet can be very healthy. It's naturally high in fiber, vitamins, and antioxidants. Key nutrients to watch include B12, iron, calcium, and omega-3s, which can be obtained through fortified foods or supplements."
+      },
+      {
+        "question": "How do vegans get enough protein?",
+        "answer": "Vegans get protein from legumes (beans, lentils, chickpeas), tofu, tempeh, seitan, quinoa, nuts, and seeds. Combining different plant proteins throughout the day provides all essential amino acids."
+      },
+      {
+        "question": "What can I substitute for eggs in baking?",
+        "answer": "Common egg substitutes include flax eggs (1 tbsp ground flax + 3 tbsp water), mashed banana, applesauce, silken tofu, and commercial egg replacers. Each works best in different recipes."
+      },
+      {
+        "question": "Is vegan food expensive?",
+        "answer": "Vegan eating can be very affordable. Staples like beans, lentils, rice, oats, and seasonal vegetables are budget-friendly. Specialty vegan products cost more, but they're optional."
+      },
+      {
+        "question": "How do I start eating vegan?",
+        "answer": "Start gradually by adding more plant-based meals to your diet. Try Meatless Mondays, then expand from there. Stock up on vegan staples and experiment with new recipes. Our top 5 recipes are great for beginners."
+      }
+    ],
+    "guide": {
+      "title": "Complete Vegan Guide",
+      "metaTitle": "Complete Vegan Guide: Plant-Based Nutrition & Tips",
+      "metaDescription": "Learn everything about vegan eating: plant-based protein sources, essential nutrients, meal planning, and tips for a healthy vegan lifestyle.",
+      "heroTitle": "Everything you need to know about",
+      "heroHighlight": "vegan eating",
+      "heroDescription": "Your complete guide to veganism: plant-based nutrition, protein sources, essential nutrients, and answers to common vegan diet questions.",
+      "sections": [
+        {
+          "id": "benefits",
+          "title": "Why go vegan?",
+          "content": "A well-planned vegan diet offers numerous health and environmental benefits while being delicious and satisfying.",
+          "items": [
+            { "title": "Heart health", "description": "Lower cholesterol and reduced risk of heart disease with plant-based eating." },
+            { "title": "Weight management", "description": "Plant-based diets are naturally lower in calories and higher in fiber." },
+            { "title": "Environmental impact", "description": "Reduce your carbon footprint - plant foods use fewer resources than animal products." },
+            { "title": "Increased fiber", "description": "Most plant foods are high in fiber, supporting digestive health." },
+            { "title": "Antioxidants", "description": "Fruits and vegetables are packed with disease-fighting antioxidants." },
+            { "title": "Animal welfare", "description": "Align your diet with ethical values about animal treatment." }
+          ]
+        },
+        {
+          "id": "sources",
+          "title": "Best vegan protein sources",
+          "content": "Getting enough protein on a vegan diet is easy when you know the best sources. Here are the top plant-based proteins:",
+          "table": [
+            { "food": "Tofu", "amount": "20g per cup", "category": "Soy" },
+            { "food": "Tempeh", "amount": "31g per cup", "category": "Soy" },
+            { "food": "Lentils", "amount": "18g per cup", "category": "Legumes" },
+            { "food": "Chickpeas", "amount": "15g per cup", "category": "Legumes" },
+            { "food": "Black beans", "amount": "15g per cup", "category": "Legumes" },
+            { "food": "Seitan", "amount": "25g per 3oz", "category": "Wheat protein" },
+            { "food": "Quinoa", "amount": "8g per cup", "category": "Grains" },
+            { "food": "Hemp seeds", "amount": "10g per 3tbsp", "category": "Seeds" },
+            { "food": "Peanut butter", "amount": "8g per 2tbsp", "category": "Nuts" },
+            { "food": "Edamame", "amount": "17g per cup", "category": "Soy" }
+          ]
+        },
+        {
+          "id": "daily-intake",
+          "title": "Essential nutrients for vegans",
+          "content": "Pay attention to these key nutrients to ensure a balanced vegan diet:",
+          "items": [
+            { "title": "Vitamin B12", "description": "Take a supplement - B12 is not reliably found in plant foods" },
+            { "title": "Iron", "description": "Eat legumes, tofu, and dark leafy greens with vitamin C for absorption" },
+            { "title": "Omega-3s", "description": "Get from flaxseeds, chia seeds, walnuts, or algae supplements" },
+            { "title": "Calcium", "description": "Found in fortified plant milks, tofu, kale, and broccoli" }
+          ]
+        },
+        {
+          "id": "tips",
+          "title": "Tips for new vegans",
+          "content": "Make your transition to vegan eating easier with these practical tips.",
+          "items": [
+            { "title": "Start gradually", "description": "Begin with Meatless Mondays, then expand to more plant-based meals over time." },
+            { "title": "Stock your pantry", "description": "Keep beans, grains, nuts, and frozen vegetables on hand for easy meals." },
+            { "title": "Learn to cook", "description": "Master a few simple vegan recipes to build confidence in the kitchen." }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How do vegans get enough protein?",
+          "answer": "Vegans get protein from legumes (beans, lentils, chickpeas), tofu, tempeh, seitan, quinoa, nuts, and seeds. Eating a variety of plant proteins throughout the day provides all essential amino acids."
+        },
+        {
+          "question": "What supplements should vegans take?",
+          "answer": "Vitamin B12 is the most important supplement for vegans, as it's not found reliably in plant foods. Consider also vitamin D, omega-3 (from algae), and possibly iron or zinc depending on your diet."
+        },
+        {
+          "question": "Is a vegan diet expensive?",
+          "answer": "Vegan eating can be very affordable. Staples like beans, lentils, rice, oats, and seasonal vegetables are budget-friendly. Specialty vegan products cost more but are optional."
+        },
+        {
+          "question": "What can I substitute for eggs in baking?",
+          "answer": "Common egg substitutes include flax eggs (1 tbsp ground flax + 3 tbsp water), mashed banana, applesauce, silken tofu, and commercial egg replacers. Each works best in different recipes."
+        },
+        {
+          "question": "Can kids eat a vegan diet?",
+          "answer": "Yes, a well-planned vegan diet can be healthy for children. Pay extra attention to calories, protein, iron, calcium, zinc, and vitamin B12. Consult a pediatric dietitian for personalized guidance."
+        }
+      ]
+    }
   },
   "recipes": [
     {

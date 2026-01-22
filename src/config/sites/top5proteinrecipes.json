@@ -6,7 +6,8 @@
     "tagline": "Fuel Your Gains with Delicious High-Protein Meals",
     "logo": "/sites/top5proteinrecipes/logo.svg",
     "favicon": "/sites/top5proteinrecipes/favicon.ico",
-    "heroImage": "/sites/top5proteinrecipes/hero.jpg"
+    "heroImage": "/sites/top5proteinrecipes/hero.jpg",
+    "logoText": "PROTEIN"
   },
   "theme": {
     "colors": {
@@ -36,6 +37,125 @@
     "instagram": "https://instagram.com/top5proteinrecipes",
     "pinterest": "https://pinterest.com/top5proteinrecipes",
     "youtube": "https://youtube.com/@top5proteinrecipes"
+  },
+  "content": {
+    "heroTitle": "Top 5 High-Protein",
+    "heroHighlight": "Recipes for Muscle Building",
+    "heroDescription": "We've tested hundreds of recipes to bring you only the top 5. Each one delivers 30-50g of protein per serving, perfected for taste, nutrition, and ease of preparation.",
+    "itemListName": "Top 5 High-Protein Recipes for Muscle Building",
+    "directAnswerTitle": "What are the best high-protein recipes?",
+    "directAnswerText": "The best high-protein recipes for muscle building combine lean protein sources with complementary nutrients. Our top 5 high-protein recipes average {avgProtein}g of protein per serving. Each recipe is designed to support muscle growth, post-workout recovery, and sustained energy throughout the day.",
+    "navigation": [
+      { "name": "Home", "href": "/" },
+      { "name": "Recipes", "href": "/recipes" },
+      { "name": "Protein Guide", "href": "/guide" },
+      { "name": "About", "href": "/about" }
+    ],
+    "faq": [
+      {
+        "question": "How much protein do I need daily for muscle building?",
+        "answer": "For muscle building, most research suggests consuming 1.6-2.2 grams of protein per kilogram of body weight daily. For a 70kg (154lb) person, that's approximately 112-154 grams of protein per day, spread across 4-5 meals."
+      },
+      {
+        "question": "What are the best high-protein foods for building muscle?",
+        "answer": "The best high-protein foods include chicken breast (31g per 100g), Greek yogurt (10g per 100g), eggs (13g per 100g), lean beef (26g per 100g), salmon (25g per 100g), cottage cheese (11g per 100g), and legumes like lentils (9g per 100g cooked)."
+      },
+      {
+        "question": "When is the best time to eat protein for muscle growth?",
+        "answer": "Research shows protein timing matters less than total daily intake. However, consuming 20-40g of protein within 2 hours after exercise can optimize muscle protein synthesis. Spreading protein intake evenly across meals (every 3-4 hours) is also beneficial."
+      },
+      {
+        "question": "Can I get enough protein without meat?",
+        "answer": "Yes, you can meet protein needs without meat. Plant-based protein sources include tofu (8g per 100g), tempeh (19g per 100g), legumes, quinoa (4g per 100g cooked), seitan (25g per 100g), and protein-rich dairy like Greek yogurt and cottage cheese."
+      },
+      {
+        "question": "What makes a recipe high-protein?",
+        "answer": "A recipe is considered high-protein when it provides 20+ grams of protein per serving. Our top 5 recipes average 35-50g of protein per serving, making them ideal for muscle building and recovery."
+      }
+    ],
+    "guide": {
+      "title": "Complete Protein Guide",
+      "metaTitle": "Complete Protein Guide: Benefits, Sources & Daily Requirements",
+      "metaDescription": "Learn everything about protein: what it does for your body, best high-protein foods, daily requirements, and how to get enough protein for muscle building.",
+      "heroTitle": "Everything you need to know about",
+      "heroHighlight": "protein",
+      "heroDescription": "Your complete guide to protein: benefits, best sources, daily requirements, and answers to the most common protein questions.",
+      "sections": [
+        {
+          "id": "benefits",
+          "title": "What does protein do for your body?",
+          "content": "Protein is one of the three macronutrients essential for life. It plays a crucial role in nearly every biological process in your body.",
+          "items": [
+            { "title": "Muscle building & repair", "description": "Provides amino acids needed to build and repair muscle tissue after exercise." },
+            { "title": "Enzyme production", "description": "Creates enzymes that drive chemical reactions for digestion and metabolism." },
+            { "title": "Hormone regulation", "description": "Helps produce hormones like insulin that regulate blood sugar." },
+            { "title": "Immune function", "description": "Builds antibodies that fight infections and keep you healthy." },
+            { "title": "Satiety & weight management", "description": "Keeps you feeling full longer, reducing overall calorie intake." },
+            { "title": "Healthy hair, skin & nails", "description": "Provides keratin and collagen for strong hair, skin, and nails." }
+          ]
+        },
+        {
+          "id": "sources",
+          "title": "What foods are high in protein?",
+          "content": "The best protein sources provide complete amino acids along with other essential nutrients. Here are the top high-protein foods:",
+          "table": [
+            { "food": "Chicken Breast", "amount": "31g", "category": "Meat" },
+            { "food": "Lean Beef", "amount": "26g", "category": "Meat" },
+            { "food": "Salmon", "amount": "25g", "category": "Fish" },
+            { "food": "Tuna", "amount": "24g", "category": "Fish" },
+            { "food": "Greek Yogurt", "amount": "10g", "category": "Dairy" },
+            { "food": "Eggs", "amount": "13g", "category": "Dairy" },
+            { "food": "Cottage Cheese", "amount": "11g", "category": "Dairy" },
+            { "food": "Lentils (cooked)", "amount": "9g", "category": "Legumes" },
+            { "food": "Chickpeas (cooked)", "amount": "9g", "category": "Legumes" },
+            { "food": "Tofu", "amount": "8g", "category": "Plant-based" }
+          ]
+        },
+        {
+          "id": "daily-intake",
+          "title": "How much protein do you need?",
+          "content": "Daily protein requirements vary based on activity level and goals.",
+          "items": [
+            { "title": "Sedentary adult", "description": "0.8g per kg body weight" },
+            { "title": "Active adult", "description": "1.2-1.6g per kg body weight" },
+            { "title": "Muscle building", "description": "1.6-2.2g per kg body weight" },
+            { "title": "Athletes", "description": "1.4-2.0g per kg body weight" }
+          ]
+        },
+        {
+          "id": "tips",
+          "title": "How to get 40g protein at breakfast",
+          "content": "Starting your day with a high-protein breakfast helps control hunger, stabilize blood sugar, and supports muscle building.",
+          "items": [
+            { "title": "The classic", "description": "3 whole eggs (21g) + Greek yogurt 150g (15g) + Handful almonds (6g) = 42g protein" },
+            { "title": "Smoothie power", "description": "Protein powder scoop (25g) + Milk 250ml (8g) + Peanut butter 2tbsp (8g) = 41g protein" },
+            { "title": "Savory start", "description": "4 egg omelet (24g) + Cottage cheese 100g (11g) + Turkey slices 50g (6g) = 41g protein" }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What does protein do for your body?",
+          "answer": "Protein is essential for building and repairing muscles, producing enzymes and hormones, supporting immune function, and maintaining healthy skin, hair, and nails. It also helps you feel full longer, which aids in weight management."
+        },
+        {
+          "question": "What foods are high in protein?",
+          "answer": "The best high-protein foods include chicken breast (31g per 100g), eggs (13g per 100g), Greek yogurt (10g per 100g), salmon (25g per 100g), lean beef (26g per 100g), cottage cheese (11g per 100g), lentils (9g per 100g), and tofu (8g per 100g)."
+        },
+        {
+          "question": "Is it good to eat a lot of protein?",
+          "answer": "Moderate to high protein intake is beneficial for most people, especially those who exercise regularly. The recommended daily intake is 0.8g per kg of body weight for sedentary adults, and 1.2-2.0g per kg for active individuals."
+        },
+        {
+          "question": "How much protein is in 2 eggs?",
+          "answer": "Two large eggs contain approximately 12-14 grams of protein. Each large egg has about 6-7 grams of protein, with the white containing about 3.6g and the yolk containing about 2.7g."
+        },
+        {
+          "question": "How do I get 40 grams of protein at breakfast?",
+          "answer": "Combine protein sources: 3 eggs (21g) + Greek yogurt (10g) + handful of almonds (6g) = 37g. Or try: protein smoothie with protein powder (25g) + milk (8g) + peanut butter (8g) = 41g."
+        }
+      ]
+    }
   },
   "recipes": [
     {

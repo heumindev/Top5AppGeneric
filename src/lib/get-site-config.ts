@@ -12,14 +12,30 @@ const domainMapping: DomainMapping = {
   'www.top5ketorecipes.com': 'top5ketorecipes',
   'top5veganrecipes.com': 'top5veganrecipes',
   'www.top5veganrecipes.com': 'top5veganrecipes',
+  'top5dinnerrecipes.com': 'top5dinnerrecipes',
+  'www.top5dinnerrecipes.com': 'top5dinnerrecipes',
+  'top5mealpreprecipes.com': 'top5mealpreprecipes',
+  'www.top5mealpreprecipes.com': 'top5mealpreprecipes',
+  'top5proteindesserts.com': 'top5proteindesserts',
+  'www.top5proteindesserts.com': 'top5proteindesserts',
+  'top5weightlossrecipes.com': 'top5weightlossrecipes',
+  'www.top5weightlossrecipes.com': 'top5weightlossrecipes',
 
-  // Local development domains (add to /etc/hosts: 127.0.0.1 protein.localhost keto.localhost vegan.localhost)
+  // Local development domains (add to /etc/hosts: 127.0.0.1 protein.localhost keto.localhost vegan.localhost dinner.localhost mealprep.localhost proteindesserts.localhost weightloss.localhost)
   'protein.localhost': 'top5proteinrecipes',
   'protein.localhost:3000': 'top5proteinrecipes',
   'keto.localhost': 'top5ketorecipes',
   'keto.localhost:3000': 'top5ketorecipes',
   'vegan.localhost': 'top5veganrecipes',
   'vegan.localhost:3000': 'top5veganrecipes',
+  'dinner.localhost': 'top5dinnerrecipes',
+  'dinner.localhost:3000': 'top5dinnerrecipes',
+  'mealprep.localhost': 'top5mealpreprecipes',
+  'mealprep.localhost:3000': 'top5mealpreprecipes',
+  'proteindesserts.localhost': 'top5proteindesserts',
+  'proteindesserts.localhost:3000': 'top5proteindesserts',
+  'weightloss.localhost': 'top5weightlossrecipes',
+  'weightloss.localhost:3000': 'top5weightlossrecipes',
 
   // Default fallback for localhost without subdomain
   'localhost': 'top5proteinrecipes',

@@ -1,5 +1,5 @@
 // Site IDs - add new sites here
-export type SiteId = 'top5proteinrecipes' | 'top5ketorecipes' | 'top5veganrecipes'
+export type SiteId = 'top5proteinrecipes' | 'top5ketorecipes' | 'top5veganrecipes' | 'top5dinnerrecipes' | 'top5mealpreprecipes' | 'top5proteindesserts' | 'top5weightlossrecipes'
 
 // Theme colors
 export interface ThemeColors {
@@ -33,6 +33,53 @@ export interface Branding {
   logo: string
   favicon: string
   heroImage?: string
+  logoText: string // Short text for logo (e.g., "PROTEIN", "DINNER")
+}
+
+// FAQ item for homepage
+export interface FAQItem {
+  question: string
+  answer: string
+}
+
+// Navigation item
+export interface NavItem {
+  name: string
+  href: string
+}
+
+// Guide section for the guide page
+export interface GuideSection {
+  id: string
+  title: string
+  content: string
+  items?: { title: string; description: string }[]
+  table?: { food: string; amount: string; category: string }[]
+}
+
+// Guide page content
+export interface GuideContent {
+  title: string
+  metaTitle: string
+  metaDescription: string
+  heroTitle: string
+  heroHighlight: string
+  heroDescription: string
+  sections: GuideSection[]
+  faq: FAQItem[]
+}
+
+// Site-specific content
+export interface SiteContent {
+  heroTitle: string
+  heroHighlight: string // The highlighted word/phrase in hero title
+  heroDescription: string
+  itemListName: string // For JSON-LD structured data
+  directAnswerTitle: string
+  directAnswerText: string
+  navigation: NavItem[]
+  faq: FAQItem[]
+  guide: GuideContent
 }
 
 // SEO metadata
@@ -108,6 +155,7 @@ export interface SiteConfig {
   branding: Branding
   theme: Theme
   meta: SiteMeta
+  content: SiteContent
   social?: SocialLinks
   recipes: Recipe[]
 }

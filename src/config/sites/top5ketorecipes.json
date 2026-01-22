@@ -5,7 +5,8 @@
     "name": "Top 5 Keto Recipes",
     "tagline": "Delicious Low-Carb Recipes for Your Keto Journey",
     "logo": "/sites/top5ketorecipes/logo.svg",
-    "favicon": "/sites/top5ketorecipes/favicon.ico"
+    "favicon": "/sites/top5ketorecipes/favicon.ico",
+    "logoText": "KETO"
   },
   "theme": {
     "colors": {
@@ -35,6 +36,125 @@
     "instagram": "https://instagram.com/top5ketorecipes",
     "pinterest": "https://pinterest.com/top5ketorecipes",
     "facebook": "https://facebook.com/top5ketorecipes"
+  },
+  "content": {
+    "heroTitle": "Top 5 Keto",
+    "heroHighlight": "Recipes for Ketosis",
+    "heroDescription": "We've tested hundreds of low-carb recipes to bring you only the top 5. Each one keeps you in ketosis with under 10g net carbs, perfected for taste and nutrition.",
+    "itemListName": "Top 5 Keto Recipes for Low-Carb Living",
+    "directAnswerTitle": "What are the best keto recipes?",
+    "directAnswerText": "The best keto recipes keep net carbs under 10g while delivering satisfying flavors and healthy fats. Our top 5 keto recipes average {avgCarbs}g net carbs per serving. Each recipe is designed to keep you in ketosis while enjoying delicious meals.",
+    "navigation": [
+      { "name": "Home", "href": "/" },
+      { "name": "Recipes", "href": "/recipes" },
+      { "name": "Keto Guide", "href": "/guide" },
+      { "name": "About", "href": "/about" }
+    ],
+    "faq": [
+      {
+        "question": "How many carbs can I eat on keto?",
+        "answer": "Most people stay in ketosis by consuming 20-50g of net carbs per day. Net carbs = total carbs minus fiber. Our recipes average under 10g net carbs per serving to help you stay on track."
+      },
+      {
+        "question": "What foods are keto-friendly?",
+        "answer": "Keto-friendly foods include meats, fatty fish, eggs, butter, cheese, nuts, seeds, healthy oils, avocados, and low-carb vegetables like leafy greens, broccoli, and cauliflower."
+      },
+      {
+        "question": "How long does it take to get into ketosis?",
+        "answer": "It typically takes 2-4 days to enter ketosis if you eat fewer than 50g of carbs per day. Some people may take up to a week. Factors include your metabolism, activity level, and previous diet."
+      },
+      {
+        "question": "Can I eat fruit on keto?",
+        "answer": "Most fruits are too high in carbs for keto. However, you can enjoy small portions of berries (strawberries, raspberries, blackberries) which are lower in carbs. Avocado is also keto-friendly."
+      },
+      {
+        "question": "What are the benefits of a keto diet?",
+        "answer": "Benefits include weight loss, improved blood sugar control, increased energy, reduced inflammation, and better mental clarity. Many people also experience reduced hunger and cravings."
+      }
+    ],
+    "guide": {
+      "title": "Complete Keto Guide",
+      "metaTitle": "Complete Keto Guide: Ketogenic Diet Basics & Tips",
+      "metaDescription": "Learn everything about the ketogenic diet: how ketosis works, what foods to eat and avoid, daily carb limits, and tips for keto success.",
+      "heroTitle": "Everything you need to know about the",
+      "heroHighlight": "keto diet",
+      "heroDescription": "Your complete guide to keto: how ketosis works, best keto foods, daily carb limits, and answers to common ketogenic diet questions.",
+      "sections": [
+        {
+          "id": "benefits",
+          "title": "What is the keto diet?",
+          "content": "The ketogenic diet is a high-fat, low-carb eating plan that shifts your body into a metabolic state called ketosis, where you burn fat for fuel instead of carbs.",
+          "items": [
+            { "title": "Weight loss", "description": "Burn stored fat as your primary energy source for effective weight loss." },
+            { "title": "Stable energy", "description": "No more blood sugar crashes - fat provides steady, consistent energy." },
+            { "title": "Reduced hunger", "description": "Fat and protein keep you satisfied longer, reducing cravings." },
+            { "title": "Mental clarity", "description": "Many report improved focus and cognitive function on keto." },
+            { "title": "Blood sugar control", "description": "Lower carb intake helps stabilize blood sugar levels." },
+            { "title": "Reduced inflammation", "description": "Ketones have anti-inflammatory properties that benefit overall health." }
+          ]
+        },
+        {
+          "id": "sources",
+          "title": "What foods can you eat on keto?",
+          "content": "Focus on high-fat, moderate-protein, and very low-carb foods. Here are the best keto-friendly options:",
+          "table": [
+            { "food": "Avocado", "amount": "2g net carbs", "category": "Fruits" },
+            { "food": "Eggs", "amount": "0.5g net carbs", "category": "Protein" },
+            { "food": "Salmon", "amount": "0g carbs", "category": "Fish" },
+            { "food": "Bacon", "amount": "0g carbs", "category": "Meat" },
+            { "food": "Cheese", "amount": "0.5g per oz", "category": "Dairy" },
+            { "food": "Butter", "amount": "0g carbs", "category": "Fats" },
+            { "food": "Olive Oil", "amount": "0g carbs", "category": "Fats" },
+            { "food": "Cauliflower", "amount": "3g per cup", "category": "Vegetables" },
+            { "food": "Spinach", "amount": "1g per cup", "category": "Vegetables" },
+            { "food": "Almonds", "amount": "2g per oz", "category": "Nuts" }
+          ]
+        },
+        {
+          "id": "daily-intake",
+          "title": "How many carbs can you eat on keto?",
+          "content": "Daily carb limits vary by individual, but here are general guidelines:",
+          "items": [
+            { "title": "Strict keto", "description": "Under 20g net carbs per day for fastest ketosis" },
+            { "title": "Standard keto", "description": "20-50g net carbs per day for most people" },
+            { "title": "Moderate low-carb", "description": "50-100g net carbs - may not achieve full ketosis" },
+            { "title": "Net carbs formula", "description": "Total carbs minus fiber equals net carbs" }
+          ]
+        },
+        {
+          "id": "tips",
+          "title": "Tips for keto success",
+          "content": "Follow these strategies to make your keto journey easier and more successful.",
+          "items": [
+            { "title": "Stay hydrated", "description": "Drink plenty of water and add electrolytes - keto increases water loss." },
+            { "title": "Plan your meals", "description": "Meal prep keto-friendly foods to avoid temptation when hungry." },
+            { "title": "Read labels", "description": "Hidden carbs are everywhere - always check nutrition labels." }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How long does it take to get into ketosis?",
+          "answer": "It typically takes 2-4 days to enter ketosis if you eat fewer than 50g of carbs per day. Some people may take up to a week depending on their metabolism and activity level."
+        },
+        {
+          "question": "What is keto flu?",
+          "answer": "Keto flu refers to symptoms like fatigue, headaches, and irritability that some people experience during the first week of keto. It's caused by your body adapting to burning fat instead of carbs. Staying hydrated and getting electrolytes helps."
+        },
+        {
+          "question": "Can you eat fruit on keto?",
+          "answer": "Most fruits are too high in carbs for keto. However, small portions of berries (strawberries, raspberries, blackberries) are acceptable. Avocados are the most keto-friendly fruit with only 2g net carbs per serving."
+        },
+        {
+          "question": "What foods should you avoid on keto?",
+          "answer": "Avoid grains, sugar, most fruits, starchy vegetables (potatoes, corn), legumes, and most processed foods. Hidden sugars in sauces and dressings also count toward your carb limit."
+        },
+        {
+          "question": "Is keto safe long-term?",
+          "answer": "Research suggests keto is safe for most healthy adults. However, it may not be suitable for those with certain medical conditions. Consult your doctor before starting any new diet, especially long-term."
+        }
+      ]
+    }
   },
   "recipes": [
     {

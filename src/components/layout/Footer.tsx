@@ -7,12 +7,7 @@ export function Footer() {
   const config = useSiteConfig()
   const currentYear = new Date().getFullYear()
 
-  const quickLinks = [
-    { name: 'Home', href: '/' },
-    { name: 'Recipes', href: '/recipes' },
-    { name: 'Protein Guide', href: '/protein-guide' },
-    { name: 'About', href: '/about' },
-  ]
+  const quickLinks = config.content.navigation
 
   const legalLinks = [
     { name: 'Privacy Policy', href: '/privacy' },
@@ -32,7 +27,7 @@ export function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-extrabold text-sm tracking-wide">TOP 5</span>
-                <span className="font-bold text-xs tracking-widest text-primary">PROTEIN</span>
+                <span className="font-bold text-xs tracking-widest text-primary">{config.branding.logoText}</span>
               </div>
             </Link>
             <p className="text-gray-400 mb-4 max-w-md">

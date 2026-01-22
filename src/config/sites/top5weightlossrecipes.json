@@ -1,0 +1,412 @@
+{
+  "id": "top5weightlossrecipes",
+  "domain": "top5weightlossrecipes.com",
+  "branding": {
+    "name": "Top 5 Weight Loss Recipes",
+    "tagline": "Delicious Low-Calorie Recipes for Your Weight Loss Journey",
+    "logo": "/sites/top5weightlossrecipes/logo.svg",
+    "favicon": "/sites/top5weightlossrecipes/favicon.ico",
+    "logoText": "WEIGHT LOSS"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#22C55E",
+      "primaryDark": "#16A34A",
+      "primaryLight": "#4ADE80",
+      "secondary": "#3B82F6",
+      "accent": "#F472B6",
+      "background": "#F0FDF4",
+      "surface": "#FFFFFF",
+      "text": "#14532D",
+      "textMuted": "#86EFAC"
+    },
+    "fonts": {
+      "heading": "'Inter', sans-serif",
+      "body": "'Inter', sans-serif"
+    }
+  },
+  "meta": {
+    "title": "Top 5 Weight Loss Recipes | Low-Calorie Meals That Satisfy",
+    "description": "Lose weight without sacrificing flavor. Our low-calorie recipes are filling, delicious, and designed to help you reach your goals.",
+    "keywords": ["weight loss recipes", "low calorie meals", "diet recipes", "healthy eating", "calorie deficit", "weight loss meals"],
+    "ogImage": "/sites/top5weightlossrecipes/og-image.jpg",
+    "twitterHandle": "@top5weightlossrecipes"
+  },
+  "social": {
+    "instagram": "https://instagram.com/top5weightlossrecipes",
+    "pinterest": "https://pinterest.com/top5weightlossrecipes",
+    "facebook": "https://facebook.com/top5weightlossrecipes"
+  },
+  "content": {
+    "heroTitle": "Top 5 Weight Loss",
+    "heroHighlight": "Recipes That Actually Taste Good",
+    "heroDescription": "We've tested hundreds of recipes to bring you only the top 5. Each one is under 300 calories per serving while being filling and delicious.",
+    "itemListName": "Top 5 Low-Calorie Recipes for Weight Loss",
+    "directAnswerTitle": "What are the best weight loss recipes?",
+    "directAnswerText": "The best weight loss recipes are low in calories but high in volume, protein, and fiber to keep you satisfied. Our top 5 weight loss recipes average just {avgCalories} calories per serving. Each recipe is designed to help you lose weight without feeling deprived.",
+    "navigation": [
+      { "name": "Home", "href": "/" },
+      { "name": "Recipes", "href": "/recipes" },
+      { "name": "Weight Loss Guide", "href": "/guide" },
+      { "name": "About", "href": "/about" }
+    ],
+    "faq": [
+      {
+        "question": "How many calories should I eat to lose weight?",
+        "answer": "Most people lose weight eating 500-750 calories below their maintenance level, resulting in 1-1.5 lbs lost per week. For most women, this is 1200-1500 calories; for men, 1500-1800 calories. Our recipes help you eat satisfying meals within your calorie budget."
+      },
+      {
+        "question": "What foods help you lose weight?",
+        "answer": "High-volume, low-calorie foods like vegetables, lean proteins, and high-fiber foods help you feel full on fewer calories. Our recipes feature cauliflower rice, zucchini noodles, egg whites, and lean proteins."
+      },
+      {
+        "question": "Can I lose weight without feeling hungry?",
+        "answer": "Yes! The key is eating high-volume, protein-rich foods that keep you satisfied. Our recipes are designed to be filling despite being low in calories. Focus on vegetables, lean proteins, and fiber."
+      },
+      {
+        "question": "Are low-calorie recipes hard to make?",
+        "answer": "Not at all! Our top 5 recipes are simple and use easy-to-find ingredients. They average just {avgTime} minutes to prepare and don't require special cooking skills."
+      },
+      {
+        "question": "How do low-calorie substitutes work?",
+        "answer": "We use smart swaps like cauliflower rice instead of regular rice (saves 150 calories), zucchini noodles instead of pasta (saves 180 calories), and egg whites instead of whole eggs. Same satisfaction, fewer calories."
+      }
+    ],
+    "guide": {
+      "title": "Complete Weight Loss Guide",
+      "metaTitle": "Complete Weight Loss Guide: Low-Calorie Eating Tips",
+      "metaDescription": "Learn effective weight loss strategies: calorie deficit basics, volume eating, low-calorie food swaps, and tips for sustainable weight loss.",
+      "heroTitle": "Everything you need to know about",
+      "heroHighlight": "weight loss",
+      "heroDescription": "Your complete guide to weight loss: calorie basics, volume eating strategies, smart food swaps, and answers to common weight loss questions.",
+      "sections": [
+        {
+          "id": "benefits",
+          "title": "How weight loss works",
+          "content": "Weight loss happens when you eat fewer calories than you burn. The key is doing this sustainably without feeling deprived.",
+          "items": [
+            { "title": "Calorie deficit", "description": "Eat 500-750 fewer calories than you burn to lose 1-1.5 lbs per week." },
+            { "title": "Volume eating", "description": "Fill up on low-calorie, high-volume foods to eat more while losing weight." },
+            { "title": "Protein priority", "description": "High protein preserves muscle and keeps you feeling full longer." },
+            { "title": "Fiber is your friend", "description": "Fiber-rich foods are filling and support healthy digestion." },
+            { "title": "Consistency matters", "description": "Small daily deficits add up to big results over time." },
+            { "title": "No foods are banned", "description": "All foods can fit - it's about balance and portion control." }
+          ]
+        },
+        {
+          "id": "sources",
+          "title": "Best low-calorie foods",
+          "content": "These foods let you eat large portions while keeping calories low - the secret to not feeling hungry while losing weight:",
+          "table": [
+            { "food": "Cauliflower rice", "amount": "25 cal/cup", "category": "Substitutes" },
+            { "food": "Zucchini noodles", "amount": "20 cal/cup", "category": "Substitutes" },
+            { "food": "Egg whites", "amount": "17 cal each", "category": "Protein" },
+            { "food": "Chicken breast", "amount": "165 cal/4oz", "category": "Protein" },
+            { "food": "Shrimp", "amount": "84 cal/3oz", "category": "Protein" },
+            { "food": "Broccoli", "amount": "31 cal/cup", "category": "Vegetables" },
+            { "food": "Spinach", "amount": "7 cal/cup", "category": "Vegetables" },
+            { "food": "Mushrooms", "amount": "15 cal/cup", "category": "Vegetables" },
+            { "food": "Greek yogurt (nonfat)", "amount": "100 cal/cup", "category": "Dairy" },
+            { "food": "Berries", "amount": "50 cal/cup", "category": "Fruit" }
+          ]
+        },
+        {
+          "id": "daily-intake",
+          "title": "Daily calorie targets",
+          "content": "Here are general guidelines - your specific needs may vary based on height, activity level, and metabolism:",
+          "items": [
+            { "title": "Women (weight loss)", "description": "1200-1500 calories per day for most women" },
+            { "title": "Men (weight loss)", "description": "1500-1800 calories per day for most men" },
+            { "title": "Minimum calories", "description": "Never go below 1200 (women) or 1500 (men) without medical supervision" },
+            { "title": "Rate of loss", "description": "1-2 lbs per week is safe and sustainable" }
+          ]
+        },
+        {
+          "id": "tips",
+          "title": "Weight loss tips that work",
+          "content": "These strategies help you lose weight without feeling deprived.",
+          "items": [
+            { "title": "Eat protein first", "description": "Start meals with protein to feel satisfied faster and eat less overall." },
+            { "title": "Drink water before meals", "description": "A glass of water before eating helps control portions naturally." },
+            { "title": "Use smaller plates", "description": "Visual tricks work - smaller plates make portions look larger." }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How many calories should I eat to lose weight?",
+          "answer": "Most people lose weight eating 500-750 calories below their maintenance level, resulting in 1-1.5 lbs lost per week. For most women, this is 1200-1500 calories; for men, 1500-1800 calories."
+        },
+        {
+          "question": "What foods help you lose weight?",
+          "answer": "High-volume, low-calorie foods like vegetables, lean proteins, and high-fiber foods help you feel full on fewer calories. Cauliflower rice, zucchini noodles, egg whites, and lean proteins are excellent choices."
+        },
+        {
+          "question": "Can I lose weight without being hungry?",
+          "answer": "Yes! The key is eating high-volume, protein-rich foods that keep you satisfied. Fill half your plate with vegetables, choose lean proteins, and prioritize fiber. Our recipes are designed to be filling despite being low in calories."
+        },
+        {
+          "question": "Why am I not losing weight in a calorie deficit?",
+          "answer": "Common reasons include underestimating portions, not counting liquid calories, eating more on weekends, or metabolic adaptation. Try weighing food for accuracy and being consistent seven days a week."
+        },
+        {
+          "question": "What are the best low-calorie swaps?",
+          "answer": "Cauliflower rice instead of regular rice (saves 150 cal), zucchini noodles instead of pasta (saves 180 cal), egg whites instead of whole eggs (saves 55 cal), and Greek yogurt instead of sour cream (saves 40 cal)."
+        }
+      ]
+    }
+  },
+  "recipes": [
+    {
+      "id": "weightloss-1",
+      "slug": "zucchini-noodle-stir-fry",
+      "title": "Zucchini Noodle Stir-Fry",
+      "description": "A veggie-packed stir-fry using zucchini noodles instead of pasta. Only 180 calories but incredibly satisfying with tons of vegetables and flavor.",
+      "image": "/sites/top5weightlossrecipes/recipes/zucchini-stir-fry.jpg",
+      "prepTime": 15,
+      "cookTime": 10,
+      "totalTime": 25,
+      "servings": 4,
+      "difficulty": "Easy",
+      "category": "Main Course",
+      "tags": ["zucchini noodles", "stir-fry", "low-calorie", "vegetables", "quick"],
+      "ingredients": [
+        { "item": "zucchini", "amount": "4", "unit": "medium", "notes": "spiralized" },
+        { "item": "bell peppers", "amount": "2", "unit": "medium", "notes": "sliced" },
+        { "item": "mushrooms", "amount": "8", "unit": "oz", "notes": "sliced" },
+        { "item": "broccoli florets", "amount": "2", "unit": "cups" },
+        { "item": "garlic", "amount": "4", "unit": "cloves", "notes": "minced" },
+        { "item": "ginger", "amount": "1", "unit": "tbsp", "notes": "minced" },
+        { "item": "low-sodium soy sauce", "amount": "3", "unit": "tbsp" },
+        { "item": "sesame oil", "amount": "1", "unit": "tbsp" },
+        { "item": "rice vinegar", "amount": "1", "unit": "tbsp" },
+        { "item": "red pepper flakes", "amount": "0.5", "unit": "tsp" },
+        { "item": "sesame seeds", "amount": "1", "unit": "tbsp" },
+        { "item": "green onions", "amount": "3", "unit": "stalks", "notes": "sliced" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Mix soy sauce, rice vinegar, and red pepper flakes in a small bowl. Set aside." },
+        { "step": 2, "instruction": "Heat sesame oil in a large wok or skillet over high heat." },
+        { "step": 3, "instruction": "Add broccoli and cook 2 minutes. Add mushrooms and bell peppers, cook 3 more minutes.", "tip": "Don't overcrowd - vegetables should sizzle, not steam." },
+        { "step": 4, "instruction": "Add garlic and ginger, stir for 30 seconds until fragrant." },
+        { "step": 5, "instruction": "Add zucchini noodles. Toss for 1-2 minutes - they cook quickly!" },
+        { "step": 6, "instruction": "Pour sauce over and toss to coat everything evenly." },
+        { "step": 7, "instruction": "Serve immediately, topped with sesame seeds and green onions." }
+      ],
+      "nutrition": {
+        "calories": 180,
+        "protein": 8,
+        "carbs": 18,
+        "fat": 5,
+        "fiber": 5
+      },
+      "tips": [
+        "Pat zucchini noodles dry to prevent watery sauce",
+        "Add cooked chicken breast for only 100 more calories",
+        "Buy pre-spiralized zucchini to save time"
+      ],
+      "datePublished": "2024-01-08"
+    },
+    {
+      "id": "weightloss-2",
+      "slug": "cauliflower-rice-bowls",
+      "title": "Cauliflower Rice Bowls",
+      "description": "Fluffy cauliflower rice topped with lean protein and fresh vegetables. A complete meal at just 250 calories that keeps you full for hours.",
+      "image": "/sites/top5weightlossrecipes/recipes/cauliflower-rice-bowl.jpg",
+      "prepTime": 15,
+      "cookTime": 20,
+      "totalTime": 35,
+      "servings": 4,
+      "difficulty": "Easy",
+      "category": "Main Course",
+      "tags": ["cauliflower rice", "bowl", "low-carb", "lean protein", "filling"],
+      "ingredients": [
+        { "item": "cauliflower rice", "amount": "4", "unit": "cups", "notes": "fresh or frozen" },
+        { "item": "chicken breast", "amount": "1", "unit": "lb", "notes": "boneless, skinless" },
+        { "item": "cucumber", "amount": "1", "unit": "large", "notes": "diced" },
+        { "item": "cherry tomatoes", "amount": "1", "unit": "cup", "notes": "halved" },
+        { "item": "red onion", "amount": "0.5", "unit": "small", "notes": "thinly sliced" },
+        { "item": "avocado", "amount": "1", "unit": "medium", "notes": "sliced" },
+        { "item": "lime", "amount": "2", "unit": "whole" },
+        { "item": "olive oil", "amount": "2", "unit": "tbsp" },
+        { "item": "cumin", "amount": "1", "unit": "tsp" },
+        { "item": "garlic powder", "amount": "0.5", "unit": "tsp" },
+        { "item": "salt", "amount": "0.75", "unit": "tsp" },
+        { "item": "fresh cilantro", "amount": "0.25", "unit": "cup", "notes": "chopped" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Season chicken with cumin, garlic powder, and 0.5 tsp salt." },
+        { "step": 2, "instruction": "Heat 1 tbsp olive oil in a skillet over medium-high. Cook chicken 6-7 minutes per side until internal temp reaches 165°F." },
+        { "step": 3, "instruction": "Let chicken rest 5 minutes, then slice into strips." },
+        { "step": 4, "instruction": "In the same skillet, add remaining oil. Sauté cauliflower rice 5-6 minutes until tender.", "tip": "Don't stir too often - let it get slightly golden." },
+        { "step": 5, "instruction": "Season cauliflower with remaining salt and juice of 1 lime." },
+        { "step": 6, "instruction": "Divide cauliflower rice among 4 bowls. Top with chicken, cucumber, tomatoes, red onion, and avocado." },
+        { "step": 7, "instruction": "Squeeze remaining lime over bowls and garnish with cilantro." }
+      ],
+      "nutrition": {
+        "calories": 250,
+        "protein": 28,
+        "carbs": 12,
+        "fat": 12,
+        "fiber": 5
+      },
+      "tips": [
+        "Frozen cauliflower rice works perfectly and saves time",
+        "Prep vegetables ahead for quick assembly",
+        "Skip avocado to save 80 calories per serving"
+      ],
+      "datePublished": "2024-01-22"
+    },
+    {
+      "id": "weightloss-3",
+      "slug": "grilled-chicken-salad",
+      "title": "Grilled Chicken Salad",
+      "description": "A hearty salad with perfectly seasoned grilled chicken, crisp vegetables, and a light lemon vinaigrette. 280 calories of pure satisfaction.",
+      "image": "/sites/top5weightlossrecipes/recipes/grilled-chicken-salad.jpg",
+      "prepTime": 15,
+      "cookTime": 15,
+      "totalTime": 30,
+      "servings": 4,
+      "difficulty": "Easy",
+      "category": "Main Course",
+      "tags": ["salad", "chicken", "grilled", "light", "filling"],
+      "ingredients": [
+        { "item": "chicken breast", "amount": "1.25", "unit": "lb", "notes": "boneless, skinless" },
+        { "item": "mixed greens", "amount": "8", "unit": "cups" },
+        { "item": "cherry tomatoes", "amount": "1", "unit": "cup", "notes": "halved" },
+        { "item": "cucumber", "amount": "1", "unit": "large", "notes": "sliced" },
+        { "item": "red bell pepper", "amount": "1", "unit": "medium", "notes": "sliced" },
+        { "item": "red onion", "amount": "0.25", "unit": "cup", "notes": "thinly sliced" },
+        { "item": "feta cheese", "amount": "0.25", "unit": "cup", "notes": "crumbled" },
+        { "item": "lemon juice", "amount": "3", "unit": "tbsp" },
+        { "item": "olive oil", "amount": "2", "unit": "tbsp" },
+        { "item": "Dijon mustard", "amount": "1", "unit": "tsp" },
+        { "item": "Italian seasoning", "amount": "1", "unit": "tsp" },
+        { "item": "garlic powder", "amount": "0.5", "unit": "tsp" },
+        { "item": "salt", "amount": "0.75", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.25", "unit": "tsp" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Season chicken with Italian seasoning, garlic powder, 0.5 tsp salt, and pepper." },
+        { "step": 2, "instruction": "Grill chicken over medium-high heat 6-7 minutes per side until cooked through." },
+        { "step": 3, "instruction": "Let chicken rest 5 minutes, then slice against the grain." },
+        { "step": 4, "instruction": "Make vinaigrette: Whisk together lemon juice, olive oil, Dijon, and remaining salt.", "tip": "Taste and adjust lemon/salt to your preference." },
+        { "step": 5, "instruction": "Divide mixed greens among 4 plates or containers." },
+        { "step": 6, "instruction": "Top with chicken, tomatoes, cucumber, bell pepper, and red onion." },
+        { "step": 7, "instruction": "Drizzle with vinaigrette and sprinkle with feta cheese." }
+      ],
+      "nutrition": {
+        "calories": 280,
+        "protein": 35,
+        "carbs": 10,
+        "fat": 12,
+        "fiber": 3
+      },
+      "tips": [
+        "Pound chicken to even thickness for uniform cooking",
+        "Keep dressing on the side for meal prep",
+        "Add chickpeas for extra fiber and staying power"
+      ],
+      "datePublished": "2024-02-08"
+    },
+    {
+      "id": "weightloss-4",
+      "slug": "egg-white-veggie-scramble",
+      "title": "Egg White Veggie Scramble",
+      "description": "A protein-packed breakfast scramble loaded with colorful vegetables. Just 150 calories to start your day right and keep cravings at bay.",
+      "image": "/sites/top5weightlossrecipes/recipes/egg-white-scramble.jpg",
+      "prepTime": 10,
+      "cookTime": 10,
+      "totalTime": 20,
+      "servings": 2,
+      "difficulty": "Easy",
+      "category": "Breakfast",
+      "tags": ["breakfast", "egg whites", "vegetables", "high-protein", "low-calorie"],
+      "ingredients": [
+        { "item": "egg whites", "amount": "8", "unit": "large", "notes": "or 1 cup liquid egg whites" },
+        { "item": "spinach", "amount": "2", "unit": "cups", "notes": "fresh" },
+        { "item": "bell pepper", "amount": "1", "unit": "small", "notes": "diced" },
+        { "item": "mushrooms", "amount": "0.5", "unit": "cup", "notes": "sliced" },
+        { "item": "cherry tomatoes", "amount": "0.5", "unit": "cup", "notes": "halved" },
+        { "item": "green onions", "amount": "2", "unit": "stalks", "notes": "sliced" },
+        { "item": "garlic", "amount": "1", "unit": "clove", "notes": "minced" },
+        { "item": "cooking spray", "amount": "1", "unit": "spray" },
+        { "item": "salt", "amount": "0.25", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.125", "unit": "tsp" },
+        { "item": "hot sauce", "amount": "", "unit": "", "notes": "optional, for serving" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Spray a non-stick skillet with cooking spray and heat over medium heat." },
+        { "step": 2, "instruction": "Add bell pepper and mushrooms. Sauté 3-4 minutes until softened." },
+        { "step": 3, "instruction": "Add garlic and tomatoes. Cook 1 minute until fragrant." },
+        { "step": 4, "instruction": "Add spinach and stir until wilted, about 1 minute.", "tip": "Spinach shrinks a lot - don't worry!" },
+        { "step": 5, "instruction": "Pour egg whites over vegetables. Let set for 30 seconds, then gently stir." },
+        { "step": 6, "instruction": "Continue stirring gently until eggs are cooked through but still soft, about 2-3 minutes." },
+        { "step": 7, "instruction": "Season with salt and pepper. Top with green onions and hot sauce if desired." }
+      ],
+      "nutrition": {
+        "calories": 150,
+        "protein": 22,
+        "carbs": 8,
+        "fat": 1,
+        "fiber": 2
+      },
+      "tips": [
+        "Add 1 whole egg for richer flavor (adds 70 calories)",
+        "Use any vegetables you have on hand",
+        "Pairs well with whole grain toast (count the calories!)"
+      ],
+      "datePublished": "2024-02-22"
+    },
+    {
+      "id": "weightloss-5",
+      "slug": "baked-cod-with-vegetables",
+      "title": "Baked Cod with Vegetables",
+      "description": "Flaky white fish baked with a medley of colorful vegetables and herbs. A complete dinner at only 220 calories that's light yet satisfying.",
+      "image": "/sites/top5weightlossrecipes/recipes/baked-cod.jpg",
+      "prepTime": 15,
+      "cookTime": 25,
+      "totalTime": 40,
+      "servings": 4,
+      "difficulty": "Easy",
+      "category": "Main Course",
+      "tags": ["cod", "fish", "baked", "vegetables", "light"],
+      "ingredients": [
+        { "item": "cod fillets", "amount": "4", "unit": "pieces", "notes": "5oz each" },
+        { "item": "zucchini", "amount": "2", "unit": "medium", "notes": "sliced" },
+        { "item": "cherry tomatoes", "amount": "2", "unit": "cups" },
+        { "item": "asparagus", "amount": "1", "unit": "bunch", "notes": "trimmed" },
+        { "item": "lemon", "amount": "1", "unit": "large", "notes": "sliced" },
+        { "item": "garlic", "amount": "4", "unit": "cloves", "notes": "minced" },
+        { "item": "fresh dill", "amount": "2", "unit": "tbsp", "notes": "chopped" },
+        { "item": "olive oil", "amount": "1", "unit": "tbsp" },
+        { "item": "white wine", "amount": "0.25", "unit": "cup", "notes": "or chicken broth" },
+        { "item": "salt", "amount": "0.75", "unit": "tsp" },
+        { "item": "black pepper", "amount": "0.25", "unit": "tsp" },
+        { "item": "paprika", "amount": "0.5", "unit": "tsp" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Preheat oven to 400°F. Lightly grease a large baking dish." },
+        { "step": 2, "instruction": "Arrange zucchini, asparagus, and tomatoes in the baking dish. Scatter garlic over vegetables." },
+        { "step": 3, "instruction": "Drizzle vegetables with olive oil, season with 0.5 tsp salt and pepper. Toss to coat." },
+        { "step": 4, "instruction": "Season cod fillets with remaining salt and paprika. Nestle fish among the vegetables.", "tip": "Make space so fish touches the bottom of the dish for better browning." },
+        { "step": 5, "instruction": "Top fish with lemon slices. Pour white wine around the edges of the dish." },
+        { "step": 6, "instruction": "Bake 20-25 minutes until fish flakes easily and vegetables are tender." },
+        { "step": 7, "instruction": "Sprinkle with fresh dill and serve immediately." }
+      ],
+      "nutrition": {
+        "calories": 220,
+        "protein": 32,
+        "carbs": 12,
+        "fat": 5,
+        "fiber": 4
+      },
+      "tips": [
+        "Any white fish works - halibut, tilapia, or sea bass",
+        "The wine evaporates leaving flavor without alcohol",
+        "Add capers for a Mediterranean twist"
+      ],
+      "datePublished": "2024-03-08"
+    }
+  ]
+}

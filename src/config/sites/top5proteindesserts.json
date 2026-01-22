@@ -1,0 +1,397 @@
+{
+  "id": "top5proteindesserts",
+  "domain": "top5proteindesserts.com",
+  "branding": {
+    "name": "Top 5 Protein Desserts",
+    "tagline": "Delicious High-Protein Treats That Satisfy Your Sweet Tooth",
+    "logo": "/sites/top5proteindesserts/logo.svg",
+    "favicon": "/sites/top5proteindesserts/favicon.ico",
+    "logoText": "DESSERTS"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#EC4899",
+      "primaryDark": "#DB2777",
+      "primaryLight": "#F472B6",
+      "secondary": "#8B5CF6",
+      "accent": "#FBBF24",
+      "background": "#FDF4FF",
+      "surface": "#FFFFFF",
+      "text": "#581C87",
+      "textMuted": "#A855F7"
+    },
+    "fonts": {
+      "heading": "'Playfair Display', serif",
+      "body": "'Inter', sans-serif"
+    }
+  },
+  "meta": {
+    "title": "Top 5 Protein Desserts | High-Protein Sweet Treats",
+    "description": "Indulge guilt-free with our high-protein dessert recipes. Satisfy your sweet tooth while hitting your protein goals with these delicious treats.",
+    "keywords": ["protein desserts", "high protein treats", "protein snacks", "healthy desserts", "protein brownies", "fitness desserts"],
+    "ogImage": "/sites/top5proteindesserts/og-image.jpg",
+    "twitterHandle": "@top5proteindesserts"
+  },
+  "social": {
+    "instagram": "https://instagram.com/top5proteindesserts",
+    "pinterest": "https://pinterest.com/top5proteindesserts",
+    "facebook": "https://facebook.com/top5proteindesserts"
+  },
+  "content": {
+    "heroTitle": "Top 5 Protein",
+    "heroHighlight": "Desserts for Guilt-Free Indulgence",
+    "heroDescription": "We've tested hundreds of recipes to bring you only the top 5. Each one delivers 15-25g of protein per serving while satisfying your sweet tooth.",
+    "itemListName": "Top 5 High-Protein Desserts for Fitness Lovers",
+    "directAnswerTitle": "What are the best protein desserts?",
+    "directAnswerText": "The best protein desserts satisfy your sweet cravings while delivering serious protein. Our top 5 protein desserts average {avgProtein}g of protein per serving. Each recipe is designed to support your fitness goals without sacrificing taste.",
+    "navigation": [
+      { "name": "Home", "href": "/" },
+      { "name": "Recipes", "href": "/recipes" },
+      { "name": "Desserts Guide", "href": "/guide" },
+      { "name": "About", "href": "/about" }
+    ],
+    "faq": [
+      {
+        "question": "Are protein desserts healthy?",
+        "answer": "Yes, when made with quality ingredients! Protein desserts use protein powder, Greek yogurt, and other high-protein ingredients instead of just sugar and flour. They help you hit protein goals while satisfying cravings."
+      },
+      {
+        "question": "What protein powder is best for baking?",
+        "answer": "Whey protein and casein work well in baking. Look for unflavored or vanilla varieties. Avoid using too much protein powder as it can make baked goods dry - usually 1-2 scoops per recipe is ideal."
+      },
+      {
+        "question": "Can I eat protein desserts every day?",
+        "answer": "Yes, in moderation! Protein desserts can be part of a healthy diet when they fit your calorie and macro goals. They're a great alternative to traditional sweets, especially after workouts."
+      },
+      {
+        "question": "Do protein desserts taste good?",
+        "answer": "Absolutely! When made correctly, protein desserts taste just as good as regular desserts. The key is using quality protein powder and balanced recipes. Our top 5 recipes are tested for taste first."
+      },
+      {
+        "question": "When should I eat protein desserts?",
+        "answer": "Protein desserts work great as post-workout treats, afternoon snacks, or evening desserts. The protein helps with muscle recovery and keeps you satisfied longer than regular sweets."
+      }
+    ],
+    "guide": {
+      "title": "Complete Protein Desserts Guide",
+      "metaTitle": "Complete Protein Desserts Guide: High-Protein Sweet Treats",
+      "metaDescription": "Learn how to make delicious high-protein desserts: best protein powders for baking, healthy ingredient swaps, and tips for guilt-free sweet treats.",
+      "heroTitle": "Everything you need to know about",
+      "heroHighlight": "protein desserts",
+      "heroDescription": "Your complete guide to protein desserts: ingredients that work, baking tips, when to eat them, and how to satisfy your sweet tooth while hitting protein goals.",
+      "sections": [
+        {
+          "id": "benefits",
+          "title": "Why protein desserts?",
+          "content": "Protein desserts let you enjoy sweet treats while supporting your fitness goals. They're not just healthier - they're also more satisfying.",
+          "items": [
+            { "title": "Hit protein goals", "description": "Add 15-25g protein to your daily intake through dessert." },
+            { "title": "Satisfy cravings", "description": "Enjoy sweets without the guilt or diet derailment." },
+            { "title": "Stay fuller longer", "description": "Protein keeps you satisfied, unlike sugar-only treats." },
+            { "title": "Support recovery", "description": "Post-workout protein desserts help muscle repair." },
+            { "title": "Lower sugar", "description": "Most protein desserts have less sugar than traditional versions." },
+            { "title": "Flexible macros", "description": "Fit dessert into your macros instead of treating it as a cheat." }
+          ]
+        },
+        {
+          "id": "sources",
+          "title": "Best ingredients for protein desserts",
+          "content": "These high-protein ingredients are the building blocks of delicious protein desserts:",
+          "table": [
+            { "food": "Whey protein powder", "amount": "25g per scoop", "category": "Protein powder" },
+            { "food": "Casein protein powder", "amount": "24g per scoop", "category": "Protein powder" },
+            { "food": "Greek yogurt", "amount": "17g per cup", "category": "Dairy" },
+            { "food": "Cottage cheese", "amount": "14g per 1/2 cup", "category": "Dairy" },
+            { "food": "Egg whites", "amount": "11g per 1/2 cup", "category": "Eggs" },
+            { "food": "Almond flour", "amount": "6g per 1/4 cup", "category": "Flour" },
+            { "food": "Peanut butter", "amount": "8g per 2 tbsp", "category": "Nut butters" },
+            { "food": "Collagen peptides", "amount": "10g per scoop", "category": "Supplements" },
+            { "food": "Protein granola", "amount": "12g per serving", "category": "Toppings" },
+            { "food": "PB2 powder", "amount": "6g per 2 tbsp", "category": "Nut butters" }
+          ]
+        },
+        {
+          "id": "daily-intake",
+          "title": "Protein powder for baking",
+          "content": "Not all protein powders work the same in baking. Here's what to know:",
+          "items": [
+            { "title": "Whey protein", "description": "Best overall for baking - creates moist, tender results" },
+            { "title": "Casein protein", "description": "Creates thicker, more pudding-like textures" },
+            { "title": "Plant protein", "description": "Can be grainier - works best blended into smoothies or bars" },
+            { "title": "Don't overdo it", "description": "Too much protein powder makes baked goods dry and rubbery" }
+          ]
+        },
+        {
+          "id": "tips",
+          "title": "Protein dessert tips",
+          "content": "Make your protein desserts taste amazing with these expert tips.",
+          "items": [
+            { "title": "Start with quality powder", "description": "Good-tasting protein powder means good-tasting desserts." },
+            { "title": "Add moisture", "description": "Include Greek yogurt, applesauce, or banana to prevent dryness." },
+            { "title": "Don't overbake", "description": "Protein desserts continue cooking after removal - take them out when slightly underdone." }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Are protein desserts healthy?",
+          "answer": "Yes, when made with quality ingredients! Protein desserts use protein powder, Greek yogurt, and other high-protein ingredients instead of refined flour and sugar. They help you hit protein goals while satisfying cravings."
+        },
+        {
+          "question": "What protein powder is best for baking?",
+          "answer": "Whey protein and casein work well in baking. Look for unflavored or vanilla varieties. Avoid using too much protein powder as it can make baked goods dry - usually 1-2 scoops per recipe is ideal."
+        },
+        {
+          "question": "Why are my protein desserts dry?",
+          "answer": "Too much protein powder or overbaking causes dryness. Add moisture with Greek yogurt, banana, or applesauce. Remove from oven when slightly underdone - they continue cooking from residual heat."
+        },
+        {
+          "question": "Can I eat protein desserts every day?",
+          "answer": "Yes, in moderation! Protein desserts can be part of a healthy diet when they fit your calorie and macro goals. They're a great alternative to traditional sweets, especially after workouts."
+        },
+        {
+          "question": "When is the best time to eat protein desserts?",
+          "answer": "Protein desserts work great post-workout (helps muscle recovery), as afternoon snacks (prevents energy crashes), or as evening dessert (satisfies cravings without disrupting sleep)."
+        }
+      ]
+    }
+  },
+  "recipes": [
+    {
+      "id": "proteindessert-1",
+      "slug": "chocolate-protein-brownies",
+      "title": "Chocolate Protein Brownies",
+      "description": "Fudgy, rich chocolate brownies with 15g protein per serving. All the indulgence without the guilt - your post-workout dessert dreams come true.",
+      "image": "/sites/top5proteindesserts/recipes/protein-brownies.jpg",
+      "prepTime": 10,
+      "cookTime": 25,
+      "totalTime": 35,
+      "servings": 9,
+      "difficulty": "Easy",
+      "category": "Dessert",
+      "tags": ["brownies", "chocolate", "protein", "post-workout", "high-protein"],
+      "ingredients": [
+        { "item": "chocolate protein powder", "amount": "1", "unit": "scoop", "notes": "about 30g" },
+        { "item": "almond flour", "amount": "0.5", "unit": "cup" },
+        { "item": "cocoa powder", "amount": "0.33", "unit": "cup", "notes": "unsweetened" },
+        { "item": "Greek yogurt", "amount": "0.5", "unit": "cup", "notes": "plain, nonfat" },
+        { "item": "eggs", "amount": "2", "unit": "large" },
+        { "item": "maple syrup", "amount": "0.25", "unit": "cup" },
+        { "item": "coconut oil", "amount": "2", "unit": "tbsp", "notes": "melted" },
+        { "item": "vanilla extract", "amount": "1", "unit": "tsp" },
+        { "item": "baking soda", "amount": "0.5", "unit": "tsp" },
+        { "item": "salt", "amount": "0.25", "unit": "tsp" },
+        { "item": "dark chocolate chips", "amount": "0.25", "unit": "cup" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Preheat oven to 350°F. Line an 8x8 baking pan with parchment paper." },
+        { "step": 2, "instruction": "Mix almond flour, protein powder, cocoa powder, baking soda, and salt in a bowl." },
+        { "step": 3, "instruction": "In another bowl, whisk together Greek yogurt, eggs, maple syrup, coconut oil, and vanilla.", "tip": "Room temperature eggs blend better." },
+        { "step": 4, "instruction": "Pour wet ingredients into dry and mix until just combined. Fold in half the chocolate chips." },
+        { "step": 5, "instruction": "Spread batter evenly in prepared pan. Top with remaining chocolate chips." },
+        { "step": 6, "instruction": "Bake 22-25 minutes until a toothpick comes out with moist crumbs (not wet batter)." },
+        { "step": 7, "instruction": "Cool completely in pan before cutting into 9 squares. Store in airtight container." }
+      ],
+      "nutrition": {
+        "calories": 160,
+        "protein": 15,
+        "carbs": 14,
+        "fat": 8,
+        "fiber": 2
+      },
+      "tips": [
+        "Don't overbake - they firm up as they cool",
+        "Refrigerate for extra fudgy texture",
+        "Swap maple syrup for sugar-free syrup to reduce carbs"
+      ],
+      "datePublished": "2024-01-05"
+    },
+    {
+      "id": "proteindessert-2",
+      "slug": "greek-yogurt-cheesecake",
+      "title": "Greek Yogurt Cheesecake",
+      "description": "Creamy, tangy cheesecake made with protein-packed Greek yogurt. 20g protein per slice makes this dessert a muscle-building treat.",
+      "image": "/sites/top5proteindesserts/recipes/yogurt-cheesecake.jpg",
+      "prepTime": 20,
+      "cookTime": 55,
+      "totalTime": 75,
+      "servings": 12,
+      "difficulty": "Medium",
+      "category": "Dessert",
+      "tags": ["cheesecake", "Greek yogurt", "protein", "baked", "high-protein"],
+      "ingredients": [
+        { "item": "Greek yogurt", "amount": "2", "unit": "cups", "notes": "plain, full-fat" },
+        { "item": "cream cheese", "amount": "16", "unit": "oz", "notes": "softened" },
+        { "item": "vanilla protein powder", "amount": "2", "unit": "scoops", "notes": "about 60g" },
+        { "item": "eggs", "amount": "3", "unit": "large" },
+        { "item": "honey", "amount": "0.5", "unit": "cup" },
+        { "item": "vanilla extract", "amount": "2", "unit": "tsp" },
+        { "item": "lemon juice", "amount": "1", "unit": "tbsp" },
+        { "item": "almond flour", "amount": "1", "unit": "cup", "notes": "for crust" },
+        { "item": "butter", "amount": "3", "unit": "tbsp", "notes": "melted, for crust" },
+        { "item": "cinnamon", "amount": "0.5", "unit": "tsp" },
+        { "item": "fresh berries", "amount": "1", "unit": "cup", "notes": "for topping" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Preheat oven to 325°F. Mix almond flour, melted butter, and cinnamon. Press into the bottom of a 9-inch springform pan." },
+        { "step": 2, "instruction": "Bake crust for 10 minutes until lightly golden. Let cool." },
+        { "step": 3, "instruction": "Beat cream cheese until smooth. Add Greek yogurt and beat until combined.", "tip": "Scrape down sides often for a smooth batter." },
+        { "step": 4, "instruction": "Add protein powder, honey, vanilla, and lemon juice. Mix until smooth." },
+        { "step": 5, "instruction": "Add eggs one at a time, mixing just until incorporated after each." },
+        { "step": 6, "instruction": "Pour filling over crust. Bake 45-50 minutes until edges are set but center jiggles slightly." },
+        { "step": 7, "instruction": "Turn off oven, crack door, and let cheesecake cool inside for 1 hour. Refrigerate at least 4 hours before serving. Top with fresh berries." }
+      ],
+      "nutrition": {
+        "calories": 280,
+        "protein": 20,
+        "carbs": 18,
+        "fat": 16,
+        "fiber": 1
+      },
+      "tips": [
+        "Room temperature ingredients prevent cracks",
+        "A water bath creates an extra creamy texture",
+        "Stores in fridge for up to 5 days"
+      ],
+      "datePublished": "2024-01-20"
+    },
+    {
+      "id": "proteindessert-3",
+      "slug": "protein-cookie-dough-bites",
+      "title": "Protein Cookie Dough Bites",
+      "description": "Edible cookie dough balls loaded with 8g protein each. No eggs, no baking, just delicious grab-and-go protein snacks.",
+      "image": "/sites/top5proteindesserts/recipes/cookie-dough-bites.jpg",
+      "prepTime": 15,
+      "cookTime": 0,
+      "totalTime": 15,
+      "servings": 12,
+      "difficulty": "Easy",
+      "category": "Snack",
+      "tags": ["cookie dough", "no-bake", "protein", "snack", "quick"],
+      "ingredients": [
+        { "item": "vanilla protein powder", "amount": "1", "unit": "scoop", "notes": "about 30g" },
+        { "item": "almond butter", "amount": "0.5", "unit": "cup" },
+        { "item": "oat flour", "amount": "0.5", "unit": "cup" },
+        { "item": "honey", "amount": "3", "unit": "tbsp" },
+        { "item": "vanilla extract", "amount": "1", "unit": "tsp" },
+        { "item": "mini chocolate chips", "amount": "0.25", "unit": "cup" },
+        { "item": "milk", "amount": "2", "unit": "tbsp", "notes": "any kind" },
+        { "item": "salt", "amount": "1", "unit": "pinch" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "In a medium bowl, combine almond butter, honey, vanilla, and milk. Stir until smooth." },
+        { "step": 2, "instruction": "Add protein powder, oat flour, and salt. Mix until a thick dough forms.", "tip": "If too dry, add milk 1 tsp at a time. If too wet, add more oat flour." },
+        { "step": 3, "instruction": "Fold in mini chocolate chips." },
+        { "step": 4, "instruction": "Roll dough into 12 equal balls, about 1 tablespoon each." },
+        { "step": 5, "instruction": "Place on a parchment-lined plate or tray." },
+        { "step": 6, "instruction": "Refrigerate for at least 30 minutes to firm up." },
+        { "step": 7, "instruction": "Store in an airtight container in the fridge for up to 2 weeks or freeze for up to 3 months." }
+      ],
+      "nutrition": {
+        "calories": 110,
+        "protein": 8,
+        "carbs": 10,
+        "fat": 6,
+        "fiber": 1
+      },
+      "tips": [
+        "Use any nut butter you prefer",
+        "Make your own oat flour by blending oats",
+        "Roll in extra chocolate chips or sprinkles for variety"
+      ],
+      "datePublished": "2024-02-05"
+    },
+    {
+      "id": "proteindessert-4",
+      "slug": "peanut-butter-protein-bars",
+      "title": "Peanut Butter Protein Bars",
+      "description": "Chewy, no-bake protein bars with rich peanut butter flavor and a chocolate drizzle. 18g protein per bar to fuel your fitness.",
+      "image": "/sites/top5proteindesserts/recipes/peanut-butter-bars.jpg",
+      "prepTime": 15,
+      "cookTime": 0,
+      "totalTime": 75,
+      "servings": 10,
+      "difficulty": "Easy",
+      "category": "Snack",
+      "tags": ["protein bars", "peanut butter", "no-bake", "high-protein", "snack"],
+      "ingredients": [
+        { "item": "vanilla protein powder", "amount": "2", "unit": "scoops", "notes": "about 60g" },
+        { "item": "peanut butter", "amount": "1", "unit": "cup", "notes": "creamy, natural" },
+        { "item": "oats", "amount": "1", "unit": "cup", "notes": "quick oats" },
+        { "item": "honey", "amount": "0.25", "unit": "cup" },
+        { "item": "vanilla extract", "amount": "1", "unit": "tsp" },
+        { "item": "milk", "amount": "2", "unit": "tbsp" },
+        { "item": "salt", "amount": "0.25", "unit": "tsp" },
+        { "item": "dark chocolate", "amount": "3", "unit": "oz", "notes": "for drizzle" },
+        { "item": "coconut oil", "amount": "1", "unit": "tsp" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Line an 8x8 baking pan with parchment paper, leaving overhang for easy removal." },
+        { "step": 2, "instruction": "In a large bowl, mix peanut butter, honey, vanilla, and milk until smooth." },
+        { "step": 3, "instruction": "Add protein powder, oats, and salt. Stir until a thick dough forms.", "tip": "Use your hands if the mixture gets too thick to stir." },
+        { "step": 4, "instruction": "Press mixture firmly and evenly into prepared pan. Really pack it down for bars that hold together." },
+        { "step": 5, "instruction": "Refrigerate for at least 1 hour until firm." },
+        { "step": 6, "instruction": "Melt chocolate with coconut oil. Drizzle over the bars in a zigzag pattern." },
+        { "step": 7, "instruction": "Return to fridge for 15 minutes to set chocolate. Cut into 10 bars. Store in fridge for up to 2 weeks." }
+      ],
+      "nutrition": {
+        "calories": 250,
+        "protein": 18,
+        "carbs": 18,
+        "fat": 14,
+        "fiber": 2
+      },
+      "tips": [
+        "Natural peanut butter works best - stir well before measuring",
+        "Substitute any nut butter for different flavors",
+        "Wrap individually for grab-and-go convenience"
+      ],
+      "datePublished": "2024-02-20"
+    },
+    {
+      "id": "proteindessert-5",
+      "slug": "vanilla-protein-ice-cream",
+      "title": "Vanilla Protein Ice Cream",
+      "description": "Creamy, dreamy protein ice cream with 24g protein per serving. Made with just 5 ingredients and no ice cream maker needed.",
+      "image": "/sites/top5proteindesserts/recipes/protein-ice-cream.jpg",
+      "prepTime": 10,
+      "cookTime": 0,
+      "totalTime": 250,
+      "servings": 4,
+      "difficulty": "Easy",
+      "category": "Dessert",
+      "tags": ["ice cream", "protein", "frozen", "vanilla", "no-churn"],
+      "ingredients": [
+        { "item": "frozen bananas", "amount": "4", "unit": "medium", "notes": "sliced and frozen" },
+        { "item": "vanilla protein powder", "amount": "2", "unit": "scoops", "notes": "about 60g" },
+        { "item": "Greek yogurt", "amount": "0.5", "unit": "cup", "notes": "plain" },
+        { "item": "milk", "amount": "0.25", "unit": "cup", "notes": "any kind" },
+        { "item": "vanilla extract", "amount": "1", "unit": "tsp" },
+        { "item": "honey", "amount": "2", "unit": "tbsp", "notes": "optional" },
+        { "item": "toppings", "amount": "", "unit": "", "notes": "nuts, berries, or chocolate chips" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Add frozen banana slices to a high-powered blender or food processor." },
+        { "step": 2, "instruction": "Add protein powder, Greek yogurt, milk, and vanilla extract.", "tip": "Let bananas sit 5 minutes if too frozen to blend." },
+        { "step": 3, "instruction": "Blend until smooth and creamy, scraping down sides as needed. Add honey if desired for extra sweetness." },
+        { "step": 4, "instruction": "For soft-serve consistency, serve immediately." },
+        { "step": 5, "instruction": "For firmer ice cream, transfer to a freezer-safe container and freeze 2-4 hours." },
+        { "step": 6, "instruction": "If frozen solid, let sit at room temperature 10-15 minutes before scooping." },
+        { "step": 7, "instruction": "Serve with your favorite toppings." }
+      ],
+      "nutrition": {
+        "calories": 200,
+        "protein": 24,
+        "carbs": 28,
+        "fat": 2,
+        "fiber": 3
+      },
+      "tips": [
+        "Ripe bananas = sweeter ice cream",
+        "Add cocoa powder for chocolate version",
+        "Freeze in popsicle molds for protein pops"
+      ],
+      "datePublished": "2024-03-05"
+    }
+  ]
+}

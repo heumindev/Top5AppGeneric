@@ -3,8 +3,10 @@
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { trackEvent } from '@/components/GoogleTagManager'
+import { useSiteConfig } from '@/lib/site-context'
 
 export function Header() {
+  const config = useSiteConfig()
   const handleCtaClick = (location: string) => {
     trackEvent('cta_click', {
       button_name: 'try_heumin',
@@ -34,12 +36,7 @@ export function Header() {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
-  const navigation = [
-    { name: 'Home', href: '/' },
-    { name: 'Recipes', href: '/recipes' },
-    { name: 'Protein guide', href: '/protein-guide' },
-    { name: 'About', href: '/about' },
-  ]
+  const navigation = config.content.navigation
 
   return (
     <header
@@ -65,7 +62,7 @@ export function Header() {
                 TOP 5
               </span>
               <span className="font-bold text-xs tracking-widest text-primary">
-                PROTEIN
+                {config.branding.logoText}
               </span>
             </div>
           </Link>
