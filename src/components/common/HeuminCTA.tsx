@@ -25,7 +25,7 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
         <div className="container-site relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
-              Plan Your Weekly Meals with AI
+              Plan your weekly meals with AI
             </h3>
             <p className="text-white/70 mb-6 max-w-xl mx-auto">
               Use Heumin to create personalized meal plans with these protein recipes. Track nutrition and generate shopping lists automatically.
@@ -36,7 +36,7 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-all"
             >
-              Try Heumin Free
+              Try Heumin free
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -67,12 +67,12 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
             <svg className="w-4 h-4 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
-            <span className="text-sm font-medium text-primary-light">AI-Powered Meal Planning</span>
+            <span className="text-sm font-medium text-primary-light">AI-powered meal planning</span>
           </div>
 
           {/* Headline */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Turn These Recipes Into Your Weekly Meal Plan
+            Turn these recipes into your weekly meal plan
           </h2>
 
           {/* Description */}
@@ -86,19 +86,19 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
               <svg className="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              Personalized Plans
+              Personalized plans
             </div>
             <div className="flex items-center gap-2 text-white/80">
               <svg className="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              Smart Shopping Lists
+              Smart shopping lists
             </div>
             <div className="flex items-center gap-2 text-white/80">
               <svg className="w-5 h-5 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              Nutrition Tracking
+              Nutrition tracking
             </div>
           </div>
 
@@ -110,7 +110,7 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white font-bold rounded-lg hover:bg-primary-dark transition-all shadow-lg shadow-primary/25"
             >
-              Start Planning Free
+              Start planning free
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -121,7 +121,7 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-lg border border-white/20 hover:bg-white/20 transition-all"
             >
-              Learn More
+              Learn more
             </Link>
           </div>
         </div>

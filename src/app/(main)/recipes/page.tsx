@@ -53,10 +53,10 @@ export default async function RecipesPage() {
         <div className="container-site">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 rounded-full px-4 py-2 mb-6">
-              <span className="text-sm font-medium text-primary-light">Our Collection</span>
+              <span className="text-sm font-medium text-primary-light">Our collection</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Top <span className="text-primary">5</span> Protein Recipes
+              Top <span className="text-primary">5</span> protein recipes
             </h1>
             <p className="text-xl text-gray-300">
               Explore our collection of {config.recipes.length} carefully curated recipes. Each one is tested, perfected, and ready to become your new favorite.
@@ -72,19 +72,19 @@ export default async function RecipesPage() {
           <div className="flex flex-wrap gap-6 mb-8 pb-8 border-b border-gray-200">
             <div className="flex items-center gap-2">
               <span className="text-2xl font-bold text-primary">{config.recipes.length}</span>
-              <span className="text-text-muted">Recipes</span>
+              <span className="text-text-muted">recipes</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-2xl font-bold text-primary">
                 {config.recipes.filter(r => r.difficulty === 'Easy').length}
               </span>
-              <span className="text-text-muted">Easy</span>
+              <span className="text-text-muted">easy</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-2xl font-bold text-primary">
                 {Math.round(config.recipes.reduce((acc, r) => acc + r.totalTime, 0) / config.recipes.length)}
               </span>
-              <span className="text-text-muted">Avg. Minutes</span>
+              <span className="text-text-muted">avg. minutes</span>
             </div>
           </div>
 

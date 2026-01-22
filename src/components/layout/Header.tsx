@@ -29,7 +29,7 @@ export function Header() {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Recipes', href: '/recipes' },
-    { name: 'Protein Guide', href: '/protein-guide' },
+    { name: 'Protein guide', href: '/protein-guide' },
     { name: 'About', href: '/about' },
   ]
 

@@ -107,10 +107,10 @@ export default async function ProteinGuidePage() {
         <div className="container-site">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 rounded-full px-4 py-2 mb-6">
-              <span className="text-sm font-medium text-primary-light">Complete Guide</span>
+              <span className="text-sm font-medium text-primary-light">Complete guide</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Everything You Need to Know About <span className="text-primary">Protein</span>
+              Everything you need to know about <span className="text-primary">protein</span>
             </h1>
             <p className="text-xl text-gray-300">
               Your complete guide to protein: benefits, best sources, daily requirements, and answers to the most common protein questions.
@@ -124,9 +124,9 @@ export default async function ProteinGuidePage() {
         <div className="container-site">
           <div className="flex gap-6 py-4 overflow-x-auto text-sm font-medium">
             <a href="#benefits" className="text-gray-600 hover:text-primary whitespace-nowrap">Benefits</a>
-            <a href="#sources" className="text-gray-600 hover:text-primary whitespace-nowrap">Best Sources</a>
-            <a href="#daily-intake" className="text-gray-600 hover:text-primary whitespace-nowrap">Daily Intake</a>
-            <a href="#breakfast" className="text-gray-600 hover:text-primary whitespace-nowrap">Breakfast Ideas</a>
+            <a href="#sources" className="text-gray-600 hover:text-primary whitespace-nowrap">Best sources</a>
+            <a href="#daily-intake" className="text-gray-600 hover:text-primary whitespace-nowrap">Daily intake</a>
+            <a href="#breakfast" className="text-gray-600 hover:text-primary whitespace-nowrap">Breakfast ideas</a>
             <a href="#faq" className="text-gray-600 hover:text-primary whitespace-nowrap">FAQ</a>
           </div>
         </div>
@@ -139,19 +139,19 @@ export default async function ProteinGuidePage() {
 
             {/* What Does Protein Do */}
             <section id="benefits" className="mb-16">
-              <h2 className="text-3xl font-bold mb-6">What Does Protein Do for Your Body?</h2>
+              <h2 className="text-3xl font-bold mb-6">What does protein do for your body?</h2>
               <p className="text-lg text-text-muted mb-6">
                 Protein is one of the three macronutrients essential for life. It plays a crucial role in nearly every biological process in your body.
               </p>
 
               <div className="grid md:grid-cols-2 gap-4 mb-6">
                 {[
-                  { title: 'Muscle Building & Repair', desc: 'Provides amino acids needed to build and repair muscle tissue after exercise.' },
-                  { title: 'Enzyme Production', desc: 'Creates enzymes that drive chemical reactions for digestion and metabolism.' },
-                  { title: 'Hormone Regulation', desc: 'Helps produce hormones like insulin that regulate blood sugar.' },
-                  { title: 'Immune Function', desc: 'Builds antibodies that fight infections and keep you healthy.' },
-                  { title: 'Satiety & Weight Management', desc: 'Keeps you feeling full longer, reducing overall calorie intake.' },
-                  { title: 'Healthy Hair, Skin & Nails', desc: 'Provides keratin and collagen for strong hair, skin, and nails.' },
+                  { title: 'Muscle building & repair', desc: 'Provides amino acids needed to build and repair muscle tissue after exercise.' },
+                  { title: 'Enzyme production', desc: 'Creates enzymes that drive chemical reactions for digestion and metabolism.' },
+                  { title: 'Hormone regulation', desc: 'Helps produce hormones like insulin that regulate blood sugar.' },
+                  { title: 'Immune function', desc: 'Builds antibodies that fight infections and keep you healthy.' },
+                  { title: 'Satiety & weight management', desc: 'Keeps you feeling full longer, reducing overall calorie intake.' },
+                  { title: 'Healthy hair, skin & nails', desc: 'Provides keratin and collagen for strong hair, skin, and nails.' },
                 ].map((item, i) => (
                   <div key={i} className="p-4 bg-white rounded-xl border border-gray-100">
                     <h3 className="font-semibold text-gray-900 mb-1">{item.title}</h3>
@@ -163,7 +163,7 @@ export default async function ProteinGuidePage() {
 
             {/* Best Protein Sources */}
             <section id="sources" className="mb-16">
-              <h2 className="text-3xl font-bold mb-6">What Foods Are High in Protein?</h2>
+              <h2 className="text-3xl font-bold mb-6">What foods are high in protein?</h2>
               <p className="text-lg text-text-muted mb-6">
                 The best protein sources provide complete amino acids along with other essential nutrients. Here are the top high-protein foods:
               </p>
@@ -194,7 +194,7 @@ export default async function ProteinGuidePage() {
                 ))}
               </div>
 
-              <h3 className="text-xl font-bold mb-4">Which Vegetables Have the Most Protein?</h3>
+              <h3 className="text-xl font-bold mb-4">Which vegetables have the most protein?</h3>
               <p className="text-text-muted mb-4">
                 While vegetables aren&apos;t primary protein sources, legumes and some greens offer significant amounts:
               </p>
@@ -207,7 +207,7 @@ export default async function ProteinGuidePage() {
                 <li><strong>Broccoli:</strong> 4g per cup</li>
               </ul>
 
-              <h3 className="text-xl font-bold mb-4">Do Fruits Have Protein?</h3>
+              <h3 className="text-xl font-bold mb-4">Do fruits have protein?</h3>
               <p className="text-text-muted mb-4">
                 Fruits are not significant protein sources, but some contain more than others:
               </p>
@@ -221,21 +221,21 @@ export default async function ProteinGuidePage() {
 
             {/* Daily Intake */}
             <section id="daily-intake" className="mb-16">
-              <h2 className="text-3xl font-bold mb-6">How Much Protein Do You Need?</h2>
+              <h2 className="text-3xl font-bold mb-6">How much protein do you need?</h2>
 
               <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 mb-6">
-                <h3 className="font-bold text-lg mb-4">Daily Protein Recommendations</h3>
+                <h3 className="font-bold text-lg mb-4">Daily protein recommendations</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center py-2 border-b border-primary/10">
-                    <span>Sedentary Adult</span>
+                    <span>Sedentary adult</span>
                     <span className="font-semibold">0.8g per kg body weight</span>
                   </div>
                   <div className="flex justify-between items-center py-2 border-b border-primary/10">
-                    <span>Active Adult</span>
+                    <span>Active adult</span>
                     <span className="font-semibold">1.2-1.6g per kg body weight</span>
                   </div>
                   <div className="flex justify-between items-center py-2 border-b border-primary/10">
-                    <span>Muscle Building</span>
+                    <span>Muscle building</span>
                     <span className="font-semibold text-primary">1.6-2.2g per kg body weight</span>
                   </div>
                   <div className="flex justify-between items-center py-2">
@@ -245,7 +245,7 @@ export default async function ProteinGuidePage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold mb-4">Is It Good to Eat a Lot of Protein?</h3>
+              <h3 className="text-xl font-bold mb-4">Is it good to eat a lot of protein?</h3>
               <p className="text-text-muted mb-4">
                 For most healthy adults, a high-protein diet is safe and beneficial. Research shows that protein intakes up to 2g per kg of body weight have no adverse effects on kidney function in healthy individuals.
               </p>
@@ -253,7 +253,7 @@ export default async function ProteinGuidePage() {
                 However, those with pre-existing kidney conditions should consult a doctor before significantly increasing protein intake.
               </p>
 
-              <h3 className="text-xl font-bold mb-4">Are 4 Eggs Per Day Too Much?</h3>
+              <h3 className="text-xl font-bold mb-4">Are 4 eggs per day too much?</h3>
               <p className="text-text-muted">
                 For most healthy adults, 4 eggs per day (providing ~24g protein) is safe. Recent research has debunked the myth that dietary cholesterol significantly raises blood cholesterol for most people. The American Heart Association no longer sets a specific limit on dietary cholesterol for healthy adults.
               </p>
@@ -261,7 +261,7 @@ export default async function ProteinGuidePage() {
 
             {/* Breakfast Ideas */}
             <section id="breakfast" className="mb-16">
-              <h2 className="text-3xl font-bold mb-6">How to Get 40g Protein at Breakfast</h2>
+              <h2 className="text-3xl font-bold mb-6">How to get 40g protein at breakfast</h2>
               <p className="text-lg text-text-muted mb-6">
                 Starting your day with a high-protein breakfast helps control hunger, stabilize blood sugar, and supports muscle building. Here are proven combinations:
               </p>
@@ -269,17 +269,17 @@ export default async function ProteinGuidePage() {
               <div className="space-y-4 mb-8">
                 {[
                   {
-                    name: 'The Classic',
+                    name: 'The classic',
                     items: ['3 whole eggs (21g)', 'Greek yogurt 150g (15g)', 'Handful almonds (6g)'],
                     total: '42g protein',
                   },
                   {
-                    name: 'Smoothie Power',
+                    name: 'Smoothie power',
                     items: ['Protein powder scoop (25g)', 'Milk 250ml (8g)', 'Peanut butter 2tbsp (8g)'],
                     total: '41g protein',
                   },
                   {
-                    name: 'Savory Start',
+                    name: 'Savory start',
                     items: ['4 egg omelet (24g)', 'Cottage cheese 100g (11g)', 'Turkey slices 50g (6g)'],
                     total: '41g protein',
                   },
@@ -303,7 +303,7 @@ export default async function ProteinGuidePage() {
                 ))}
               </div>
 
-              <h3 className="text-xl font-bold mb-4">How Many Eggs for Muscle Building?</h3>
+              <h3 className="text-xl font-bold mb-4">How many eggs for muscle building?</h3>
               <p className="text-text-muted">
                 For optimal muscle building, aim for 3-4 whole eggs at breakfast (18-24g protein). Combine with other protein sources throughout the day to reach your total daily protein goal of 1.6-2.2g per kg of body weight.
               </p>
@@ -311,7 +311,7 @@ export default async function ProteinGuidePage() {
 
             {/* FAQ Section */}
             <section id="faq" className="mb-16">
-              <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
+              <h2 className="text-3xl font-bold mb-6">Frequently asked questions</h2>
 
               <div className="space-y-4">
                 {[
@@ -346,7 +346,7 @@ export default async function ProteinGuidePage() {
 
             {/* CTA to Recipes */}
             <section className="bg-gray-900 rounded-2xl p-8 text-center">
-              <h2 className="text-2xl font-bold text-white mb-3">Ready to Cook High-Protein Meals?</h2>
+              <h2 className="text-2xl font-bold text-white mb-3">Ready to cook high-protein meals?</h2>
               <p className="text-gray-400 mb-6">
                 Browse our top 5 protein-packed recipes, each with complete nutrition info.
               </p>
@@ -354,7 +354,7 @@ export default async function ProteinGuidePage() {
                 href="/recipes"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-white font-semibold rounded-lg hover:bg-primary-dark transition-all"
               >
-                View All Recipes
+                View all recipes
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>

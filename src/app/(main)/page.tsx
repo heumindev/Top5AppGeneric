@@ -32,7 +32,7 @@ export default async function HomePage() {
             <div className="text-white">
               <div className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2 mb-6">
                 <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                <span className="text-sm font-medium text-primary-light">Curated Top 5 Recipes</span>
+                <span className="text-sm font-medium text-primary-light">Curated top 5 recipes</span>
               </div>
 
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
@@ -46,10 +46,10 @@ export default async function HomePage() {
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/recipes" className="btn-primary text-lg px-8 py-4 shadow-lg shadow-primary/25">
-                  View All Recipes
+                  View all recipes
                 </Link>
                 <Link href={`/recipes/${featuredRecipe.slug}`} className="btn bg-white/10 backdrop-blur-sm text-white border border-white/20 hover:bg-white/20 text-lg px-8 py-4">
-                  Today&apos;s Pick
+                  Today&apos;s pick
                 </Link>
               </div>
 
@@ -57,19 +57,19 @@ export default async function HomePage() {
               <div className="flex gap-8 mt-12 pt-8 border-t border-white/10">
                 <div>
                   <div className="text-3xl font-bold text-primary">{config.recipes.length}</div>
-                  <div className="text-sm text-gray-400">Top Recipes</div>
+                  <div className="text-sm text-gray-400">Top recipes</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-white">
                     {Math.round(config.recipes.reduce((acc, r) => acc + r.nutrition.protein, 0) / config.recipes.length)}g
                   </div>
-                  <div className="text-sm text-gray-400">Avg. Protein</div>
+                  <div className="text-sm text-gray-400">Avg. protein</div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-white">
                     {Math.round(config.recipes.reduce((acc, r) => acc + r.totalTime, 0) / config.recipes.length)}
                   </div>
-                  <div className="text-sm text-gray-400">Avg. Minutes</div>
+                  <div className="text-sm text-gray-400">Avg. minutes</div>
                 </div>
               </div>
             </div>
@@ -95,16 +95,16 @@ export default async function HomePage() {
         <div className="container-site">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-12">
             <div>
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Our Collection</span>
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Our collection</span>
               <h2 className="text-4xl md:text-5xl font-bold mt-2">
-                The Top <span className="text-primary">5</span> Recipes
+                The top <span className="text-primary">5</span> recipes
               </h2>
               <p className="text-text-muted mt-3 max-w-xl">
                 Each recipe has been carefully selected and tested to deliver maximum results with minimum effort.
               </p>
             </div>
             <Link href="/recipes" className="btn-outline self-start md:self-auto">
-              View All
+              View all
               <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -137,9 +137,9 @@ export default async function HomePage() {
       <section className="section bg-surface">
         <div className="container-site">
           <div className="text-center mb-16">
-            <span className="text-primary font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
+            <span className="text-primary font-semibold text-sm uppercase tracking-wider">Why choose us</span>
             <h2 className="text-4xl md:text-5xl font-bold mt-2">
-              Quality Over Quantity
+              Quality over quantity
             </h2>
           </div>
 
@@ -151,7 +151,7 @@ export default async function HomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
                   </svg>
                 ),
-                title: 'Tested & Verified',
+                title: 'Tested & verified',
                 description: 'Every recipe is made at least 3 times in our kitchen before it makes the cut.',
               },
               {
@@ -160,7 +160,7 @@ export default async function HomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
                 ),
-                title: 'Quick & Easy',
+                title: 'Quick & easy',
                 description: 'Most recipes ready in under 30 minutes with ingredients you already have.',
               },
               {
@@ -169,7 +169,7 @@ export default async function HomePage() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                   </svg>
                 ),
-                title: 'Nutrition Focused',
+                title: 'Nutrition focused',
                 description: 'Complete macros for every recipe to help you hit your daily goals.',
               },
             ].map((item, index) => (
@@ -201,7 +201,7 @@ export default async function HomePage() {
 
             <div className="relative grid md:grid-cols-2 gap-8 items-center">
               <div className="text-white">
-                <span className="text-primary font-semibold text-sm uppercase tracking-wider">Start Cooking</span>
+                <span className="text-primary font-semibold text-sm uppercase tracking-wider">Start cooking</span>
                 <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
                   Ready to make your first recipe?
                 </h2>

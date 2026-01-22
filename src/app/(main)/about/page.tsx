@@ -26,7 +26,7 @@ export default async function AboutPage() {
         <div className="container-site">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/30 rounded-full px-4 py-2 mb-6">
-              <span className="text-sm font-medium text-primary-light">Our Story</span>
+              <span className="text-sm font-medium text-primary-light">Our story</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
               About <span className="text-primary">{config.branding.name}</span>
@@ -42,14 +42,14 @@ export default async function AboutPage() {
       <section className="section bg-background">
         <div className="container-site">
           <div className="max-w-3xl mx-auto prose prose-lg">
-            <h2>Our Mission</h2>
+            <h2>Our mission</h2>
             <p>
               At {config.branding.name}, we believe that great food doesn&apos;t have to be complicated.
               Our mission is to provide you with carefully curated, tested recipes that are both
               delicious and achievable for home cooks of all skill levels.
             </p>
 
-            <h2>Why Top 5?</h2>
+            <h2>Why top 5?</h2>
             <p>
               We focus on quality over quantity. Instead of overwhelming you with hundreds of
               mediocre recipes, we present only the top 5 recipes in each category &mdash; the
@@ -57,22 +57,22 @@ export default async function AboutPage() {
               every single time.
             </p>
 
-            <h2>Our Promise</h2>
+            <h2>Our promise</h2>
             <ul>
               <li>
-                <strong>Tested Recipes:</strong> Every recipe is made multiple times in our
+                <strong>Tested recipes:</strong> Every recipe is made multiple times in our
                 kitchen before it reaches you.
               </li>
               <li>
-                <strong>Clear Instructions:</strong> Step-by-step guidance with helpful tips
+                <strong>Clear instructions:</strong> Step-by-step guidance with helpful tips
                 and timing information.
               </li>
               <li>
-                <strong>Nutritional Info:</strong> Complete nutrition facts so you can make
+                <strong>Nutritional info:</strong> Complete nutrition facts so you can make
                 informed choices.
               </li>
               <li>
-                <strong>No Ads:</strong> A clean, distraction-free experience focused on
+                <strong>No ads:</strong> A clean, distraction-free experience focused on
                 what matters &mdash; the food.
               </li>
             </ul>
