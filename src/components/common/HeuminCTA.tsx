@@ -24,7 +24,7 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
         <div className="absolute inset-0">
           <Image
             src="/sites/top5proteinrecipes/hero.jpg"
-            alt="Meal planning background"
+            alt="Healthy meal prep containers with high-protein foods including grilled chicken, vegetables, and grains for weekly meal planning"
             fill
             className="object-cover"
           />
@@ -63,7 +63,7 @@ export function HeuminCTA({ variant = 'full' }: HeuminCTAProps) {
       <div className="absolute inset-0">
         <Image
           src="/sites/top5proteinrecipes/hero.jpg"
-          alt="Meal planning background"
+          alt="Healthy meal prep containers with high-protein foods including grilled chicken, vegetables, and grains for weekly meal planning"
           fill
           className="object-cover"
         />

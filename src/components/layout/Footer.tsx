@@ -14,11 +14,16 @@ export function Footer() {
     { name: 'About', href: '/about' },
   ]
 
+  const legalLinks = [
+    { name: 'Privacy Policy', href: '/privacy' },
+    { name: 'Terms of Service', href: '/terms' },
+  ]
+
   return (
     <footer className="bg-gray-900 text-white no-print">
       {/* Main Footer */}
       <div className="container-site py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-2">
             <Link href="/" className="flex items-center gap-3 mb-4">
@@ -40,6 +45,23 @@ export function Footer() {
             <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
+                <li key={link.name}>
+                  <Link
+                    href={link.href}
+                    className="text-gray-400 hover:text-white transition-colors"
+                  >
+                    {link.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Legal Links */}
+          <div>
+            <h3 className="font-semibold text-lg mb-4">Legal</h3>
+            <ul className="space-y-3">
+              {legalLinks.map((link) => (
                 <li key={link.name}>
                   <Link
                     href={link.href}
