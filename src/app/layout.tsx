@@ -136,6 +136,7 @@ export default async function RootLayout({
     >
       <head>
         <style
+          suppressHydrationWarning
           dangerouslySetInnerHTML={{
             __html: `:root { ${cssVariables} ${fontVariables} }`,
           }}
