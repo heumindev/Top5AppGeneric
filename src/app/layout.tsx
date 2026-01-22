@@ -1,9 +1,12 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, Poppins, Playfair_Display, Source_Sans_3 } from 'next/font/google'
+import Script from 'next/script'
 import { getCurrentSiteConfig } from '@/lib/get-site-config'
 import { SiteProvider } from '@/lib/site-context'
 import { ThemeColors } from '@/config/types'
 import './globals.css'
+
+const GA_MEASUREMENT_ID = 'G-8BZQ0LK9G6'
 
 // Load all fonts that might be used by different sites
 const inter = Inter({
@@ -177,6 +180,19 @@ export default async function RootLayout({
             }),
           }}
         />
+        {/* Google Analytics */}
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
       </head>
       <body className="min-h-screen flex flex-col">
         <SiteProvider config={config}>
