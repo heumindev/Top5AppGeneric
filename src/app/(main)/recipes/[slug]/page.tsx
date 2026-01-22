@@ -68,16 +68,39 @@ export async function generateMetadata({ params }: RecipePageProps): Promise<Met
 }
 
 // Generate JSON-LD structured data for recipe
-function generateRecipeJsonLd(recipe: Recipe, domain: string) {
+function generateRecipeJsonLd(recipe: Recipe, domain: string, siteName: string) {
+  // Build nutrition object without undefined values
+  const nutrition: Record<string, string> = {
+    '@type': 'NutritionInformation',
+    calories: `${recipe.nutrition.calories} kcal`,
+    proteinContent: `${recipe.nutrition.protein} g`,
+    carbohydrateContent: `${recipe.nutrition.carbs} g`,
+    fatContent: `${recipe.nutrition.fat} g`,
+  }
+  if (recipe.nutrition.fiber) {
+    nutrition.fiberContent = `${recipe.nutrition.fiber} g`
+  }
+  if (recipe.nutrition.sugar) {
+    nutrition.sugarContent = `${recipe.nutrition.sugar} g`
+  }
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Recipe',
     name: recipe.title,
     description: recipe.description,
-    image: `https://${domain}${recipe.image}`,
+    image: [
+      `https://${domain}${recipe.image}`,
+    ],
     author: {
       '@type': 'Organization',
-      name: domain,
+      name: siteName,
+      url: `https://${domain}`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: siteName,
+      url: `https://${domain}`,
     },
     datePublished: recipe.datePublished,
     dateModified: recipe.dateModified || recipe.datePublished,
@@ -86,31 +109,24 @@ function generateRecipeJsonLd(recipe: Recipe, domain: string) {
     totalTime: `PT${recipe.totalTime}M`,
     recipeYield: `${recipe.servings} servings`,
     recipeCategory: recipe.category,
+    recipeCuisine: 'American',
     keywords: recipe.tags.join(', '),
-    nutrition: {
-      '@type': 'NutritionInformation',
-      calories: `${recipe.nutrition.calories} calories`,
-      proteinContent: `${recipe.nutrition.protein}g`,
-      carbohydrateContent: `${recipe.nutrition.carbs}g`,
-      fatContent: `${recipe.nutrition.fat}g`,
-      fiberContent: recipe.nutrition.fiber ? `${recipe.nutrition.fiber}g` : undefined,
-      sugarContent: recipe.nutrition.sugar ? `${recipe.nutrition.sugar}g` : undefined,
-    },
+    nutrition,
     recipeIngredient: recipe.ingredients.map(
-      (ing) => `${ing.amount} ${ing.unit || ''} ${ing.item}${ing.notes ? ` (${ing.notes})` : ''}`
+      (ing) => `${ing.amount} ${ing.unit || ''} ${ing.item}${ing.notes ? ` (${ing.notes})` : ''}`.trim()
     ),
     recipeInstructions: recipe.instructions.map((inst) => ({
       '@type': 'HowToStep',
       position: inst.step,
+      name: `Step ${inst.step}`,
       text: inst.instruction,
-      ...(inst.tip && { tip: inst.tip }),
     })),
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      ratingCount: '47',
-      bestRating: '5',
-      worstRating: '1',
+      ratingValue: 4.8,
+      reviewCount: 47,
+      bestRating: 5,
+      worstRating: 1,
     },
   }
 }
@@ -152,7 +168,7 @@ export default async function RecipePage({ params }: RecipePageProps) {
     notFound()
   }
 
-  const recipeJsonLd = generateRecipeJsonLd(recipe, config.domain)
+  const recipeJsonLd = generateRecipeJsonLd(recipe, config.domain, config.branding.name)
   const breadcrumbJsonLd = generateBreadcrumbJsonLd(recipe, config.domain)
 
   return (
