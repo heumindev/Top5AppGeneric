@@ -1,13 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { getCurrentSiteConfig } from '@/lib/get-site-config'
-import { RecipeCardFeatured, RecipeCardCompact } from '@/components/recipes'
 import { HeuminCTA } from '@/components/common'
 
 export default async function HomePage() {
   const config = await getCurrentSiteConfig()
   const featuredRecipe = config.recipes[0]
-  const otherRecipes = config.recipes.slice(1)
 
   // Generate ItemList JSON-LD for the Top 5 ranking
   const itemListJsonLd = {
@@ -58,76 +56,120 @@ export default async function HomePage() {
       />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center bg-gray-900 overflow-hidden">
-        {/* Background Image with Overlay */}
-        <div className="absolute inset-0">
-          <Image
-            src={config.branding.heroImage || featuredRecipe.image}
-            alt="High-protein meal with grilled chicken, vegetables, and quinoa - representing nutritious muscle-building recipes"
-            fill
-            className="object-cover opacity-40"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/90 to-gray-900/60" />
-          <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-transparent to-gray-900/30" />
-        </div>
-
-        <div className="container-site relative z-10 pt-32 pb-20">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Left: Text Content */}
-            <div className="text-white">
-              <div className="inline-flex items-center gap-2 bg-primary/20 backdrop-blur-sm border border-primary/30 rounded-full px-4 py-2 mb-6">
-                <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-                <span className="text-sm font-medium text-primary-light">Curated top 5 recipes</span>
-              </div>
-
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-                {config.content.heroTitle}
-                <span className="text-primary"> {config.content.heroHighlight}</span>
-              </h1>
-
-              <p className="text-xl text-gray-300 mb-8 max-w-lg">
-                {config.content.heroDescription}
-              </p>
-
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/recipes" className="btn-primary text-lg px-8 py-4 shadow-lg shadow-primary/25">
-                  View all recipes
-                </Link>
-                <Link href={`/recipes/${featuredRecipe.slug}`} className="btn bg-white/10 backdrop-blur-sm text-white border border-white/20 hover:bg-white/20 text-lg px-8 py-4">
-                  Today&apos;s pick
-                </Link>
-              </div>
-
-              {/* Quick Stats */}
-              <div className="flex gap-8 mt-12 pt-8 border-t border-white/10">
-                <div>
-                  <div className="text-3xl font-bold text-primary">{config.recipes.length}</div>
-                  <div className="text-sm text-gray-400">Top recipes</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-white">{avgProtein}g</div>
-                  <div className="text-sm text-gray-400">Avg. protein</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-white">{avgTime}</div>
-                  <div className="text-sm text-gray-400">Avg. minutes</div>
-                </div>
-              </div>
+      <section className="bg-white">
+        <div className="container-site pt-28 md:pt-32 pb-16 md:pb-20">
+          {/* Header Content */}
+          <div className="text-center mb-10">
+            <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6">
+              <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
+              <span className="text-sm font-medium text-primary">Curated top 5 recipes</span>
             </div>
 
-            {/* Right: Featured Recipe Card */}
-            <div className="hidden lg:block">
-              <RecipeCardFeatured recipe={featuredRecipe} />
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight text-gray-900">
+              {config.content.heroTitle}
+              <span className="text-primary"> {config.content.heroHighlight}</span>
+            </h1>
+
+            <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+              {config.content.heroDescription}
+            </p>
+          </div>
+
+          {/* Top 5 Recipe Cards - Blog Style */}
+          <div className="max-w-5xl mx-auto space-y-6">
+            {config.recipes.map((recipe, index) => (
+              <Link
+                key={recipe.id}
+                href={`/recipes/${recipe.slug}`}
+                className="group flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100"
+              >
+                {/* Recipe Image */}
+                <div className="relative w-full md:w-80 lg:w-96 flex-shrink-0 aspect-[16/10] md:aspect-auto md:h-64">
+                  <Image
+                    src={recipe.image}
+                    alt={recipe.title}
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  {/* Rank Badge */}
+                  <div className="absolute top-4 left-4 w-12 h-12 rounded-full bg-primary text-white font-bold text-xl flex items-center justify-center shadow-lg">
+                    #{index + 1}
+                  </div>
+                </div>
+
+                {/* Recipe Info */}
+                <div className="flex-1 p-6 flex flex-col justify-between">
+                  <div>
+                    {/* Header with difficulty */}
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className={`px-3 py-1 rounded-full text-xs font-semibold ${
+                        recipe.difficulty === 'Easy' ? 'bg-green-100 text-green-700' :
+                        recipe.difficulty === 'Medium' ? 'bg-yellow-100 text-yellow-700' :
+                        'bg-red-100 text-red-700'
+                      }`}>
+                        {recipe.difficulty}
+                      </span>
+                      <span className="text-sm text-gray-500 flex items-center gap-1">
+                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        {recipe.totalTime} min
+                      </span>
+                      <span className="text-sm text-gray-500">{recipe.servings} servings</span>
+                    </div>
+
+                    {/* Title */}
+                    <h3 className="font-bold text-gray-900 text-xl md:text-2xl leading-tight mb-3 group-hover:text-primary transition-colors">
+                      {recipe.title}
+                    </h3>
+
+                    {/* Description */}
+                    <p className="text-gray-600 text-sm md:text-base line-clamp-2 mb-4">
+                      {recipe.description}
+                    </p>
+                  </div>
+
+                  {/* Nutrition Stats */}
+                  <div className="flex items-center gap-6 pt-4 border-t border-gray-100">
+                    <div className="flex items-center gap-2">
+                      <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                        <span className="font-bold text-primary text-sm">{recipe.nutrition.protein}g</span>
+                      </div>
+                      <span className="text-xs text-gray-500">Protein</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
+                        <span className="font-bold text-gray-700 text-sm">{recipe.nutrition.calories}</span>
+                      </div>
+                      <span className="text-xs text-gray-500">Calories</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
+                        <span className="font-bold text-gray-700 text-sm">{recipe.nutrition.carbs}g</span>
+                      </div>
+                      <span className="text-xs text-gray-500">Carbs</span>
+                    </div>
+                    <div className="ml-auto hidden sm:flex items-center gap-2 text-primary font-semibold group-hover:gap-3 transition-all">
+                      View Recipe
+                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            ))}
+
+            {/* View All Button */}
+            <div className="pt-6 text-center">
+              <Link href="/recipes" className="btn-primary px-8 py-3">
+                View All Recipes
+                <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
             </div>
           </div>
-        </div>
-
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <svg className="w-6 h-6 text-white/50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-          </svg>
         </div>
       </section>
 
@@ -154,50 +196,6 @@ export default async function HomePage() {
                 These recipes are optimized for ease of preparation, taking an average of just <strong>{avgTime} minutes</strong> to prepare. Our curated collection delivers exceptional results without sacrificing taste.
               </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* The Top 5 Section */}
-      <section className="section bg-background relative">
-        {/* Section Header */}
-        <div className="container-site">
-          <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-12">
-            <div>
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Our collection</span>
-              <h2 className="text-4xl md:text-5xl font-bold mt-2">
-                The top <span className="text-primary">5</span> recipes
-              </h2>
-              <p className="text-text-muted mt-3 max-w-xl">
-                Each recipe has been carefully selected and tested to deliver maximum protein with minimum effort.
-              </p>
-            </div>
-            <Link href="/recipes" className="btn-outline self-start md:self-auto">
-              View all
-              <svg className="w-4 h-4 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-              </svg>
-            </Link>
-          </div>
-
-          {/* Recipe Grid - Bento Style */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Large Featured Card */}
-            <div className="md:col-span-2 lg:col-span-2 lg:row-span-2">
-              <RecipeCardFeatured recipe={featuredRecipe} variant="large" />
-            </div>
-
-            {/* Smaller Cards */}
-            {otherRecipes.slice(0, 2).map((recipe) => (
-              <RecipeCardCompact key={recipe.id} recipe={recipe} />
-            ))}
-          </div>
-
-          {/* Bottom Row */}
-          <div className="grid md:grid-cols-2 gap-6 mt-6">
-            {otherRecipes.slice(2, 4).map((recipe) => (
-              <RecipeCardCompact key={recipe.id} recipe={recipe} variant="horizontal" />
-            ))}
           </div>
         </div>
       </section>

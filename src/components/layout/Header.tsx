@@ -43,7 +43,7 @@ export function Header() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 no-print ${
         isScrolled || isMobileMenuOpen
           ? 'bg-white/95 backdrop-blur-md shadow-sm'
-          : ''
+          : 'bg-white/80 backdrop-blur-sm'
       }`}
     >
       <div className="container-site">
@@ -56,9 +56,7 @@ export function Header() {
               <span className="font-extrabold text-xl text-white">5</span>
             </div>
             <div className="hidden sm:flex flex-col">
-              <span className={`font-extrabold text-sm tracking-wide transition-colors duration-300 ${
-                isScrolled || isMobileMenuOpen ? 'text-gray-900' : 'text-white'
-              }`}>
+              <span className="font-extrabold text-sm tracking-wide text-gray-900">
                 TOP 5
               </span>
               <span className="font-bold text-xs tracking-widest text-primary">
@@ -73,11 +71,7 @@ export function Header() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 ${
-                  isScrolled
-                    ? 'text-gray-600 hover:text-primary hover:bg-gray-100'
-                    : 'text-white/90 hover:text-white hover:bg-white/10'
-                }`}
+                className="px-4 py-2 rounded-lg font-medium text-gray-600 hover:text-primary hover:bg-gray-100 transition-all duration-300"
               >
                 {item.name}
               </Link>
@@ -91,11 +85,7 @@ export function Header() {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => handleCtaClick('header_desktop')}
-              className={`inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm transition-all duration-300 ${
-                isScrolled
-                  ? 'bg-primary text-white hover:bg-primary-dark'
-                  : 'bg-white text-gray-900 hover:bg-gray-100'
-              }`}
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg font-semibold text-sm bg-primary text-white hover:bg-primary-dark transition-all duration-300"
             >
               Try Heumin
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -107,11 +97,7 @@ export function Header() {
           {/* Mobile Menu Button */}
           <button
             type="button"
-            className={`md:hidden p-2.5 rounded-lg transition-all duration-300 ${
-              isScrolled || isMobileMenuOpen
-                ? 'text-gray-600 hover:text-primary hover:bg-gray-100'
-                : 'text-white hover:bg-white/10'
-            }`}
+            className="md:hidden p-2.5 rounded-lg text-gray-600 hover:text-primary hover:bg-gray-100 transition-all duration-300"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label={isMobileMenuOpen ? 'Close menu' : 'Open menu'}
           >
