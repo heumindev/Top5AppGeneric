@@ -4,7 +4,7 @@ import { Pool } from 'pg'
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
   ssl: {
-    rejectUnauthorized: false, // Required for Digital Ocean managed databases
+    rejectUnauthorized: false, // Required for Digital Ocean self-signed certificates
   },
 })
 

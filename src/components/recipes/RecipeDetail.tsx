@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { Recipe } from '@/config/types'
 import { useSiteConfig } from '@/lib/site-context'
-import { HeuminCTA } from '@/components/common'
+import { HeuminCTA, NewsletterSignup } from '@/components/common'
 import { StarRating } from './StarRating'
 import { ShareButtons } from './ShareButtons'
 import { SaveAsPdfButton } from './SaveAsPdfButton'
@@ -450,6 +450,13 @@ export function RecipeDetail({ recipe }: RecipeDetailProps) {
           </div>
         </section>
       )}
+
+      {/* Newsletter */}
+      <section className="section bg-background no-print">
+        <div className="container-site">
+          <NewsletterSignup />
+        </div>
+      </section>
 
       {/* Heumin CTA */}
       <HeuminCTA variant="compact" />

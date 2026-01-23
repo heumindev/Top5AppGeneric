@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 import { getCurrentSiteConfig } from '@/lib/get-site-config'
 import { RecipeGrid } from '@/components/recipes'
-import { HeuminCTA } from '@/components/common'
+import { HeuminCTA, NewsletterSignup } from '@/components/common'
 
 export async function generateMetadata(): Promise<Metadata> {
   const config = await getCurrentSiteConfig()
@@ -95,6 +95,13 @@ export default async function RecipesPage() {
 
           {/* Recipe Grid */}
           <RecipeGrid recipes={config.recipes} columns={3} />
+        </div>
+      </section>
+
+      {/* Newsletter */}
+      <section className="section bg-background">
+        <div className="container-site">
+          <NewsletterSignup />
         </div>
       </section>
 
