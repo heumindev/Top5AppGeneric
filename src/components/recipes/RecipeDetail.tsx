@@ -2,10 +2,13 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Recipe } from '@/config/types'
 import { useSiteConfig } from '@/lib/site-context'
 import { HeuminCTA } from '@/components/common'
+import { StarRating } from './StarRating'
+import { ShareButtons } from './ShareButtons'
+import { SaveAsPdfButton } from './SaveAsPdfButton'
 
 interface RecipeDetailProps {
   recipe: Recipe
@@ -15,6 +18,12 @@ export function RecipeDetail({ recipe }: RecipeDetailProps) {
   const config = useSiteConfig()
   const [checkedIngredients, setCheckedIngredients] = useState<Set<number>>(new Set())
   const [completedSteps, setCompletedSteps] = useState<Set<number>>(new Set())
+  const [currentUrl, setCurrentUrl] = useState('')
+
+  // Set URL on client side
+  useEffect(() => {
+    setCurrentUrl(window.location.href)
+  }, [])
 
   const toggleIngredient = (index: number) => {
     const newChecked = new Set(checkedIngredients)
@@ -98,6 +107,11 @@ export function RecipeDetail({ recipe }: RecipeDetailProps) {
               {recipe.title}
             </h1>
 
+            {/* Star Rating */}
+            <div className="mb-4">
+              <StarRating rating={4.8} reviewCount={47} size="lg" variant="dark" />
+            </div>
+
             {/* Description */}
             <p className="text-lg text-white/80 mb-6 max-w-2xl">
               {recipe.description}
@@ -178,6 +192,13 @@ export function RecipeDetail({ recipe }: RecipeDetailProps) {
             </div>
 
             <div className="flex items-center gap-2">
+              <ShareButtons
+                title={recipe.title}
+                description={recipe.description}
+                url={currentUrl}
+                image={recipe.image}
+              />
+              <SaveAsPdfButton recipeTitle={recipe.title} />
               <button
                 onClick={handlePrint}
                 className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-text-muted hover:text-primary hover:bg-primary/5 rounded-lg transition-colors"

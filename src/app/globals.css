@@ -194,9 +194,129 @@
 
   body {
     @apply text-black bg-white;
+    font-size: 12pt;
+    line-height: 1.5;
   }
 
   a {
-    @apply text-black underline;
+    @apply text-black;
+    text-decoration: none;
+  }
+
+  /* Reset backgrounds and shadows for print */
+  * {
+    box-shadow: none !important;
+  }
+
+  /* Make hero section print-friendly */
+  section.relative {
+    height: auto !important;
+    min-height: auto !important;
+    position: relative !important;
+  }
+
+  section.relative > div[class*="absolute"] {
+    position: relative !important;
+    background: none !important;
+  }
+
+  section.relative > img {
+    position: relative !important;
+    height: 200px !important;
+    width: 100% !important;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  /* Recipe hero content */
+  section.relative h1 {
+    color: black !important;
+    font-size: 24pt !important;
+  }
+
+  section.relative p,
+  section.relative span,
+  section.relative div {
+    color: black !important;
+  }
+
+  /* Cards and content areas */
+  .bg-surface,
+  .bg-gray-50,
+  [class*="rounded-2xl"] {
+    background: white !important;
+    border: 1px solid #e5e5e5 !important;
+    break-inside: avoid;
+  }
+
+  /* Gradient backgrounds */
+  [class*="bg-gradient"],
+  [class*="from-gray-900"],
+  [class*="from-primary"] {
+    background: #f5f5f5 !important;
+  }
+
+  [class*="bg-gradient"] *,
+  [class*="from-gray-900"] *,
+  [class*="from-primary"] * {
+    color: black !important;
+  }
+
+  /* Nutrition cards */
+  .nutrition-grid > div,
+  [class*="bg-primary/10"] {
+    background: #f9f9f9 !important;
+    border: 1px solid #ddd !important;
+  }
+
+  /* Instructions */
+  ol li {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Checkboxes in print */
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border: 1px solid black;
+    background: white;
+  }
+
+  input[type="checkbox"]:checked::after {
+    content: "✓";
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  /* Page breaks */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Hide interactive elements */
+  button,
+  .sticky {
+    display: none !important;
+  }
+
+  /* Show print header */
+  .print-header {
+    display: block !important;
+  }
+
+  /* Ensure images print */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  /* Footer spacing */
+  @page {
+    margin: 1.5cm;
   }
 }
