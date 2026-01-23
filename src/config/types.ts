@@ -1,5 +1,5 @@
 // Site IDs - add new sites here
-export type SiteId = 'top5proteinrecipes' | 'top5ketorecipes' | 'top5veganrecipes' | 'top5dinnerrecipes' | 'top5mealpreprecipes' | 'top5proteindesserts' | 'top5weightlossrecipes'
+export type SiteId = 'top5proteinrecipes' | 'top5ketorecipes' | 'top5veganrecipes' | 'top5dinnerrecipes' | 'top5mealpreprecipes' | 'top5proteindesserts' | 'top5weightlossrecipes' | 'top5matcharecipes'
 
 // Theme colors
 export interface ThemeColors {

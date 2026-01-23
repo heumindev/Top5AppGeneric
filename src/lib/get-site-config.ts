@@ -20,6 +20,8 @@ const domainMapping: DomainMapping = {
   'www.top5proteindesserts.com': 'top5proteindesserts',
   'top5weightlossrecipes.com': 'top5weightlossrecipes',
   'www.top5weightlossrecipes.com': 'top5weightlossrecipes',
+  'top5matcharecipes.com': 'top5matcharecipes',
+  'www.top5matcharecipes.com': 'top5matcharecipes',
 
   // Local development domains (add to /etc/hosts: 127.0.0.1 protein.localhost keto.localhost vegan.localhost dinner.localhost mealprep.localhost proteindesserts.localhost weightloss.localhost)
   'protein.localhost': 'top5proteinrecipes',
@@ -36,6 +38,8 @@ const domainMapping: DomainMapping = {
   'proteindesserts.localhost:3000': 'top5proteindesserts',
   'weightloss.localhost': 'top5weightlossrecipes',
   'weightloss.localhost:3000': 'top5weightlossrecipes',
+  'matcha.localhost': 'top5matcharecipes',
+  'matcha.localhost:3000': 'top5matcharecipes',
 
   // Default fallback for localhost without subdomain
   'localhost': 'top5proteinrecipes',

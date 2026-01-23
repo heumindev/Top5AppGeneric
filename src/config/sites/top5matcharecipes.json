@@ -1,0 +1,392 @@
+{
+  "id": "top5matcharecipes",
+  "domain": "top5matcharecipes.com",
+  "branding": {
+    "name": "Top 5 Matcha Recipes",
+    "tagline": "Discover the Magic of Japanese Green Tea",
+    "logo": "/sites/top5matcharecipes/logo.svg",
+    "favicon": "/sites/top5matcharecipes/favicon.ico",
+    "logoText": "MATCHA"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#4A7C59",
+      "primaryDark": "#3D6B4A",
+      "primaryLight": "#6B9B7A",
+      "secondary": "#C9A227",
+      "accent": "#E8D5B7",
+      "background": "#F5F9F6",
+      "surface": "#FFFFFF",
+      "text": "#2D3B30",
+      "textMuted": "#5A6B5E"
+    },
+    "fonts": {
+      "heading": "'Playfair Display', serif",
+      "body": "'Source Sans Pro', sans-serif"
+    }
+  },
+  "meta": {
+    "title": "Top 5 Matcha Recipes | Delicious Japanese Green Tea Creations",
+    "description": "Discover the best matcha recipes from traditional lattes to creative desserts. Learn how to use matcha powder for delicious, antioxidant-rich treats.",
+    "keywords": ["matcha recipes", "matcha latte", "matcha desserts", "green tea recipes", "matcha smoothie", "Japanese matcha", "matcha powder recipes"],
+    "ogImage": "/sites/top5matcharecipes/og-image.jpg",
+    "twitterHandle": "@top5matcharecipes"
+  },
+  "social": {
+    "instagram": "https://instagram.com/top5matcharecipes",
+    "pinterest": "https://pinterest.com/top5matcharecipes",
+    "youtube": "https://youtube.com/@top5matcharecipes"
+  },
+  "content": {
+    "heroTitle": "Top 5 Matcha",
+    "heroHighlight": "Recipes for Green Tea Lovers",
+    "heroDescription": "We've tested hundreds of matcha recipes to bring you only the top 5. Each one showcases the unique flavor of Japanese green tea, perfected for taste and simplicity.",
+    "itemListName": "Top 5 Matcha Recipes for Green Tea Enthusiasts",
+    "directAnswerTitle": "What are the best matcha recipes?",
+    "directAnswerText": "The best matcha recipes highlight the earthy, slightly sweet flavor of Japanese green tea while delivering powerful antioxidants. Our top 5 matcha recipes range from classic lattes to creative desserts. Each recipe uses high-quality matcha powder for authentic flavor and maximum health benefits.",
+    "navigation": [
+      { "name": "Home", "href": "/" },
+      { "name": "Recipes", "href": "/recipes" },
+      { "name": "Matcha Guide", "href": "/guide" },
+      { "name": "About", "href": "/about" }
+    ],
+    "faq": [
+      {
+        "question": "What is matcha and how is it different from regular green tea?",
+        "answer": "Matcha is finely ground powder made from specially grown green tea leaves. Unlike regular green tea where leaves are steeped and removed, with matcha you consume the whole leaf, getting more antioxidants, caffeine, and L-theanine. The plants are shade-grown for 3-4 weeks before harvest, increasing chlorophyll and amino acids."
+      },
+      {
+        "question": "What are the health benefits of matcha?",
+        "answer": "Matcha is rich in antioxidants (especially EGCG), provides calm energy from the combination of caffeine and L-theanine, supports metabolism, enhances focus and concentration, and may help with detoxification due to its high chlorophyll content. One cup of matcha equals about 10 cups of regular green tea in antioxidants."
+      },
+      {
+        "question": "What grade of matcha should I use for recipes?",
+        "answer": "Use ceremonial grade matcha for drinking straight (lattes, traditional preparation) and culinary grade for baking and cooking. Culinary grade is more affordable and has a stronger flavor that stands up to other ingredients. Both grades offer the same health benefits."
+      },
+      {
+        "question": "How do I prevent matcha from clumping?",
+        "answer": "Sift your matcha through a fine mesh strainer before mixing. Use a bamboo whisk (chasen) or electric frother to blend it with a small amount of liquid first before adding more. Never add matcha directly to hot liquid without whisking."
+      },
+      {
+        "question": "How should I store matcha powder?",
+        "answer": "Store matcha in an airtight container in the refrigerator or freezer, away from light, heat, and moisture. Once opened, use within 1-2 months for best flavor and color. Matcha oxidizes quickly, which diminishes its vibrant green color and fresh taste."
+      }
+    ],
+    "guide": {
+      "title": "Complete Matcha Guide",
+      "metaTitle": "Complete Matcha Guide: Benefits, Preparation & Recipes",
+      "metaDescription": "Learn everything about matcha: health benefits, how to choose quality matcha, preparation techniques, and delicious recipe ideas for this Japanese superfood.",
+      "heroTitle": "Everything you need to know about",
+      "heroHighlight": "matcha green tea",
+      "heroDescription": "Your complete guide to matcha: health benefits, grades, preparation methods, and tips for incorporating this Japanese superfood into your daily routine.",
+      "sections": [
+        {
+          "id": "benefits",
+          "title": "Why drink matcha?",
+          "content": "Matcha offers unique benefits that set it apart from other teas and superfoods. Here's why matcha has become a global wellness phenomenon.",
+          "items": [
+            { "title": "Sustained energy", "description": "The combination of caffeine and L-theanine provides 4-6 hours of calm, focused energy without jitters or crashes." },
+            { "title": "Rich in antioxidants", "description": "Contains 137x more EGCG antioxidants than regular green tea, fighting free radicals and supporting cellular health." },
+            { "title": "Mental clarity", "description": "L-theanine promotes alpha brain waves, enhancing focus, concentration, and a calm, meditative state." },
+            { "title": "Metabolism support", "description": "Studies suggest matcha can boost metabolism and help the body burn fat more efficiently during exercise." },
+            { "title": "Detoxification", "description": "High chlorophyll content supports the body's natural detoxification processes." },
+            { "title": "Immune support", "description": "Catechins in matcha have antibacterial and antiviral properties that support immune function." }
+          ]
+        },
+        {
+          "id": "grades",
+          "title": "Matcha grades explained",
+          "content": "Understanding matcha grades helps you choose the right one for your needs and budget.",
+          "table": [
+            { "food": "Ceremonial Grade", "amount": "Highest quality", "category": "Best for drinking straight, lattes" },
+            { "food": "Premium Grade", "amount": "High quality", "category": "Good for lattes and smoothies" },
+            { "food": "Culinary Grade", "amount": "Cooking grade", "category": "Best for baking and recipes" },
+            { "food": "Ingredient Grade", "amount": "Economy option", "category": "For large-batch cooking" }
+          ]
+        },
+        {
+          "id": "preparation",
+          "title": "How to prepare perfect matcha",
+          "content": "Master these techniques for the best matcha experience, whether traditional or modern.",
+          "items": [
+            { "title": "Sift first", "description": "Always sift matcha through a fine strainer to remove clumps and ensure smooth results." },
+            { "title": "Water temperature", "description": "Use water at 175°F (80°C), not boiling. Too hot water makes matcha bitter." },
+            { "title": "Whisk properly", "description": "Use a bamboo whisk in a W or M motion until frothy. An electric frother also works well." },
+            { "title": "Ratio matters", "description": "Standard ratio is 1-2 teaspoons matcha per 8oz liquid. Adjust to your taste preference." }
+          ]
+        },
+        {
+          "id": "quality",
+          "title": "How to identify quality matcha",
+          "content": "Learn to spot the signs of high-quality matcha worth your investment.",
+          "items": [
+            { "title": "Vibrant green color", "description": "Quality matcha is bright, vivid green. Dull or yellowish color indicates low quality or oxidation." },
+            { "title": "Fine texture", "description": "Should feel silky smooth like eyeshadow. Gritty texture means poor grinding or lower grade leaves." },
+            { "title": "Sweet, umami aroma", "description": "Quality matcha smells fresh, grassy, and slightly sweet. Avoid matcha that smells stale or hay-like." }
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How much caffeine is in matcha?",
+          "answer": "One teaspoon of matcha contains about 70mg of caffeine, similar to a cup of coffee. However, the L-theanine in matcha modulates how caffeine is released, providing steady energy over 4-6 hours rather than a spike and crash."
+        },
+        {
+          "question": "Can I drink matcha every day?",
+          "answer": "Yes, 1-2 cups of matcha daily is generally safe for most adults. This provides health benefits without excessive caffeine. Pregnant women should limit to 1 cup and consult their doctor. Best consumed before 2pm to avoid sleep disruption."
+        },
+        {
+          "question": "Why is quality matcha so expensive?",
+          "answer": "High-quality matcha requires shade-growing for 3-4 weeks, hand-picking the youngest leaves, removing stems and veins, and slow stone-grinding (30g per hour). This labor-intensive process, combined with limited growing regions in Japan, makes authentic matcha a premium product."
+        },
+        {
+          "question": "What's the difference between Japanese and Chinese matcha?",
+          "answer": "Japanese matcha (especially from Uji, Kyoto) is considered the gold standard due to centuries of refinement in cultivation and processing. Chinese matcha is often more affordable but typically lower quality with less vibrant color and flavor. For best results, choose Japanese-origin matcha."
+        },
+        {
+          "question": "Does matcha expire?",
+          "answer": "Unopened matcha lasts 6-12 months when stored properly. Once opened, use within 1-2 months for best flavor, color, and potency. Matcha doesn't become unsafe but loses its vibrant color, fresh taste, and some nutritional benefits over time."
+        }
+      ]
+    }
+  },
+  "recipes": [
+    {
+      "id": "matcha-1",
+      "slug": "iced-matcha-latte",
+      "title": "Perfect Iced Matcha Latte",
+      "description": "A creamy, refreshing iced matcha latte with a beautiful layered presentation. This cafe-quality drink is easy to make at home and provides calm, sustained energy.",
+      "image": "/sites/top5matcharecipes/recipes/iced-matcha-latte.jpg",
+      "prepTime": 5,
+      "cookTime": 0,
+      "totalTime": 5,
+      "servings": 1,
+      "difficulty": "Easy",
+      "category": "Beverage",
+      "tags": ["matcha latte", "iced drink", "breakfast", "energy", "quick"],
+      "ingredients": [
+        { "item": "ceremonial grade matcha", "amount": "2", "unit": "tsp" },
+        { "item": "hot water", "amount": "2", "unit": "tbsp", "notes": "175°F/80°C" },
+        { "item": "oat milk", "amount": "1", "unit": "cup", "notes": "or any milk" },
+        { "item": "maple syrup", "amount": "1", "unit": "tbsp", "notes": "or honey" },
+        { "item": "vanilla extract", "amount": "0.25", "unit": "tsp", "notes": "optional" },
+        { "item": "ice cubes", "amount": "1", "unit": "cup" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Sift matcha powder through a fine mesh strainer into a small bowl or cup to remove any clumps.", "tip": "This step is crucial for a smooth latte." },
+        { "step": 2, "instruction": "Add hot water (not boiling) to the matcha. Whisk vigorously with a bamboo whisk or electric frother until smooth and slightly frothy." },
+        { "step": 3, "instruction": "Stir maple syrup and vanilla (if using) into the matcha paste until combined." },
+        { "step": 4, "instruction": "Fill a tall glass with ice cubes." },
+        { "step": 5, "instruction": "Pour cold milk over the ice, leaving room at the top." },
+        { "step": 6, "instruction": "Slowly pour the matcha mixture over the milk for a beautiful layered effect. Stir before drinking." }
+      ],
+      "nutrition": {
+        "calories": 120,
+        "protein": 3,
+        "carbs": 18,
+        "fat": 4,
+        "fiber": 1
+      },
+      "tips": [
+        "Use barista-style oat milk for the creamiest texture",
+        "For a stronger matcha flavor, use 3 tsp matcha",
+        "Make matcha paste ahead and refrigerate for quick morning lattes"
+      ],
+      "datePublished": "2024-01-15"
+    },
+    {
+      "id": "matcha-2",
+      "slug": "matcha-smoothie-bowl",
+      "title": "Tropical Matcha Smoothie Bowl",
+      "description": "A thick, creamy smoothie bowl with vibrant matcha color, topped with fresh fruits and crunchy granola. A nourishing breakfast that's almost too pretty to eat.",
+      "image": "/sites/top5matcharecipes/recipes/matcha-smoothie-bowl.jpg",
+      "prepTime": 10,
+      "cookTime": 0,
+      "totalTime": 10,
+      "servings": 1,
+      "difficulty": "Easy",
+      "category": "Breakfast",
+      "tags": ["smoothie bowl", "breakfast", "healthy", "tropical", "superfood"],
+      "ingredients": [
+        { "item": "culinary grade matcha", "amount": "1.5", "unit": "tsp" },
+        { "item": "frozen banana", "amount": "1", "unit": "large", "notes": "sliced" },
+        { "item": "frozen mango", "amount": "0.5", "unit": "cup" },
+        { "item": "frozen pineapple", "amount": "0.5", "unit": "cup" },
+        { "item": "coconut milk", "amount": "0.5", "unit": "cup" },
+        { "item": "spinach", "amount": "1", "unit": "cup", "notes": "fresh, optional" },
+        { "item": "granola", "amount": "0.25", "unit": "cup", "notes": "for topping" },
+        { "item": "coconut flakes", "amount": "2", "unit": "tbsp", "notes": "for topping" },
+        { "item": "fresh berries", "amount": "0.25", "unit": "cup", "notes": "for topping" },
+        { "item": "chia seeds", "amount": "1", "unit": "tbsp", "notes": "for topping" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Add matcha powder, frozen banana, mango, pineapple, spinach (if using), and coconut milk to a high-powered blender." },
+        { "step": 2, "instruction": "Blend on high until thick and creamy, scraping down sides as needed. The mixture should be thicker than a regular smoothie.", "tip": "Add more frozen fruit if too thin, more liquid if too thick." },
+        { "step": 3, "instruction": "Pour into a bowl and smooth the surface with a spoon." },
+        { "step": 4, "instruction": "Arrange toppings in rows: granola, coconut flakes, fresh berries, and chia seeds." },
+        { "step": 5, "instruction": "Serve immediately and enjoy with a spoon!" }
+      ],
+      "nutrition": {
+        "calories": 380,
+        "protein": 7,
+        "carbs": 68,
+        "fat": 12,
+        "fiber": 10
+      },
+      "tips": [
+        "Freeze banana slices overnight for best texture",
+        "Use frozen cauliflower instead of banana for lower sugar",
+        "Add a scoop of protein powder for post-workout fuel"
+      ],
+      "datePublished": "2024-02-01"
+    },
+    {
+      "id": "matcha-3",
+      "slug": "matcha-pancakes",
+      "title": "Fluffy Matcha Pancakes",
+      "description": "Light and fluffy Japanese-style pancakes infused with matcha green tea. These beautiful green pancakes are a delightful weekend breakfast treat.",
+      "image": "/sites/top5matcharecipes/recipes/matcha-pancakes.jpg",
+      "prepTime": 10,
+      "cookTime": 20,
+      "totalTime": 30,
+      "servings": 4,
+      "difficulty": "Medium",
+      "category": "Breakfast",
+      "tags": ["pancakes", "breakfast", "Japanese", "brunch", "weekend"],
+      "ingredients": [
+        { "item": "culinary grade matcha", "amount": "2", "unit": "tbsp" },
+        { "item": "all-purpose flour", "amount": "1.5", "unit": "cups" },
+        { "item": "baking powder", "amount": "2", "unit": "tsp" },
+        { "item": "sugar", "amount": "3", "unit": "tbsp" },
+        { "item": "salt", "amount": "0.25", "unit": "tsp" },
+        { "item": "milk", "amount": "1.25", "unit": "cups" },
+        { "item": "egg", "amount": "1", "unit": "large" },
+        { "item": "vanilla extract", "amount": "1", "unit": "tsp" },
+        { "item": "butter", "amount": "3", "unit": "tbsp", "notes": "melted, plus more for cooking" },
+        { "item": "whipped cream", "amount": "0.5", "unit": "cup", "notes": "for serving" },
+        { "item": "fresh strawberries", "amount": "1", "unit": "cup", "notes": "sliced, for serving" },
+        { "item": "maple syrup", "amount": "", "unit": "", "notes": "for serving" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Sift together flour, matcha powder, baking powder, sugar, and salt in a large bowl.", "tip": "Sifting prevents matcha clumps and ensures even color." },
+        { "step": 2, "instruction": "In a separate bowl, whisk together milk, egg, vanilla extract, and melted butter." },
+        { "step": 3, "instruction": "Pour wet ingredients into dry ingredients and stir until just combined. Don't overmix - some lumps are okay." },
+        { "step": 4, "instruction": "Heat a non-stick pan or griddle over medium-low heat. Add a small pat of butter." },
+        { "step": 5, "instruction": "Pour 1/4 cup batter per pancake. Cook until bubbles form on surface and edges look set, about 2-3 minutes.", "duration": "3 min" },
+        { "step": 6, "instruction": "Flip and cook another 1-2 minutes until golden underneath. Keep warm while cooking remaining pancakes." },
+        { "step": 7, "instruction": "Stack pancakes and top with whipped cream, fresh strawberries, and a drizzle of maple syrup." }
+      ],
+      "nutrition": {
+        "calories": 320,
+        "protein": 8,
+        "carbs": 45,
+        "fat": 12,
+        "fiber": 2
+      },
+      "tips": [
+        "Low heat is key - matcha can taste bitter if cooked too hot",
+        "Let batter rest 5 minutes for fluffier pancakes",
+        "Dust finished pancakes with extra matcha for presentation"
+      ],
+      "datePublished": "2024-02-15"
+    },
+    {
+      "id": "matcha-4",
+      "slug": "matcha-energy-balls",
+      "title": "No-Bake Matcha Energy Balls",
+      "description": "Healthy, protein-packed energy balls with the earthy flavor of matcha. Perfect for pre-workout fuel, afternoon snacks, or satisfying sweet cravings guilt-free.",
+      "image": "/sites/top5matcharecipes/recipes/matcha-energy-balls.jpg",
+      "prepTime": 15,
+      "cookTime": 0,
+      "totalTime": 15,
+      "servings": 12,
+      "difficulty": "Easy",
+      "category": "Snack",
+      "tags": ["energy balls", "no-bake", "healthy snack", "meal prep", "protein"],
+      "ingredients": [
+        { "item": "culinary grade matcha", "amount": "1", "unit": "tbsp" },
+        { "item": "rolled oats", "amount": "1", "unit": "cup" },
+        { "item": "almond butter", "amount": "0.5", "unit": "cup" },
+        { "item": "honey", "amount": "0.25", "unit": "cup", "notes": "or maple syrup for vegan" },
+        { "item": "vanilla protein powder", "amount": "0.25", "unit": "cup", "notes": "optional" },
+        { "item": "white chocolate chips", "amount": "0.25", "unit": "cup", "notes": "or dark chocolate" },
+        { "item": "shredded coconut", "amount": "2", "unit": "tbsp" },
+        { "item": "chia seeds", "amount": "1", "unit": "tbsp" },
+        { "item": "vanilla extract", "amount": "0.5", "unit": "tsp" },
+        { "item": "salt", "amount": "0.125", "unit": "tsp" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Add oats to a food processor and pulse a few times to break them down slightly (not into flour)." },
+        { "step": 2, "instruction": "Add matcha powder, almond butter, honey, protein powder (if using), vanilla, and salt. Process until mixture comes together." },
+        { "step": 3, "instruction": "Transfer to a bowl and fold in white chocolate chips, coconut, and chia seeds.", "tip": "If mixture is too dry, add more honey. Too wet, add more oats." },
+        { "step": 4, "instruction": "Refrigerate mixture for 10 minutes to make rolling easier." },
+        { "step": 5, "instruction": "Roll into 12 balls using about 1.5 tablespoons of mixture each. Wet hands slightly to prevent sticking." },
+        { "step": 6, "instruction": "Optional: roll balls in extra matcha powder or shredded coconut for coating." },
+        { "step": 7, "instruction": "Store in an airtight container in the refrigerator for up to 2 weeks." }
+      ],
+      "nutrition": {
+        "calories": 130,
+        "protein": 5,
+        "carbs": 14,
+        "fat": 7,
+        "fiber": 2
+      },
+      "tips": [
+        "Freeze for up to 3 months - thaw 10 minutes before eating",
+        "Swap almond butter for any nut or seed butter",
+        "Add 1 tbsp espresso powder for a matcha-coffee combo"
+      ],
+      "datePublished": "2024-03-01"
+    },
+    {
+      "id": "matcha-5",
+      "slug": "matcha-cheesecake",
+      "title": "No-Bake Matcha Cheesecake",
+      "description": "A silky smooth, creamy cheesecake with a gorgeous green matcha layer and buttery graham cracker crust. This elegant dessert is perfect for special occasions.",
+      "image": "/sites/top5matcharecipes/recipes/matcha-cheesecake.jpg",
+      "prepTime": 30,
+      "cookTime": 0,
+      "totalTime": 270,
+      "servings": 12,
+      "difficulty": "Medium",
+      "category": "Dessert",
+      "tags": ["cheesecake", "no-bake", "dessert", "special occasion", "elegant"],
+      "ingredients": [
+        { "item": "ceremonial grade matcha", "amount": "2", "unit": "tbsp", "notes": "for best color and flavor" },
+        { "item": "cream cheese", "amount": "24", "unit": "oz", "notes": "3 packages, softened" },
+        { "item": "heavy cream", "amount": "1", "unit": "cup", "notes": "cold" },
+        { "item": "powdered sugar", "amount": "0.75", "unit": "cup" },
+        { "item": "vanilla extract", "amount": "1", "unit": "tsp" },
+        { "item": "graham crackers", "amount": "2", "unit": "cups", "notes": "crushed (about 14 sheets)" },
+        { "item": "butter", "amount": "6", "unit": "tbsp", "notes": "melted" },
+        { "item": "sugar", "amount": "2", "unit": "tbsp", "notes": "for crust" },
+        { "item": "white chocolate", "amount": "4", "unit": "oz", "notes": "melted, for drizzle" },
+        { "item": "hot water", "amount": "2", "unit": "tbsp", "notes": "for matcha paste" }
+      ],
+      "instructions": [
+        { "step": 1, "instruction": "Make the crust: Mix crushed graham crackers, melted butter, and 2 tbsp sugar. Press firmly into the bottom of a 9-inch springform pan. Refrigerate while making filling." },
+        { "step": 2, "instruction": "Make matcha paste: Sift matcha into a small bowl, add hot water, and whisk until smooth. Set aside to cool." },
+        { "step": 3, "instruction": "Beat cream cheese with an electric mixer until smooth and fluffy, about 3 minutes. Add powdered sugar and vanilla, beat until combined." },
+        { "step": 4, "instruction": "In a separate cold bowl, whip heavy cream to stiff peaks." },
+        { "step": 5, "instruction": "Fold whipped cream into cream cheese mixture in two additions until smooth.", "tip": "Fold gently to keep the filling light and airy." },
+        { "step": 6, "instruction": "Transfer half the filling to the crust and smooth the top. Add matcha paste to remaining filling, fold until evenly green." },
+        { "step": 7, "instruction": "Spread matcha layer over white layer. Use a knife to create swirls if desired." },
+        { "step": 8, "instruction": "Refrigerate for at least 4 hours or overnight until set.", "duration": "4+ hours" },
+        { "step": 9, "instruction": "Before serving, drizzle with melted white chocolate and dust with extra matcha powder." }
+      ],
+      "nutrition": {
+        "calories": 380,
+        "protein": 5,
+        "carbs": 28,
+        "fat": 29,
+        "fiber": 1
+      },
+      "tips": [
+        "Bring cream cheese to room temperature for smoothest texture",
+        "Use a hot knife for clean slices",
+        "Can be frozen for up to 1 month - thaw overnight in refrigerator"
+      ],
+      "datePublished": "2024-03-15"
+    }
+  ]
+}

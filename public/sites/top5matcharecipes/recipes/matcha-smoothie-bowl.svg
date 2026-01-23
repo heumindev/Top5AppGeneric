@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <rect width="800" height="600" fill="#F5F9F6"/>
+  <ellipse cx="400" cy="320" rx="200" ry="80" fill="#FFFFFF" stroke="#4A7C59" stroke-width="3"/>
+  <ellipse cx="400" cy="300" rx="180" ry="60" fill="#6B9B7A"/>
+  <circle cx="320" cy="290" r="25" fill="#E74C3C"/>
+  <circle cx="350" cy="270" r="20" fill="#F39C12"/>
+  <circle cx="450" cy="280" r="22" fill="#8E44AD"/>
+  <rect x="380" y="260" width="60" height="8" rx="4" fill="#E8D5B7"/>
+  <circle cx="420" cy="310" r="15" fill="#27AE60"/>
+  <text x="400" y="480" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="32" fill="#2D3B30" font-weight="bold">Matcha Smoothie Bowl</text>
+</svg>
