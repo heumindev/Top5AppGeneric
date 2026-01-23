@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { getCurrentSiteConfig } from '@/lib/get-site-config'
-import { HeuminCTA } from '@/components/common'
+import { HeuminCTA, NewsletterSignup } from '@/components/common'
 
 export default async function HomePage() {
   const config = await getCurrentSiteConfig()
@@ -170,6 +170,13 @@ export default async function HomePage() {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Newsletter Signup */}
+      <section className="section bg-background">
+        <div className="container-site">
+          <NewsletterSignup />
         </div>
       </section>
 
